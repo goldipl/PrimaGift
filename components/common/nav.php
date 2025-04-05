@@ -12,7 +12,7 @@
           <img src="./assets/icons/common/header/PRIMAGIFT-logo.svg" alt="PRIMA GIFT - Dystrybutor gadżetów reklamowych" width="176" height="56">
         </a>
         <form role="search" id="nav-searchbar-desktop">
-          <input class="form-control mx-2" type="search" placeholder="Wpisz numer, nazwę lub kategorię" aria-label="Search">
+          <input class="form-control mx-2" type="search" placeholder="Wyszukaj.." aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Szukaj</button>
         </form>
         <div class="nav-account-cart d-flex align-items-center">
@@ -88,7 +88,7 @@
     </div>
   </div>
   <form role="search" id="nav-searchbar-mobile">
-    <input class="form-control mx-2" type="search" placeholder="Wpisz numer, nazwę lub kategorię" aria-label="Search">
+    <input class="form-control mx-2" type="search" placeholder="Wyszukaj.." aria-label="Search">
     <button class="btn btn-outline-success" type="submit">Szukaj</button>
   </form>
 </nav>
