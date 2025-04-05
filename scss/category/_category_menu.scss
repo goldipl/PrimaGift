@@ -1,0 +1,103 @@
+.category-menu {
+  width: 296px;
+  height: auto;
+  margin-right: 24px;
+  margin-bottom: 15px;
+  background-color: $white;
+  .accordion {
+    &-header {
+      button {
+        font-family: "Roboto Condensed", serif;
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 177.023%;
+        color: $text_color;
+        padding: 20px 20px 20px 0;
+        svg {
+          display: flex;
+          margin-right: 12px;
+          height: 18px;
+          width: auto;
+        }
+      }
+    }
+    &-item {
+      border: 0;
+      &:last-of-type {
+        button {
+          border-bottom: 0;
+        }
+      }
+      .accordion-body {
+        padding: 0 !important;
+        .menu-slot {
+          padding: 4px 4px 4px 38px;
+          &:first-of-type {
+            padding-top: 20px;
+          }
+          a {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 177.023%;
+            color: $text_color;
+            text-decoration: none;
+            &:hover,
+            &.active {
+              color: $main_color !important;
+              text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
+            }
+          }
+        }
+      }
+    }
+    &-button {
+      border-bottom: 1px solid $grey;
+      background-color: $white !important;
+      box-shadow: none !important;
+      &::after {
+        border: 0;
+        position: absolute;
+        content: "";
+        top: 30px;
+        right: 24px;
+        display: block;
+        background: url(./../assets/icons/common/header/menu-arrow-down.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 14px;
+        height: 14px;
+      }
+      &:not(.collapsed)::after {
+        border: 0;
+        position: absolute;
+        content: "";
+        top: 24px;
+        right: 24px;
+        display: block;
+        background: url(./../assets/icons/common/header/menu-arrow-down.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 14px;
+        height: 14px;
+        transform: rotate(-180deg);
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .category-menu {
+    .accordion {
+      &-header {
+        button {
+          font-size: 15px;
+          padding: 10px 10px 10px 24px;
+        }
+      }
+    }
+  }
+}

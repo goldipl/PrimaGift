@@ -1,0 +1,56 @@
+.similar-products-swiper {
+  margin-bottom: 123px;
+  margin-top: 40px;
+  .similar_products_swiper {
+    overflow: hidden;
+  }
+  h2 {
+    display: inline-flex;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 38.94px;
+    color: $grey12;
+    padding-bottom: 16px;
+    margin-bottom: 46px;
+    width: 100%;
+    border-bottom: 1px solid $border_grey;
+  }
+  .swiper-similar-products-button-next {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-image: url("./../assets/icons/main_page/hero_swiper/arrow-right.svg");
+    background-size: contain;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: 50%;
+    right: -56px;
+    z-index: 1;
+    &::after {
+      display: none;
+    }
+    @media (max-width: 991px) {
+      right: 8px;
+    }
+  }
+  .swiper-similar-products-button-prev {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-image: url("./../assets/icons/main_page/hero_swiper/arrow-left.svg");
+    background-size: contain;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: 50%;
+    left: -56px;
+    z-index: 1;
+    &::after {
+      display: none;
+    }
+    @media (max-width: 991px) {
+      left: 8px;
+    }
+  }
+}

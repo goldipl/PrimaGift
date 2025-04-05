@@ -1,0 +1,115 @@
+.color-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  border: 1px solid $main_color;
+  background-color: $main_color;
+  color: $white;
+  width: max-content;
+  height: 54px;
+  padding: 15px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  &.left-btn img {
+    transform: rotate(180deg);
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  img {
+    margin-left: 10px;
+  }
+  &:hover {
+    background-color: $white;
+    color: $main_color;
+    img {
+      filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg)
+        brightness(73%) contrast(130%);
+    }
+  }
+}
+
+.white-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  border: 1px solid $main_color;
+  background-color: $white;
+  color: $main_color;
+  width: max-content;
+  height: 54px;
+  padding: 15px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  &.left-btn img {
+    transform: rotate(180deg);
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  img {
+    margin-left: 10px;
+  }
+  &:hover {
+    background-color: $main_color;
+    color: $white;
+  }
+}
+
+.color-save-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  border: 1px solid $main_color;
+  background-color: $main_color;
+  color: $white;
+  width: max-content;
+  height: 54px;
+  padding: 15px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  &.left-btn img {
+    transform: rotate(180deg);
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  img {
+    margin-left: 10px;
+  }
+  &:hover {
+    background-color: $white;
+    color: $main_color;
+  }
+}
+
+.bottom-cart-buttons {
+  .white-btn.prev {
+    padding: 15px 35px 15px 20px;
+    height: 50px;
+    border: 1px solid $grey7;
+    margin-top: 16px;
+    img {
+      display: block;
+      object-fit: contain;
+      margin-right: 8px;
+    }
+    span {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18.75px;
+      color: $black2;
+      text-transform: uppercase;
+    }
+    &:hover {
+      border: 1px solid $main_color;
+      span {
+        color: $white;
+      }
+      img {
+        content: unset;
+        filter: invert(1) brightness(55);
+      }
+    }
+  }
+}

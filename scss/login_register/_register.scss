@@ -1,0 +1,160 @@
+.register-page {
+  display: flex;
+  justify-content: center;
+  .register-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1264px;
+    height: auto;
+    background-color: $white;
+    border: 1px solid $grey5;
+    border-radius: 10px;
+    padding: 40px 120px;
+    @media (max-width: 991px) {
+      padding: 24px;
+    }
+    h1 {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 38.08px;
+      color: $text_color;
+      margin-bottom: 43px;
+      text-transform: uppercase;
+      @media (max-width: 991px) {
+        font-size: 24px;
+        line-height: 1.2;
+        margin-bottom: 24px;
+      }
+    }
+    .radio-checkboxes-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 80px;
+      padding-bottom: 18px;
+      width: 100%;
+      border-bottom: 1px solid $grey5;
+      label {
+        font-size: 16px;
+        line-height: 32px;
+        margin-bottom: 0;
+        .custom-radio-checkmark {
+          border-color: $green;
+          &::after {
+            background-color: $green;
+          }
+        }
+      }
+      @media (max-width: 991px) {
+        gap: 16px;
+        label {
+          font-size: 14px;
+        }
+      }
+    }
+    .register-form {
+      display: flex;
+      flex-direction: row;
+      margin-top: 18px;
+      @media (max-width: 1180px) {
+        flex-direction: column;
+        &-left,
+        &-right {
+          width: 100% !important;
+          .input-slot {
+            width: 100% !important;
+          }
+        }
+      }
+      &-wrapper {
+        display: flex;
+        flex-direction: column;
+        .create-acc-btn {
+          text-transform: uppercase;
+          width: 241px;
+          height: 50px;
+        }
+      }
+      &-left {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        .input-slot {
+          width: 456px;
+          @media (max-width: 1348px) {
+            width: 95%;
+          }
+          input {
+            width: 100%;
+          }
+        }
+      }
+      &-right {
+        width: 50%;
+        .input-slot {
+          width: 100%;
+          input,
+          select {
+            width: 100%;
+          }
+          select {
+            cursor: pointer;
+          }
+          &:has(select) {
+            label {
+              top: -6px;
+            }
+          }
+        }
+        .inputs-row {
+          display: flex;
+          flex-direction: row;
+          gap: 14px;
+          width: 100%;
+          @media (max-width: 640px) {
+            flex-direction: column;
+            gap: 0;
+          }
+          .input-slot {
+            width: 100%;
+            input {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    .register-checkboxes {
+      .custom-checkbox-container:has(.register-checkbox) {
+        font-size: 14px;
+        padding-left: 24px;
+        .custom-checkbox-checkmark {
+          top: 2px;
+          border-radius: 0;
+          width: 16px;
+          height: 16px;
+          &::after {
+            left: 6px;
+            top: 4px;
+            width: 5px;
+            height: 8px;
+          }
+        }
+      }
+      .inner-register-checkboxes {
+        margin-left: 24px;
+      }
+    }
+  }
+  .bottom-cart-buttons {
+    .white-btn.prev {
+      font-family: "Roboto Condensed", serif;
+      width: 241px;
+      height: 50px;
+    }
+  }
+}
