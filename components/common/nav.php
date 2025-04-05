@@ -13,7 +13,7 @@
         </a>
         <form role="search" id="nav-searchbar-desktop">
           <input class="form-control mx-2" type="search" placeholder="Wyszukaj.." aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Szukaj</button>
+          <button class="btn btn-outline-success" type="submit"></button>
         </form>
         <div class="nav-account-cart d-flex align-items-center">
           <a href="./dashboard.php" class="d-flex align-items-center text-decoration-none nav-clients-panel-icon" rel="nofollow">
