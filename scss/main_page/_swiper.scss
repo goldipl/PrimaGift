@@ -1,23 +1,55 @@
 #swiper {
-  width: 1207px;
-  height: 646px;
+  width: 1231px;
+  height: auto;
   max-width: unset;
   padding: 0;
+  .swiper-button-next {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-image: url("./../assets/icons/common/carousel/carousel-next.svg");
+    background-size: contain;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: 50%;
+    right: -40px;
+    z-index: 1;
+    &::after {
+      display: none;
+    }
+  }
+  .swiper-button-prev {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-image: url("./../assets/icons/common/carousel/carousel-prev.svg");
+    background-size: contain;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: 50%;
+    left: -40px;
+    z-index: 1;
+    &::after {
+      display: none;
+    }
+  }
   &.main-page-swiper {
     position: relative;
     width: 100%;
-    max-width: 1207px;
-    height: 646px;
+    max-width: 1231px;
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 46px;
     .swiper.desktop {
-      margin-top: 22px;
       border-radius: 5px;
       @media (max-width: 1652px) {
-        width: calc(90vw - 344px);
-        height: 646px;
+        height: 521px;
         .swiper-slide {
           a {
             img {
-              height: 646px;
+              height: 521px;
             }
           }
         }
@@ -72,38 +104,6 @@
     z-index: 0;
     &.mobile {
       display: none;
-    }
-    .swiper-button-next {
-      position: absolute;
-      width: 90px;
-      height: 90px;
-      background-image: url("./../assets/icons/common/carousel/carousel-next.svg");
-      background-size: contain;
-      display: block;
-      background-repeat: no-repeat;
-      background-position: center center;
-      top: 50%;
-      right: -40px;
-      z-index: 1;
-      &::after {
-        display: none;
-      }
-    }
-    .swiper-button-prev {
-      position: absolute;
-      width: 90px;
-      height: 90px;
-      background-image: url("./../assets/icons/common/carousel/carousel-prev.svg");
-      background-size: contain;
-      display: block;
-      background-repeat: no-repeat;
-      background-position: center center;
-      top: 50%;
-      left: -40px;
-      z-index: 1;
-      &::after {
-        display: none;
-      }
     }
     .swiper-slide {
       img {
@@ -260,12 +260,12 @@
         display: block;
         height: auto;
       }
-      .swiper-button-next {
-        right: -8px;
-      }
-      .swiper-button-prev {
-        left: -8px;
-      }
+    }
+    .swiper-button-next {
+      right: -8px;
+    }
+    .swiper-button-prev {
+      left: -8px;
     }
   }
   .promo_products_swiper,
@@ -320,10 +320,10 @@
   #swiper .swiper.desktop .swiper-slide img {
     width: 100%;
     height: auto;
-    max-height: 646px;
+    max-height: 521px;
   }
   #swiper .swiper.desktop {
     height: auto;
-    max-height: 646px;
+    max-height: 521px;
   }
 }

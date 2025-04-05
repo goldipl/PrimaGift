@@ -1362,9 +1362,12 @@ label.add-files:focus, label.add-files:hover {
 }
 
 #hero-open-section {
+  position: relative;
   display: flex;
-  height: 660px;
+  flex-direction: column;
+  height: auto;
   margin-bottom: 64px;
+  background-color: #f4f4f4;
 }
 
 @media (max-width: 991px) {
@@ -1384,28 +1387,60 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 #swiper {
-  width: 1207px;
-  height: 646px;
+  width: 1231px;
+  height: auto;
   max-width: unset;
   padding: 0;
+}
+#swiper .swiper-button-next {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  background-image: url("./../assets/icons/common/carousel/carousel-next.svg");
+  background-size: contain;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  top: 50%;
+  right: -40px;
+  z-index: 1;
+}
+#swiper .swiper-button-next::after {
+  display: none;
+}
+#swiper .swiper-button-prev {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  background-image: url("./../assets/icons/common/carousel/carousel-prev.svg");
+  background-size: contain;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  top: 50%;
+  left: -40px;
+  z-index: 1;
+}
+#swiper .swiper-button-prev::after {
+  display: none;
 }
 #swiper.main-page-swiper {
   position: relative;
   width: 100%;
-  max-width: 1207px;
-  height: 646px;
+  max-width: 1231px;
+  height: auto;
+  padding-top: 70px;
+  padding-bottom: 46px;
 }
 #swiper.main-page-swiper .swiper.desktop {
-  margin-top: 22px;
   border-radius: 5px;
 }
 @media (max-width: 1652px) {
   #swiper.main-page-swiper .swiper.desktop {
-    width: calc(90vw - 344px);
-    height: 646px;
+    height: 521px;
   }
   #swiper.main-page-swiper .swiper.desktop .swiper-slide a img {
-    height: 646px;
+    height: 521px;
   }
 }
 #swiper.main-page-swiper .swiper.desktop .swiper-slide a img {
@@ -1455,38 +1490,6 @@ label.add-files:focus, label.add-files:hover {
   z-index: 0;
 }
 #swiper .swiper.mobile {
-  display: none;
-}
-#swiper .swiper .swiper-button-next {
-  position: absolute;
-  width: 90px;
-  height: 90px;
-  background-image: url("./../assets/icons/common/carousel/carousel-next.svg");
-  background-size: contain;
-  display: block;
-  background-repeat: no-repeat;
-  background-position: center center;
-  top: 50%;
-  right: -40px;
-  z-index: 1;
-}
-#swiper .swiper .swiper-button-next::after {
-  display: none;
-}
-#swiper .swiper .swiper-button-prev {
-  position: absolute;
-  width: 90px;
-  height: 90px;
-  background-image: url("./../assets/icons/common/carousel/carousel-prev.svg");
-  background-size: contain;
-  display: block;
-  background-repeat: no-repeat;
-  background-position: center center;
-  top: 50%;
-  left: -40px;
-  z-index: 1;
-}
-#swiper .swiper .swiper-button-prev::after {
   display: none;
 }
 #swiper .swiper .swiper-slide img {
@@ -1650,10 +1653,10 @@ label.add-files:focus, label.add-files:hover {
     display: block;
     height: auto;
   }
-  #swiper .swiper .swiper-button-next {
+  #swiper .swiper-button-next {
     right: -8px;
   }
-  #swiper .swiper .swiper-button-prev {
+  #swiper .swiper-button-prev {
     left: -8px;
   }
   .promo_products_swiper .swiper-button-next,
@@ -1700,11 +1703,11 @@ label.add-files:focus, label.add-files:hover {
   #swiper .swiper.desktop .swiper-slide img {
     width: 100%;
     height: auto;
-    max-height: 646px;
+    max-height: 521px;
   }
   #swiper .swiper.desktop {
     height: auto;
-    max-height: 646px;
+    max-height: 521px;
   }
 }
 .categories-tabs-swiper {

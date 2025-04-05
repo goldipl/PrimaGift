@@ -1,7 +1,10 @@
 #hero-open-section {
+  position: relative;
   display: flex;
-  height: 660px;
+  flex-direction: column;
+  height: auto;
   margin-bottom: 64px;
+  background-color: $light_grey;
 }
 
 @media (max-width: 991px) {

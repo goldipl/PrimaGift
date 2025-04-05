@@ -16,7 +16,7 @@
             <?php include "./components/common/nav.php"; ?> 
         </header>
         <main id="main-wrapper">
-            <div id="hero-open-section" class="container">
+            <div id="hero-open-section">
                 <?php include "./components/main_page/hero_swiper.php"; ?> 
                 <?php include "./components/main_page/categories.php"; ?> 
             </div>
