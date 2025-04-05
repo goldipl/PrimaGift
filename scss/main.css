@@ -1459,15 +1459,15 @@ label.add-files:focus, label.add-files:hover {
 }
 #swiper .swiper .swiper-button-next {
   position: absolute;
-  width: 45px;
-  height: 45px;
+  width: 90px;
+  height: 90px;
   background-image: url("./../assets/icons/common/carousel/carousel-next.svg");
   background-size: contain;
   display: block;
   background-repeat: no-repeat;
   background-position: center center;
   top: 50%;
-  right: 40px;
+  right: -40px;
   z-index: 1;
 }
 #swiper .swiper .swiper-button-next::after {
@@ -1475,15 +1475,15 @@ label.add-files:focus, label.add-files:hover {
 }
 #swiper .swiper .swiper-button-prev {
   position: absolute;
-  width: 45px;
-  height: 45px;
+  width: 90px;
+  height: 90px;
   background-image: url("./../assets/icons/common/carousel/carousel-prev.svg");
   background-size: contain;
   display: block;
   background-repeat: no-repeat;
   background-position: center center;
   top: 50%;
-  left: 40px;
+  left: -40px;
   z-index: 1;
 }
 #swiper .swiper .swiper-button-prev::after {
@@ -1542,15 +1542,15 @@ label.add-files:focus, label.add-files:hover {
 .our_brands_swiper .swiper-button-next,
 .import-page-swiper .swiper-button-next {
   position: absolute;
-  width: 45px;
-  height: 45px;
+  width: 90px;
+  height: 90px;
   background-image: url("./../assets/icons/common/carousel/carousel-next.svg");
   background-size: contain;
   display: block;
   background-repeat: no-repeat;
   background-position: center center;
   top: 50%;
-  right: -56px;
+  right: -40px;
   z-index: 1;
 }
 .promo_products_swiper .swiper-button-next::after,
@@ -1568,15 +1568,15 @@ label.add-files:focus, label.add-files:hover {
 .our_brands_swiper .swiper-button-prev,
 .import-page-swiper .swiper-button-prev {
   position: absolute;
-  width: 45px;
-  height: 45px;
+  width: 90px;
+  height: 90px;
   background-image: url("./../assets/icons/common/carousel/carousel-prev.svg");
   background-size: contain;
   display: block;
   background-repeat: no-repeat;
   background-position: center center;
   top: 50%;
-  left: -56px;
+  left: -40px;
   z-index: 1;
 }
 .promo_products_swiper .swiper-button-prev::after,
@@ -1651,24 +1651,24 @@ label.add-files:focus, label.add-files:hover {
     height: auto;
   }
   #swiper .swiper .swiper-button-next {
-    right: 8px;
+    right: -8px;
   }
   #swiper .swiper .swiper-button-prev {
-    left: 8px;
+    left: -8px;
   }
   .promo_products_swiper .swiper-button-next,
   .our_products_swiper .swiper-button-next,
   .news_swiper .swiper-button-next,
   .blog_swiper .swiper-button-next,
   .our_brands_swiper .swiper-button-next {
-    right: 8px;
+    right: -8px;
   }
   .promo_products_swiper .swiper-button-prev,
   .our_products_swiper .swiper-button-prev,
   .news_swiper .swiper-button-prev,
   .blog_swiper .swiper-button-prev,
   .our_brands_swiper .swiper-button-prev {
-    left: 8px;
+    left: -8px;
   }
   .import-page-swiper {
     margin: 24px 0;
