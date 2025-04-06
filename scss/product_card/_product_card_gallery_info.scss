@@ -193,7 +193,7 @@
       gap: 11px;
       .info_quantity_text {
         p {
-          font-family: "Roboto Condensed", serif;
+          font-family: "Roboto", serif;
           font-weight: 500;
           font-size: 16px;
           line-height: 18.75px;
@@ -255,7 +255,7 @@
       }
     }
     &_availability-colors-title {
-      font-family: "Roboto Condensed", serif;
+      font-family: "Roboto", serif;
       font-weight: 500;
       font-size: 16px;
       line-height: 18.75px;
@@ -336,7 +336,7 @@
         }
       }
       #price-value {
-        font-family: "Roboto Condensed", serif;
+        font-family: "Roboto", serif;
         width: 131px;
         height: 63px;
         border: 1px solid $text_color;
@@ -361,7 +361,7 @@
           margin: 0 16px;
         }
         &.add-to-cart {
-          font-family: "Roboto Condensed", serif;
+          font-family: "Roboto", serif;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -407,7 +407,7 @@
       height: 58px;
       width: 545px;
       * {
-        font-family: "Roboto Condensed", serif;
+        font-family: "Roboto", serif;
       }
       @media (max-width: 1200px) {
         width: 100%;
@@ -494,7 +494,7 @@
       }
 
       .select-box {
-        font-family: "Roboto Condensed", serif;
+        font-family: "Roboto", serif;
         display: flex;
         justify-content: space-between;
         align-items: center;

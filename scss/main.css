@@ -80,7 +80,7 @@ body #main-wrapper {
   }
 }
 header {
-  height: 230px;
+  height: 179px;
   border-bottom: 1px solid #e6e6e6;
 }
 
@@ -92,6 +92,20 @@ nav .dropdown-item:hover {
 }
 nav .navbar-toggler:focus {
   box-shadow: unset !important;
+}
+nav .navbar-top {
+  padding-left: 124px;
+  padding-right: 124px;
+  border-bottom: 1px solid #dbdbdb;
+}
+nav .navbar-bottom .nav-item .nav-link {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 103%;
+  color: #000000;
+}
+nav .navbar-brand {
+  margin-right: 16px;
 }
 nav .navbar-brand img {
   font-size: 12px;
@@ -112,40 +126,45 @@ nav #nav-searchbar-mobile {
 nav #nav-searchbar-desktop input,
 nav #nav-searchbar-mobile input {
   all: unset;
-  width: 568px;
-  height: 60px;
-  background-color: #f4f4f4;
-  padding: 0 120px 0 24px;
-  border-radius: 10px;
-  font-size: 16px;
+  width: 344px;
+  height: 40px;
+  background-color: #ffffff;
+  padding: 0 40px 0 0;
+  font-size: 13px;
   font-weight: 400;
   line-height: 14.4px;
-  color: #2e2e2e;
+  color: #696868;
+  border-bottom: 1px solid #000000;
+}
+nav #nav-searchbar-desktop input:focus,
+nav #nav-searchbar-mobile input:focus {
+  outline: none;
+  border-bottom: 1px solid #ed6a8a;
 }
 nav #nav-searchbar-desktop input::-moz-placeholder, nav #nav-searchbar-mobile input::-moz-placeholder {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 400;
   line-height: 14.4px;
-  color: #2e2e2e;
+  color: #696868;
 }
 nav #nav-searchbar-desktop input::placeholder,
 nav #nav-searchbar-mobile input::placeholder {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 400;
   line-height: 14.4px;
-  color: #2e2e2e;
+  color: #696868;
 }
 nav #nav-searchbar-desktop button,
 nav #nav-searchbar-mobile button {
   all: unset;
   position: absolute;
-  top: calc(50% - 12.5px);
-  right: 30px;
+  top: calc(50% - 9px);
+  right: 12px;
   content: "";
   display: block;
   background: url("./../assets/icons/common/header/magnifier.svg");
-  width: 25px;
-  height: 25px;
+  width: 18px;
+  height: 18px;
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -153,61 +172,86 @@ nav #nav-searchbar-mobile button {
   font-weight: 400;
   line-height: 14.4px;
   color: #656060;
-  background-position-x: 64px;
-  padding-right: 64px;
+  background-position-x: 48px;
+  padding-right: 48px;
 }
 nav #nav-searchbar-desktop button:hover,
 nav #nav-searchbar-mobile button:hover {
   color: #ed6a8a;
 }
-nav .nav-account-cart a .nav-cart-text {
-  margin: 0 16px 0 8px;
+nav .nav-top-links-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
 }
-nav .nav-account-cart a .nav-cart-text .cart-upper-text {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 15.82px;
-  color: #2e2e2e;
-  white-space: pre;
+nav .nav-top-links-btns .nav-top-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  padding-right: 32px;
 }
-nav .nav-account-cart a .nav-cart-text .cart-bottom-text {
+nav .nav-top-links-btns .nav-top-links .nav-top-link {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 15.82px;
-  color: #2e2e2e;
-  white-space: pre;
+  font-size: 13px;
+  line-height: 103%;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
 }
-nav .nav-account-cart a:hover .nav-cart-text .cart-upper-text,
-nav .nav-account-cart a:hover .nav-cart-text .cart-bottom-text {
+nav .nav-top-links-btns .nav-top-links .nav-top-link:hover {
   color: #ed6a8a;
 }
-nav .nav-account-cart a:hover svg {
-  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
-}
-nav .nav-account-cart a.nav-cart-icon {
-  position: relative;
-}
-nav .nav-account-cart a.nav-cart-icon .cart-quantity {
-  position: absolute;
+nav .nav-top-links-btns .nav-top-btns {
   display: flex;
-  justify-content: center;
-  top: -6px;
-  right: -6px;
-  background-color: #68b236;
-  border-radius: 100%;
-  z-index: 10;
-  width: 22px;
-  height: 22px;
-  padding: 2px;
-}
-nav .nav-account-cart a.nav-cart-icon .cart-quantity p {
-  display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: flex-start;
+  border-left: 1px solid #000000;
+  padding-left: 32px;
+  gap: 32px;
+}
+nav .nav-top-links-btns .nav-top-btns .nav-top-btn {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  gap: 8px;
+}
+nav .nav-top-links-btns .nav-top-btns .nav-top-btn:hover .btn-icon {
+  filter: invert(68%) sepia(30%) saturate(6546%) hue-rotate(307deg) brightness(100%) contrast(87%);
+}
+nav .nav-top-links-btns .nav-top-btns .nav-top-btn:hover .btn-label,
+nav .nav-top-links-btns .nav-top-btns .nav-top-btn:hover .btn-quantity {
+  color: #ed6a8a !important;
+}
+nav .nav-top-links-btns .nav-top-btns .nav-top-btn .btn-img-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+nav .nav-top-links-btns .nav-top-btns .nav-top-btn .btn-img-box .btn-icon {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+nav .nav-top-links-btns .nav-top-btns .nav-top-btn .btn-img-box .btn-quantity {
+  font-weight: 600;
   font-size: 14px;
-  color: #ffffff;
-  width: 100%;
-  height: 100%;
+  line-height: 103%;
+  text-align: center;
+  color: #000000;
+}
+nav .nav-top-links-btns .nav-top-btns .nav-top-btn .btn-label {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 103%;
+  text-align: center;
+  color: #000000;
 }
 nav .dropend {
   position: static;
@@ -273,45 +317,56 @@ nav .navbar-bottom .main-nav-item > a.show::after {
 }
 @media (min-width: 992px) {
   nav {
-    height: 220px;
+    height: 179px;
   }
   nav .navbar-brand-mobile {
     display: none;
   }
   nav .navbar-first-row {
-    height: 126px;
+    height: 107px;
   }
   nav .navbar-top {
     position: absolute;
     top: 0;
     left: 0;
     display: flex;
-    height: 126px;
+    height: 107px;
   }
   nav .navbar-bottom {
     display: flex;
-    position: absolute;
-    top: 140px;
-    left: 400px;
-    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 52px;
+    left: 124px;
+    height: 72px;
+    gap: 54px;
   }
   nav .navbar-bottom .main-nav-item {
-    height: 55px;
-    margin-right: 33px;
+    position: static;
+    height: 72px;
   }
-  nav .navbar-bottom .main-nav-item:has(.nav-link.dropdown-toggle) {
-    margin-right: 45px;
+  nav .navbar-bottom .main-nav-item .nav-link {
+    width: 100%;
+    height: 100%;
+    padding: 32px 0px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 103%;
+    color: #000000;
   }
   nav .navbar-bottom .dropdown-menu {
-    width: -moz-max-content;
-    width: max-content;
+    width: 100%;
+    max-width: 1238px;
     top: 98%;
   }
   nav .navbar-bottom .dropdown-menu .nav-item {
     width: 100%;
+    margin: 32px 0;
   }
   nav .navbar-bottom .dropdown-menu .nav-item .nav-link {
     width: 100%;
+    height: 100%;
     padding: 4px 32px;
     white-space: pre;
   }
@@ -322,21 +377,17 @@ nav .navbar-bottom .main-nav-item > a.show::after {
   nav .dropend .dropdown-menu[data-bs-popper] {
     top: -1px !important;
   }
-  nav .nav-account-cart a.nav-cart-icon {
-    margin-right: 4px;
-  }
-  nav .nav-account-cart a.nav-cart-icon .cart-quantity p {
-    margin: 2px 0 0 0;
-  }
   nav .dropdown-menu {
     margin: 0 !important;
     border-radius: 0 !important;
     --bs-dropdown-spacer: 0 !important;
     --bs-dropdown-padding-y: 0 !important;
-    min-height: 36px;
-    padding: 21px 39px;
-    border-radius: 10px !important;
+    min-height: 255px;
+    padding: 46px 128px;
     background-color: #ffffff;
+    border: 0;
+    box-shadow: 0px 14px 27.7px 0px rgba(0, 0, 0, 0.0509803922);
+    border-radius: 0;
   }
   nav .dropdown-menu li {
     margin-left: -39px;
@@ -344,7 +395,7 @@ nav .navbar-bottom .main-nav-item > a.show::after {
     margin-bottom: 6px;
   }
   nav .dropdown-menu li a {
-    font-family: "Roboto Condensed", serif;
+    font-family: "Roboto", serif;
     padding-left: 39px;
     padding-right: 39px;
   }
@@ -432,22 +483,6 @@ nav .navbar-bottom .main-nav-item > a.show::after {
   nav .navbar-brand-desktop {
     display: none;
   }
-  nav .nav-account-cart {
-    padding: 16px 0 0 0;
-    width: 100%;
-    justify-content: flex-end;
-    margin-right: 6px;
-  }
-  nav .nav-account-cart a .nav-cart-text {
-    margin-left: 0;
-  }
-  nav .nav-account-cart a span {
-    font-size: 15px;
-  }
-  nav .nav-account-cart a svg {
-    width: 30px;
-    height: 30px;
-  }
   nav .navbar-bottom {
     align-items: flex-start !important;
   }
@@ -530,7 +565,7 @@ footer .footer__container__top .first-column .footer-text strong {
   margin: 0;
 }
 footer .footer__container__top .first-column .footer-text p {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
@@ -788,7 +823,7 @@ footer .footer__container__bottom .contip img {
   margin-bottom: 26px;
 }
 .breadcrumbs * {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
 }
 .breadcrumbs ul {
   display: inline-flex;
@@ -1013,7 +1048,7 @@ footer .footer__container__bottom .contip img {
   }
 }
 .input-slot label {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   position: absolute;
   top: 6px;
   left: 10px;
@@ -1817,7 +1852,7 @@ label.add-files:focus, label.add-files:hover {
   margin-bottom: 10px;
 }
 .categories-tabs-swiper .nav-tabs .nav-link .nav-tab-item__text {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   font-weight: 600;
   font-size: 14px;
   line-height: 21px;
@@ -2353,7 +2388,7 @@ label.add-files:focus, label.add-files:hover {
   gap: 11px;
 }
 .product_card_gallery_info .product-info_quantity .info_quantity_text p {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 18.75px;
@@ -2421,7 +2456,7 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 .product_card_gallery_info .product-info_availability-colors-title {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 18.75px;
@@ -2509,7 +2544,7 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 .product_card_gallery_info .product-info .price-input #price-value {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   width: 131px;
   height: 63px;
   border: 1px solid #374957;
@@ -2537,7 +2572,7 @@ label.add-files:focus, label.add-files:hover {
   margin: 0 16px;
 }
 .product_card_gallery_info .product-info .price-input button.add-to-cart {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2581,7 +2616,7 @@ label.add-files:focus, label.add-files:hover {
   width: 545px;
 }
 .product_card_gallery_info .product-info .branding-custom-select * {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
 }
 @media (max-width: 1200px) {
   .product_card_gallery_info .product-info .branding-custom-select {
@@ -2666,7 +2701,7 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 .product_card_gallery_info .product-info .branding-custom-select .select-box {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2895,7 +2930,7 @@ label.add-files:focus, label.add-files:hover {
   height: 67px;
   background-color: #f0f0f0;
   color: #8a8a8a;
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 177.023%;
@@ -2948,7 +2983,7 @@ label.add-files:focus, label.add-files:hover {
   border: 0;
 }
 .product_card_tabs .tab-content .tab-pane p {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -2957,7 +2992,7 @@ label.add-files:focus, label.add-files:hover {
   color: #4a6375;
 }
 .product_card_tabs .tab-content .tab-pane h2 {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -2967,7 +3002,7 @@ label.add-files:focus, label.add-files:hover {
   color: #4a6375;
 }
 .product_card_tabs .tab-content .tab-pane h3 {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -2989,7 +3024,7 @@ label.add-files:focus, label.add-files:hover {
   border: 2px solid #ed6a8a;
 }
 .product_card_tabs .tab-content .tab-pane .table-container table tbody tr td {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   height: auto;
   padding: 16px 0;
   padding-left: 48px;
@@ -3001,7 +3036,7 @@ label.add-files:focus, label.add-files:hover {
   line-height: 31.86px;
 }
 .product_card_tabs .tab-content .tab-pane .table-container table tbody tr td a {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -3659,7 +3694,7 @@ label.add-files:focus, label.add-files:hover {
   white-space: pre;
 }
 .contact-container .contact-wrapper_col .contact-grey-box h3 {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 37.5px;
@@ -3667,7 +3702,7 @@ label.add-files:focus, label.add-files:hover {
   margin: 0 0 24px 0;
 }
 .contact-container .contact-wrapper_col .contact-grey-box a {
-  font-family: "Roboto Condensed", serif !important;
+  font-family: "Roboto", serif !important;
   display: flex;
   margin: 0 0 16px 0;
   font-family: Roboto;
@@ -3836,7 +3871,7 @@ main.grey-background {
   background-color: #ffffff;
 }
 .category-menu .accordion-header button {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   display: flex;
   align-items: center;
   font-size: 16px;
@@ -3960,7 +3995,7 @@ main.grey-background {
   margin-top: 0;
 }
 .category-left-filters-box .category-left-filters__slot .header h3 {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -3986,7 +4021,7 @@ main.grey-background {
   flex-direction: column;
 }
 .category-left-filters-box .category-left-filters__slot .content .custom-checkbox-container {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   display: inline-flex;
   align-items: center;
   font-size: 12px;
@@ -4123,7 +4158,7 @@ main.grey-background {
   padding-right: 0;
 }
 .category-top-filters__slot label {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -4131,7 +4166,7 @@ main.grey-background {
   color: #8a8a8a;
 }
 .category-top-filters__slot select {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -4636,7 +4671,7 @@ main.grey-background {
   }
 }
 .container.category-title h1 {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 42.49px;
@@ -4644,7 +4679,7 @@ main.grey-background {
   color: #374957;
 }
 .container.category-seo-text p {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 25.6px;
@@ -4777,7 +4812,7 @@ main.grey-background {
   color: #ed6a8a;
 }
 .login-page .bottom-cart-buttons .white-btn {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   width: 241px;
   height: 50px;
 }
@@ -4995,7 +5030,7 @@ main.grey-background {
   margin-left: 24px;
 }
 .register-page .bottom-cart-buttons .white-btn.prev {
-  font-family: "Roboto Condensed", serif;
+  font-family: "Roboto", serif;
   width: 241px;
   height: 50px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,5 +1,5 @@
 header {
-  height: 230px;
+  height: 179px;
   border-bottom: 1px solid $grey;
 }
 
@@ -15,7 +15,25 @@ nav {
     box-shadow: unset !important;
   }
 
+  .navbar-top {
+    padding-left: 124px;
+    padding-right: 124px;
+    border-bottom: 1px solid $grey19;
+  }
+
+  .navbar-bottom {
+    .nav-item {
+      .nav-link {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 103%;
+        color: $black;
+      }
+    }
+  }
+
   .navbar-brand {
+    margin-right: 16px;
     img {
       font-size: 12px;
     }
@@ -34,32 +52,36 @@ nav {
     position: relative;
     input {
       all: unset;
-      width: 568px;
-      height: 60px;
-      background-color: $light_grey;
-      padding: 0 120px 0 24px;
-      border-radius: 10px;
-      font-size: 16px;
+      width: 344px;
+      height: 40px;
+      background-color: $white;
+      padding: 0 40px 0 0;
+      font-size: 13px;
       font-weight: 400;
       line-height: 14.4px;
-      color: $grey12;
+      color: $grey18;
+      border-bottom: 1px solid $black;
+      &:focus {
+        outline: none;
+        border-bottom: 1px solid $main_color;
+      }
       &::placeholder {
-        font-size: 16px;
+        font-size: 13px;
         font-weight: 400;
         line-height: 14.4px;
-        color: $grey12;
+        color: $grey18;
       }
     }
     button {
       all: unset;
       position: absolute;
-      top: calc(50% - 12.5px);
-      right: 30px;
+      top: calc(50% - 9px);
+      right: 12px;
       content: "";
       display: block;
       background: url("./../assets/icons/common/header/magnifier.svg");
-      width: 25px;
-      height: 25px;
+      width: 18px;
+      height: 18px;
       background-size: contain;
       background-repeat: no-repeat;
       cursor: pointer;
@@ -67,71 +89,91 @@ nav {
       font-weight: 400;
       line-height: 14.4px;
       color: $grey13;
-      background-position-x: 64px;
-      padding-right: 64px;
+      background-position-x: 48px;
+      padding-right: 48px;
       &:hover {
         color: $main_color;
       }
     }
   }
-  .nav-account-cart {
-    a {
-      .nav-cart-text {
-        margin: 0 16px 0 8px;
-        .cart-upper-text {
-          font-weight: 500;
-          font-size: 14px;
-          line-height: 15.82px;
-          color: $grey12;
-          white-space: pre;
-        }
-        .cart-bottom-text {
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 15.82px;
-          color: $grey12;
-          white-space: pre;
+
+  .nav-top-links-btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    .nav-top-links {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 24px;
+      padding-right: 32px;
+      .nav-top-link {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 103%;
+        text-align: center;
+        color: $black;
+        text-decoration: none;
+        &:hover {
+          color: $main_color;
         }
       }
-      &:hover {
-        .nav-cart-text {
-          .cart-upper-text,
-          .cart-bottom-text {
-            color: $main_color;
+    }
+    .nav-top-btns {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      border-left: 1px solid $black;
+      padding-left: 32px;
+      gap: 32px;
+      .nav-top-btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        gap: 8px;
+        &:hover {
+          .btn-icon {
+            filter: invert(68%) sepia(30%) saturate(6546%) hue-rotate(307deg)
+              brightness(100%) contrast(87%);
+          }
+          .btn-label,
+          .btn-quantity {
+            color: $main_color !important;
           }
         }
-        svg {
-          filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg)
-            brightness(73%) contrast(130%);
-        }
-      }
-      &.nav-cart-icon {
-        position: relative;
-        .cart-quantity {
-          position: absolute;
+        .btn-img-box {
           display: flex;
+          flex-direction: row;
           justify-content: center;
-          top: -6px;
-          right: -6px;
-          background-color: $green;
-          border-radius: 100%;
-          z-index: 10;
-          width: 22px;
-          height: 22px;
-          padding: 2px;
-          p {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px;
-            color: $white;
-            width: 100%;
-            height: 100%;
+          align-items: center;
+          gap: 5px;
+          .btn-icon {
+            object-fit: contain;
           }
+          .btn-quantity {
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 103%;
+            text-align: center;
+            color: $black;
+          }
+        }
+        .btn-label {
+          font-weight: 500;
+          font-size: 10px;
+          line-height: 103%;
+          text-align: center;
+          color: $black;
         }
       }
     }
   }
+
   .dropend {
     position: static;
   }
@@ -210,40 +252,52 @@ nav {
 
 @media (min-width: 992px) {
   nav {
-    height: 220px;
+    height: 179px;
     .navbar-brand-mobile {
       display: none;
     }
     .navbar-first-row {
-      height: 126px;
+      height: 107px;
     }
     .navbar-top {
       position: absolute;
       top: 0;
       left: 0;
       display: flex;
-      height: 126px;
+      height: 107px;
     }
     .navbar-bottom {
       display: flex;
-      position: absolute;
-      top: 140px;
-      left: 400px;
-      height: 55px;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      top: 52px;
+      left: 124px;
+      height: 72px;
+      gap: 54px;
       .main-nav-item {
-        height: 55px;
-        margin-right: 33px;
-        &:has(.nav-link.dropdown-toggle) {
-          margin-right: 45px;
+        position: static;
+        height: 72px;
+        .nav-link {
+          width: 100%;
+          height: 100%;
+          padding: 32px 0px;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 103%;
+          color: $black;
         }
       }
       .dropdown-menu {
-        width: max-content;
+        width: 100%;
+        max-width: 1238px;
         top: 98%;
         .nav-item {
           width: 100%;
+          margin: 32px 0;
           .nav-link {
             width: 100%;
+            height: 100%;
             padding: 4px 32px;
             white-space: pre;
             &:hover {
@@ -257,33 +311,24 @@ nav {
     .dropend .dropdown-menu[data-bs-popper] {
       top: -1px !important;
     }
-    .nav-account-cart {
-      a {
-        &.nav-cart-icon {
-          margin-right: 4px;
-          .cart-quantity {
-            p {
-              margin: 2px 0 0 0;
-            }
-          }
-        }
-      }
-    }
+
     .dropdown-menu {
       margin: 0 !important;
       border-radius: 0 !important;
       --bs-dropdown-spacer: 0 !important;
       --bs-dropdown-padding-y: 0 !important;
-      min-height: 36px;
-      padding: 21px 39px;
-      border-radius: 10px !important;
+      min-height: 255px;
+      padding: 46px 128px;
       background-color: $white;
+      border: 0;
+      box-shadow: 0px 14px 27.7px 0px #0000000d;
+      border-radius: 0;
       li {
         margin-left: -39px;
         margin-right: -39px;
         margin-bottom: 6px;
         a {
-          font-family: "Roboto Condensed", serif;
+          font-family: "Roboto", serif;
           padding-left: 39px;
           padding-right: 39px;
         }
@@ -377,24 +422,7 @@ nav {
     .navbar-brand-desktop {
       display: none;
     }
-    .nav-account-cart {
-      padding: 16px 0 0 0;
-      width: 100%;
-      justify-content: flex-end;
-      margin-right: 6px;
-      a {
-        .nav-cart-text {
-          margin-left: 0;
-        }
-        span {
-          font-size: 15px;
-        }
-        svg {
-          width: 30px;
-          height: 30px;
-        }
-      }
-    }
+
     .navbar-bottom {
       align-items: flex-start !important;
       .main-nav-item {
