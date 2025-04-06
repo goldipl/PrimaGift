@@ -159,7 +159,9 @@
 .import-page-swiper {
   width: 100%;
   z-index: 0;
-  .swiper-button-next {
+  .swiper-button-next,
+  .brands-swiper-button-next,
+  .products-swiper-button-next {
     position: absolute;
     width: 90px;
     height: 90px;
@@ -175,7 +177,9 @@
       display: none;
     }
   }
-  .swiper-button-prev {
+  .swiper-button-prev,
+  .products-swiper-button-prev,
+  .brands-swiper-button-prev {
     position: absolute;
     width: 90px;
     height: 90px;
@@ -277,10 +281,14 @@
   .news_swiper,
   .blog_swiper,
   .our_brands_swiper {
-    .swiper-button-next {
+    .swiper-button-next,
+    .brands-swiper-button-next,
+    .products-swiper-button-next {
       right: -8px;
     }
-    .swiper-button-prev {
+    .swiper-button-prev,
+    .brands-swiper-button-prev,
+    .products-swiper-button-prev {
       left: -8px;
     }
   }

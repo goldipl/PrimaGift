@@ -32,8 +32,8 @@ const our_brands_swiper = new Swiper('.our_brands_swiper', {
 
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.brands-swiper-button-next',
+    prevEl: '.brands-swiper-button-prev',
   },
   breakpoints: {
     // when window width is >= 1240px
@@ -70,8 +70,8 @@ const our_products_swiper = new Swiper('.our_products_swiper', {
 
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.products-swiper-button-next',
+    prevEl: '.products-swiper-button-prev',
   },
   breakpoints: {
     // when window width is >= 1240px

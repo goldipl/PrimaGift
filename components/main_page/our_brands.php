@@ -45,8 +45,8 @@
                 </div>
             </div>
             <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <div class="brands-swiper-button-prev"></div>
+            <div class="brands-swiper-button-next"></div>
         </div>
     </div>
 </section>
