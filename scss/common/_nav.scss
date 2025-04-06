@@ -361,6 +361,14 @@ nav {
         position: relative;
         width: 100%;
         max-width: 1324px;
+        @media (max-width: 1524px) {
+          max-width: 100%;
+          left: calc((9vw) * (-1));
+        }
+        @media (max-width: 1366px) {
+          max-width: 100vw;
+          left: -40px;
+        }
         top: 98%;
         &::before {
           position: absolute;
