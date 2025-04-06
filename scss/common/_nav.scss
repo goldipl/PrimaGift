@@ -360,20 +360,43 @@ nav {
 
 @media (max-width: 991px) {
   header {
-    height: 160px;
+    height: 116px;
   }
   nav {
     height: auto;
     padding-bottom: 0 !important;
+    padding-top: 4px !important;
+    .navbar-top {
+      padding: 0;
+      .nav-top-links-btns {
+        flex-direction: column;
+        align-items: flex-start;
+        .nav-top-links {
+          height: 40px;
+          gap: 16px;
+          .nav-top-link {
+            white-space: pre;
+          }
+        }
+        .nav-top-btns {
+          border: 0;
+          padding: 8px 0;
+          .btn-icon {
+            width: 20px;
+            height: 20px;
+          }
+        }
+      }
+    }
     #nav-searchbar-mobile {
       position: relative;
       display: flex;
-      margin: 8px 0;
+      margin: 0 0 12px 0;
       padding: 0 16px;
       width: 100%;
       input {
         width: 100%;
-        height: 48px;
+        height: 40px;
         padding: 0 60px 0 16px;
         margin: 0 !important;
         font-size: 14px;
@@ -395,6 +418,8 @@ nav {
         display: none;
       }
       .navbar-bottom .main-nav-item > a {
+        font-size: 14px;
+        font-weight: 400;
         width: calc(100% - 16px);
         line-height: 1.1;
       }
@@ -409,13 +434,13 @@ nav {
       padding-left: 1rem !important;
       padding-right: 1rem !important;
       &:has(.navbar-collapse.show) {
-        border-bottom: 2px solid $main_color;
+        border-bottom: 1px solid $main_color;
       }
     }
     .navbar-brand {
       img {
         margin-left: 0;
-        height: 32px;
+        height: 48px;
         width: auto;
       }
     }

@@ -42,6 +42,10 @@
     height: auto;
     padding-top: 70px;
     padding-bottom: 46px;
+    @media (max-width: 991px) {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
     .swiper.desktop {
       border-radius: 5px;
       @media (max-width: 1652px) {
