@@ -64,9 +64,9 @@ const our_products_swiper = new Swiper('.our_products_swiper', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
-  slidesPerView: 5,
+  slidesPerView: 4,
   slidesPerGroup: 1,
-  spaceBetween: 0,
+  spaceBetween: 38,
 
   // Navigation arrows
   navigation: {
@@ -76,7 +76,7 @@ const our_products_swiper = new Swiper('.our_products_swiper', {
   breakpoints: {
     // when window width is >= 1240px
      1240: {
-      slidesPerView: 5,
+      slidesPerView: 4,
     },
     // when window width is >= 992px
     992: {

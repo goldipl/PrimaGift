@@ -12,6 +12,7 @@
     flex-direction: column;
     height: auto;
     border-bottom: 1px solid $grey;
+    margin-bottom: 16px;
     &:has(#navbarNav.collapse:not(.show)) {
       height: 100%;
     }
