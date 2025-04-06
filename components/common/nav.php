@@ -43,18 +43,64 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Elektronika</a>
           <ul class="dropdown-menu">
             <!-- 2nd Level Nav Dropdown Item -->
-            <li class="nav-item">
-              <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe text</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe text</a>
-            </li>
+            <div class="dropdown-row">
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Eletronika</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+            </div>
           </ul>
         </li>
         <!-- Nav Dropdown Item -->
@@ -62,15 +108,64 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Jedzenie i picie</a>
           <ul class="dropdown-menu">
             <!-- 2nd Level Nav Dropdown Item -->
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe text</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe text</a>
-            </li>
+            <div class="dropdown-row">
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Jedzenie</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+            </div>
           </ul>
         </li>
         <!-- Nav Dropdown Item -->
@@ -78,15 +173,64 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Biuro i praca</a>
           <ul class="dropdown-menu">
             <!-- 2nd Level Nav Dropdown Item -->
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe text</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe text</a>
-            </li>
+            <div class="dropdown-row">
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+            </div>
           </ul>
         </li>
         <!-- Nav Dropdown Item -->
@@ -94,15 +238,64 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Do pisania</a>
           <ul class="dropdown-menu">
             <!-- 2nd Level Nav Dropdown Item -->
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe text</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe text</a>
-            </li>
+            <div class="dropdown-row">
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Długopisy biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+            </div>
           </ul>
         </li>
         <!-- Nav Dropdown Item -->
@@ -110,15 +303,64 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Sport i wypoczynek</a>
           <ul class="dropdown-menu">
             <!-- 2nd Level Nav Dropdown Item -->
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe text</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe text</a>
-            </li>
+            <div class="dropdown-row">
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły sportowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+            </div>
           </ul>
         </li>
         <!-- Nav Dropdown Item -->
@@ -126,15 +368,64 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Narzędzia i akcesoria samochodowe</a>
           <ul class="dropdown-menu">
             <!-- 2nd Level Nav Dropdown Item -->
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe text</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe text</a>
-            </li>
+            <div class="dropdown-row">
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły do auta</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+            </div>
           </ul>
         </li>
         <!-- Nav Dropdown Item -->
@@ -142,15 +433,64 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Tekstylia i parasole</a>
           <ul class="dropdown-menu">
             <!-- 2nd Level Nav Dropdown Item -->
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe text</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe text</a>
-            </li>
+            <div class="dropdown-row">
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Parasole</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+            </div>
           </ul>
         </li>
         <!-- Nav Dropdown Item -->
@@ -158,15 +498,64 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Zdrowie i pielęgnacja</a>
           <ul class="dropdown-menu">
             <!-- 2nd Level Nav Dropdown Item -->
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe text</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe text</a>
-            </li>
+            <div class="dropdown-row">
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły dla zdrowia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+            </div>
           </ul>
         </li>
         <!-- Nav Dropdown Item -->
@@ -174,15 +563,64 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Gadżety tematyczne</a>
           <ul class="dropdown-menu">
             <!-- 2nd Level Nav Dropdown Item -->
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe text</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artykuły biurowe text</a>
-            </li>
+            <div class="dropdown-row">
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+              <div class="dropdown-col">
+                <li class="nav-item">
+                <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Artykuły biurowe text</a>
+                </li>
+              </div>
+            </div>
           </ul>
         </li>
       </ul>

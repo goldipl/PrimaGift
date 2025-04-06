@@ -103,11 +103,21 @@ nav .navbar-bottom .nav-item .nav-link {
   line-height: 103%;
   color: #000000;
 }
+nav .navbar-bottom .dropdown-menu .dropdown-row {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+nav .navbar-bottom .dropdown-menu.show .nav-item {
+  margin: 16px 0;
+}
 nav .navbar-bottom .dropdown-menu.show .nav-item .nav-link {
   font-weight: 400 !important;
   padding: 0 !important;
+  color: #696868;
 }
 nav .navbar-bottom .dropdown-menu.show .nav-item .nav-link.nav-link-title {
+  color: #000000;
   font-weight: 700 !important;
 }
 nav .navbar-brand {

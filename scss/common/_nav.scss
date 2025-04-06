@@ -30,12 +30,20 @@ nav {
       }
     }
     .dropdown-menu {
+      .dropdown-row {
+        display: flex;
+        flex-direction: row;
+        gap: 70px;
+      }
       &.show {
         .nav-item {
+          margin: 16px 0;
           .nav-link {
             font-weight: 400 !important;
             padding: 0 !important;
+            color: $grey18;
             &.nav-link-title {
+              color: $black;
               font-weight: 700 !important;
             }
           }
