@@ -431,9 +431,21 @@ nav .navbar-bottom .main-nav-item > a.show::after {
     color: #000000;
   }
   nav .navbar-bottom .dropdown-menu {
+    position: relative;
     width: 100%;
     max-width: 1238px;
     top: 98%;
+  }
+  nav .navbar-bottom .dropdown-menu::before {
+    position: absolute;
+    top: 4px;
+    right: 66px;
+    content: "";
+    display: block;
+    width: 48px;
+    height: 15px;
+    background: url("./../assets/icons/common/bold-pink-lines.svg") no-repeat;
+    background-size: contain;
   }
   nav .navbar-bottom .dropdown-menu .nav-item {
     width: 100%;

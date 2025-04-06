@@ -358,9 +358,22 @@ nav {
         }
       }
       .dropdown-menu {
+        position: relative;
         width: 100%;
         max-width: 1238px;
         top: 98%;
+        &::before {
+          position: absolute;
+          top: 4px;
+          right: 66px;
+          content: "";
+          display: block;
+          width: 48px;
+          height: 15px;
+          background: url("./../assets/icons/common/bold-pink-lines.svg")
+            no-repeat;
+          background-size: contain;
+        }
         .nav-item {
           width: 100%;
           margin: 32px 0;
