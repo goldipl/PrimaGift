@@ -83,17 +83,24 @@ header {
   height: 179px;
   border-bottom: 1px solid #e6e6e6;
 }
+@media (max-width: 1640px) {
+  header .navbar {
+    max-width: 100%;
+  }
+  header .navbar .navbar-bottom {
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  header .navbar .navbar-bottom .nav-link {
+    font-size: 14px !important;
+  }
+}
 @media (max-width: 1260px) {
   header .navbar {
     max-width: 100%;
   }
   header .navbar .navbar-bottom {
     left: 16px;
-    justify-content: flex-start;
-    gap: 16px;
-  }
-  header .navbar .navbar-bottom .nav-link {
-    font-size: 14px !important;
   }
 }
 @media (max-width: 991px) {
