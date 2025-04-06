@@ -108,6 +108,12 @@ nav .navbar-bottom .dropdown-menu .dropdown-row {
   flex-direction: row;
   gap: 70px;
 }
+@media (max-width: 991px) {
+  nav .navbar-bottom .dropdown-menu .dropdown-row {
+    flex-direction: column;
+    gap: 0;
+  }
+}
 nav .navbar-bottom .dropdown-menu.show .nav-item {
   margin: 16px 0;
 }

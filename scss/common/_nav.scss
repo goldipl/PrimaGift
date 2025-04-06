@@ -34,6 +34,10 @@ nav {
         display: flex;
         flex-direction: row;
         gap: 70px;
+        @media (max-width: 991px) {
+          flex-direction: column;
+          gap: 0;
+        }
       }
       &.show {
         .nav-item {
