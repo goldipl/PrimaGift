@@ -584,7 +584,7 @@ nav .navbar-bottom .main-nav-item > a.show::after {
     display: none;
   }
   nav .navbar-menu .navbar-bottom .main-nav-item > a {
-    font-size: 14px;
+    font-size: 13px !important;
     font-weight: 400;
     width: calc(100% - 16px);
     line-height: 1.1;
