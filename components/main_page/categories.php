@@ -45,4 +45,8 @@
             <span class="category-label">Nowości</span>
         </a>
     </div>
+    <div class="container section-title">
+        <h2>Polecamy</h2>
+        <small>Quisque sollicitudin congue ornare. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer efficitur tempor tincidunt. Nulla at convallis tellus. Nunc felis ligula, consectetur.</small>
+    </div>
 </section>

@@ -1965,6 +1965,7 @@ label.add-files:focus, label.add-files:hover {
   .main-page-categories {
     flex-wrap: wrap;
     margin-top: 16px;
+    margin-bottom: 48px;
   }
 }
 .main-page-categories__slot {
@@ -2325,6 +2326,8 @@ label.add-files:focus, label.add-files:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 789px;
+  padding: 0 16px;
 }
 .section-title h2 {
   font-weight: 700;
@@ -2343,6 +2346,14 @@ label.add-files:focus, label.add-files:hover {
   margin: 0 0 8px 0;
 }
 
+@media (max-width: 991px) {
+  .section-title h2 {
+    font-size: 22px;
+  }
+  .section-title small {
+    font-size: 13px;
+  }
+}
 .product_card_gallery_info {
   display: flex;
   flex-direction: row;
