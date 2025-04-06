@@ -246,6 +246,11 @@ nav .nav-top-links-btns .nav-top-btns .nav-top-btn .btn-img-box .btn-quantity {
   text-align: center;
   color: #000000;
 }
+@media (max-width: 991px) {
+  nav .nav-top-links-btns .nav-top-btns .nav-top-btn .btn-img-box .btn-quantity {
+    font-size: 12px;
+  }
+}
 nav .nav-top-links-btns .nav-top-btns .nav-top-btn .btn-label {
   font-weight: 500;
   font-size: 10px;

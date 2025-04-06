@@ -161,6 +161,9 @@ nav {
             line-height: 103%;
             text-align: center;
             color: $black;
+            @media (max-width: 991px) {
+              font-size: 12px;
+            }
           }
         }
         .btn-label {
