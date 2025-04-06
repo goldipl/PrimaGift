@@ -59,7 +59,7 @@
                                 </div>
                                 <!-- Product label -->
                                 <div class="product-label-box">
-                                    <div class="product-label" style="background-color: #B5EFCC;">
+                                    <div class="product-label" style="background-color: #ED6A8A;">
                                         <p>Bestseller</p>
                                     </div>
                                 </div>
@@ -92,8 +92,8 @@
                                 </div>
                                 <!-- Product label -->
                                 <div class="product-label-box">
-                                    <div class="product-label" style="background-color: #EFCAB5;">
-                                        <p>Nowość</p>
+                                    <div class="product-label" style="background-color: #ED6A8A;">
+                                        <p>Bestseller</p>
                                     </div>
                                 </div>
                             </div>
@@ -125,8 +125,8 @@
                                 </div>
                                 <!-- Product label -->
                                 <div class="product-label-box">
-                                    <div class="product-label" style="background-color: #EFCAB5;">
-                                        <p>Nowość</p>
+                                    <div class="product-label" style="background-color: #ED6A8A;">
+                                        <p>Bestseller</p>
                                     </div>
                                 </div>
                             </div>
@@ -158,8 +158,8 @@
                                 </div>
                                 <!-- Product label -->
                                 <div class="product-label-box">
-                                    <div class="product-label" style="background-color: #EFCAB5;">
-                                        <p>Nowość</p>
+                                    <div class="product-label" style="background-color: #ED6A8A;">
+                                        <p>Bestseller</p>
                                     </div>
                                 </div>
                             </div>
@@ -191,8 +191,8 @@
                                 </div>
                                 <!-- Product label -->
                                 <div class="product-label-box">
-                                    <div class="product-label" style="background-color: #EFCAB5;">
-                                        <p>Nowość</p>
+                                    <div class="product-label" style="background-color: #ED6A8A;">
+                                        <p>Bestseller</p>
                                     </div>
                                 </div>
                             </div>
