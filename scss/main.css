@@ -81,7 +81,7 @@ body #main-wrapper {
 }
 header {
   height: 179px;
-  border-bottom: 1px solid #e6e6e6;
+  box-shadow: 0px 0px 25.8px 0px rgba(0, 0, 0, 0.0509803922);
 }
 @media (max-width: 1640px) {
   header .navbar {
