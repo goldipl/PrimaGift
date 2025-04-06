@@ -88,7 +88,6 @@ nav .dropdown-item:focus,
 nav .dropdown-item:hover {
   color: #ed6a8a;
   background-color: unset;
-  text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
 }
 nav .navbar-toggler:focus {
   box-shadow: unset !important;
@@ -103,6 +102,9 @@ nav .navbar-bottom .nav-item .nav-link {
   font-size: 12px;
   line-height: 103%;
   color: #000000;
+}
+nav .navbar-bottom .dropdown-menu.show .nav-item .nav-link {
+  font-weight: 400;
 }
 nav .navbar-brand {
   margin-right: 16px;
@@ -261,6 +263,9 @@ nav .nav-top-links-btns .nav-top-btns .nav-top-btn .btn-label {
 nav .dropend {
   position: static;
 }
+nav .navbar-bottom .nav-link {
+  font-weight: 500;
+}
 nav .navbar-bottom .nav-link.dropdown-toggle {
   position: relative;
 }
@@ -377,7 +382,6 @@ nav .navbar-bottom .main-nav-item > a.show::after {
   }
   nav .navbar-bottom .dropdown-menu .nav-item .nav-link:hover {
     color: #ed6a8a;
-    text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
   }
   nav .dropend .dropdown-menu[data-bs-popper] {
     top: -1px !important;

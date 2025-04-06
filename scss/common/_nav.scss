@@ -8,7 +8,6 @@ nav {
   .dropdown-item:hover {
     color: $main_color;
     background-color: unset;
-    text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
   }
 
   .navbar-toggler:focus {
@@ -28,6 +27,15 @@ nav {
         font-size: 12px;
         line-height: 103%;
         color: $black;
+      }
+    }
+    .dropdown-menu {
+      &.show {
+        .nav-item {
+          .nav-link {
+            font-weight: 400;
+          }
+        }
       }
     }
   }
@@ -181,6 +189,9 @@ nav {
     position: static;
   }
   .navbar-bottom {
+    .nav-link {
+      font-weight: 500;
+    }
     .nav-link.dropdown-toggle {
       position: relative;
       &::after {
@@ -305,7 +316,6 @@ nav {
             white-space: pre;
             &:hover {
               color: $main_color;
-              text-shadow: 0.3px 0px 0.1px, -0.3px 0px 0.1px;
             }
           }
         }
