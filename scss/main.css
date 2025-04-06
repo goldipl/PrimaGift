@@ -95,10 +95,15 @@ header {
     font-size: 14px !important;
   }
 }
-@media (max-width: 1260px) {
+@media (max-width: 1366px) {
   header .navbar {
     max-width: 100%;
   }
+  header .navbar .navbar-bottom {
+    left: 40px;
+  }
+}
+@media (max-width: 1200px) {
   header .navbar .navbar-bottom {
     left: 16px;
   }
@@ -125,7 +130,13 @@ nav .navbar-top {
   padding-right: 124px;
   border-bottom: 1px solid #dbdbdb;
 }
-@media (max-width: 1260px) {
+@media (max-width: 1366px) {
+  nav .navbar-top {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (max-width: 1200px) {
   nav .navbar-top {
     padding-left: 16px;
     padding-right: 16px;

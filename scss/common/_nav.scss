@@ -12,8 +12,13 @@ header {
         }
       }
     }
-    @media (max-width: 1260px) {
+    @media (max-width: 1366px) {
       max-width: 100%;
+      .navbar-bottom {
+        left: 40px;
+      }
+    }
+    @media (max-width: 1200px) {
       .navbar-bottom {
         left: 16px;
       }
@@ -44,7 +49,11 @@ nav {
     padding-left: 124px;
     padding-right: 124px;
     border-bottom: 1px solid $grey19;
-    @media (max-width: 1260px) {
+    @media (max-width: 1366px) {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    @media (max-width: 1200px) {
       padding-left: 16px;
       padding-right: 16px;
     }
