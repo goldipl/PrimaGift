@@ -1,6 +1,27 @@
 header {
   height: 179px;
   border-bottom: 1px solid $grey;
+  .navbar {
+    @media (max-width: 1260px) {
+      max-width: 100%;
+      .navbar-bottom {
+        left: 16px;
+        justify-content: flex-start;
+        gap: 16px;
+        .nav-link {
+          font-size: 14px !important;
+        }
+      }
+    }
+    @media (max-width: 991px) {
+      .navbar-top {
+        align-items: flex-start !important;
+      }
+      .navbar-bottom {
+        gap: 0;
+      }
+    }
+  }
 }
 
 nav {
@@ -18,6 +39,10 @@ nav {
     padding-left: 124px;
     padding-right: 124px;
     border-bottom: 1px solid $grey19;
+    @media (max-width: 1260px) {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
   }
 
   .navbar-bottom {
