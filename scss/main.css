@@ -1598,7 +1598,6 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 #swiper.main-page-swiper .swiper.desktop {
-  border-radius: 5px;
   height: 560px;
   max-height: unset;
 }
@@ -1614,7 +1613,6 @@ label.add-files:focus, label.add-files:hover {
 #swiper.main-page-swiper .swiper.desktop .swiper-slide a img {
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 5px;
 }
 #swiper.main-page-swiper .swiper.desktop .swiper-slide .hero_content--content {
   position: absolute;
