@@ -1590,21 +1590,23 @@ label.add-files:focus, label.add-files:hover {
   max-width: 1231px;
   height: auto;
   padding-top: 70px;
-  padding-bottom: 46px;
+  padding-bottom: 8px;
 }
 @media (max-width: 991px) {
   #swiper.main-page-swiper {
     padding-top: 0;
-    padding-bottom: 0;
   }
 }
 #swiper.main-page-swiper .swiper.desktop {
   border-radius: 5px;
+  height: 560px;
+  max-height: unset;
+}
+#swiper.main-page-swiper .swiper.desktop .swiper-pagination {
+  bottom: 16px;
+  left: 0;
 }
 @media (max-width: 1652px) {
-  #swiper.main-page-swiper .swiper.desktop {
-    height: 521px;
-  }
   #swiper.main-page-swiper .swiper.desktop .swiper-slide a img {
     height: 521px;
   }
@@ -1668,15 +1670,16 @@ label.add-files:focus, label.add-files:hover {
 }
 #swiper .swiper .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 #swiper .swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-  width: 17px;
-  height: 17px;
-  background-color: #ffffff;
-  border: 2px solid #ffffff;
+  width: 75px;
+  height: 3px;
+  border-radius: 0;
+  background-color: #dfdfdf;
+  border: 1px solid #dfdfdf;
   opacity: 1;
-  margin: 0 12px;
+  margin: 0;
 }
 #swiper .swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  border: 2px solid #ffffff;
+  border: 1px solid #ed6a8a;
   background-color: #ed6a8a;
 }
 
@@ -1873,6 +1876,21 @@ label.add-files:focus, label.add-files:hover {
   #swiper .swiper-button-prev {
     left: -8px;
   }
+  #swiper .swiper.mobile {
+    height: 480px !important;
+    padding-bottom: 16px;
+  }
+  #swiper .swiper.mobile .swiper-wrapper {
+    height: 480px !important;
+  }
+  #swiper .swiper.mobile .swiper-wrapper .swiper-slide,
+  #swiper .swiper.mobile .swiper-wrapper .swiper-slide img {
+    height: 460px !important;
+  }
+  #swiper .swiper.mobile .swiper-pagination {
+    bottom: -4px;
+    left: 0;
+  }
   .promo_products_swiper .swiper-button-next,
   .promo_products_swiper .brands-swiper-button-next,
   .promo_products_swiper .products-swiper-button-next,
@@ -1923,14 +1941,6 @@ label.add-files:focus, label.add-files:hover {
   }
   .our_brands_swiper .swiper-slide img {
     padding: 40px !important;
-  }
-}
-@media (max-width: 576px) {
-  #swiper .swiper .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
-  #swiper .swiper .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-    width: 15px;
-    height: 15px;
-    margin: 0 6px;
   }
 }
 @media (min-width: 992px) {

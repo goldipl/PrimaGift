@@ -41,15 +41,19 @@
     max-width: 1231px;
     height: auto;
     padding-top: 70px;
-    padding-bottom: 46px;
+    padding-bottom: 8px;
     @media (max-width: 991px) {
       padding-top: 0;
-      padding-bottom: 0;
     }
     .swiper.desktop {
       border-radius: 5px;
+      height: 560px;
+      max-height: unset;
+      .swiper-pagination {
+        bottom: 16px;
+        left: 0;
+      }
       @media (max-width: 1652px) {
-        height: 521px;
         .swiper-slide {
           a {
             img {
@@ -120,16 +124,17 @@
     .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
     .swiper-pagination-horizontal.swiper-pagination-bullets
       .swiper-pagination-bullet {
-      width: 17px;
-      height: 17px;
-      background-color: $white;
-      border: 2px solid $white;
+      width: 75px;
+      height: 3px;
+      border-radius: 0;
+      background-color: $grey8;
+      border: 1px solid $grey8;
       opacity: 1;
-      margin: 0 12px;
+      margin: 0;
     }
     .swiper-pagination-horizontal.swiper-pagination-bullets
       .swiper-pagination-bullet.swiper-pagination-bullet-active {
-      border: 2px solid $white;
+      border: 1px solid $main_color;
       background-color: $main_color;
     }
   }
@@ -276,6 +281,21 @@
       left: -8px;
     }
   }
+  #swiper .swiper.mobile {
+    height: 480px !important;
+    padding-bottom: 16px;
+    .swiper-wrapper {
+      height: 480px !important;
+      .swiper-slide,
+      .swiper-slide img {
+        height: 460px !important;
+      }
+    }
+    .swiper-pagination {
+      bottom: -4px;
+      left: 0;
+    }
+  }
   .promo_products_swiper,
   .our_products_swiper,
   .news_swiper,
@@ -309,20 +329,6 @@
     .swiper-slide {
       img {
         padding: 40px !important;
-      }
-    }
-  }
-}
-
-@media (max-width: 576px) {
-  #swiper {
-    .swiper {
-      .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
-      .swiper-pagination-horizontal.swiper-pagination-bullets
-        .swiper-pagination-bullet {
-        width: 15px;
-        height: 15px;
-        margin: 0 6px;
       }
     }
   }
