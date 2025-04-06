@@ -104,7 +104,11 @@ nav .navbar-bottom .nav-item .nav-link {
   color: #000000;
 }
 nav .navbar-bottom .dropdown-menu.show .nav-item .nav-link {
-  font-weight: 400;
+  font-weight: 400 !important;
+  padding: 0 !important;
+}
+nav .navbar-bottom .dropdown-menu.show .nav-item .nav-link.nav-link-title {
+  font-weight: 700 !important;
 }
 nav .navbar-brand {
   margin-right: 16px;

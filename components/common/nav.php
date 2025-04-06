@@ -44,6 +44,9 @@
           <ul class="dropdown-menu">
             <!-- 2nd Level Nav Dropdown Item -->
             <li class="nav-item">
+              <a class="nav-link nav-link-title" href="#">Artykuły biurowe</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#">Artykuły biurowe</a>
             </li>
             <li class="nav-item">

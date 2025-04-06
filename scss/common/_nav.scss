@@ -33,7 +33,11 @@ nav {
       &.show {
         .nav-item {
           .nav-link {
-            font-weight: 400;
+            font-weight: 400 !important;
+            padding: 0 !important;
+            &.nav-link-title {
+              font-weight: 700 !important;
+            }
           }
         }
       }
