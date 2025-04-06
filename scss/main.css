@@ -1533,7 +1533,7 @@ label.add-files:focus, label.add-files:hover {
 @media (max-width: 991px) {
   #hero-open-section {
     flex-direction: column;
-    height: 456px;
+    height: auto;
     border-bottom: 1px solid #e6e6e6;
   }
   #hero-open-section:has(#navbarNav.collapse:not(.show)) {
@@ -1944,6 +1944,78 @@ label.add-files:focus, label.add-files:hover {
     max-height: 521px;
   }
 }
+.main-page-categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  gap: 5px;
+  margin-bottom: 136px;
+}
+@media (max-width: 1240px) {
+  .main-page-categories {
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
+}
+.main-page-categories__slot {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 25px;
+  text-decoration: none;
+  background-color: #ffffff;
+  width: 109px;
+  height: 160px;
+  transition: 0.6s;
+  z-index: 2;
+}
+.main-page-categories__slot::before {
+  display: none;
+  position: absolute;
+  bottom: -15px;
+  right: 29px;
+  content: "";
+  width: 48px;
+  height: 15px;
+  background: url("./../assets/icons/common/bold-pink-lines.svg") no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+.main-page-categories__slot:hover {
+  transform: translateY(-4px);
+}
+.main-page-categories__slot:hover::before {
+  display: block;
+}
+.main-page-categories__slot .category-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.main-page-categories__slot .category-label {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 103%;
+  text-align: center;
+  color: #000000;
+}
+@media (max-width: 760px) {
+  .main-page-categories__slot {
+    width: 30%;
+  }
+  .main-page-categories__slot .category-img {
+    height: 36px;
+    width: auto;
+  }
+  .main-page-categories__slot .category-label {
+    font-size: 12px;
+  }
+}
+
 .swiper_products_block_box {
   position: relative;
   border: 1px solid #d4d1d1;

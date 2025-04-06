@@ -10,7 +10,7 @@
 @media (max-width: 991px) {
   #hero-open-section {
     flex-direction: column;
-    height: 456px;
+    height: auto;
     border-bottom: 1px solid $grey;
     &:has(#navbarNav.collapse:not(.show)) {
       height: 100%;

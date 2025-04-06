@@ -1,0 +1,66 @@
+.main-page-categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  gap: 5px;
+  margin-bottom: 136px;
+  @media (max-width: 1240px) {
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
+  &__slot {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 25px;
+    text-decoration: none;
+    background-color: $white;
+    width: 109px;
+    height: 160px;
+    transition: 0.6s;
+    z-index: 2;
+    &::before {
+      display: none;
+      position: absolute;
+      bottom: -15px;
+      right: 29px;
+      content: "";
+      width: 48px;
+      height: 15px;
+      background: url("./../assets/icons/common/bold-pink-lines.svg") no-repeat;
+      background-size: contain;
+      z-index: 1;
+    }
+    &:hover {
+      transform: translateY(-4px);
+      &::before {
+        display: block;
+      }
+    }
+    .category-img {
+      object-fit: contain;
+    }
+    .category-label {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 103%;
+      text-align: center;
+      color: $black;
+    }
+    @media (max-width: 760px) {
+      width: 30%;
+      .category-img {
+        height: 36px;
+        width: auto;
+      }
+      .category-label {
+        font-size: 12px;
+      }
+    }
+  }
+}
