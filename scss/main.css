@@ -2233,12 +2233,6 @@ label.add-files:focus, label.add-files:hover {
 }
 
 @media (max-width: 1380px) {
-  .swiper_products_block_box__top .products-title h3 {
-    font-size: 22px;
-  }
-  .swiper_products_block_box__top .products-title h3 a {
-    font-size: 22px;
-  }
   .swiper_products_block_box__top .products-code {
     margin: 0 0 24px 0;
   }
@@ -2284,35 +2278,12 @@ label.add-files:focus, label.add-files:hover {
   .swiper_products_block_box__top .products-image {
     margin: 40px auto 40px;
   }
-  .swiper_products_block_box__top .products-title h3 {
-    font-size: 20px;
-  }
-  .swiper_products_block_box__top .products-title h3 a {
-    font-size: 20px;
-  }
   .swiper_products_block_box__top .products-code {
     margin: 0 0 24px 0;
   }
   .swiper_products_block_box__top .products-code p {
     font-size: 14px;
     line-height: 140%;
-  }
-  .swiper_products_block_box__top .catalog-price p {
-    font-size: 14px;
-    line-height: 140%;
-  }
-  .swiper_products_block_box__top .catalog-price p span {
-    font-size: 14px;
-  }
-  .swiper_products_block_box__top .your-price p,
-  .swiper_products_block_box__top .promo-price p {
-    font-size: 14px;
-    line-height: 140%;
-    margin: 0 0 24px 0;
-  }
-  .swiper_products_block_box__top .your-price p span,
-  .swiper_products_block_box__top .promo-price p span {
-    font-size: 14px;
   }
 }
 #our_brands .mp-titles {
