@@ -1913,6 +1913,7 @@ label.add-files:focus, label.add-files:hover {
   .our_brands_swiper .brands-swiper-button-next,
   .our_brands_swiper .products-swiper-button-next {
     right: -8px;
+    top: 35%;
   }
   .promo_products_swiper .swiper-button-prev,
   .promo_products_swiper .brands-swiper-button-prev,
@@ -1930,6 +1931,7 @@ label.add-files:focus, label.add-files:hover {
   .our_brands_swiper .brands-swiper-button-prev,
   .our_brands_swiper .products-swiper-button-prev {
     left: -8px;
+    top: 35%;
   }
   .import-page-swiper {
     margin: 24px 0;
