@@ -50,9 +50,9 @@
                 </div>
                 <div class="swiper_products_block_box__bottom">
                   <div class="color-squares">
-                    <div class="color-square" style="background: #000;"></div>
-                    <div class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></div>
-                    <div class="color-square" style="background: #D3CFCC;"></div>
+                    <a href="" class="color-square" style="background: #000;"></a>
+                    <a href="" class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></a>
+                    <a href="" class="color-square" style="background: #D3CFCC;"></a>
                   </div>
                   <a href="" class="products-buy-button">
                     <img src="./assets/icons/common/add-to-shopping-list-icon.svg" alt="Dodaj" width="26" height="26">
@@ -86,10 +86,10 @@
                 </div>
                 <div class="swiper_products_block_box__bottom">
                   <div class="color-squares">
-                    <div class="color-square" style="background: #000;"></div>
-                    <div class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></div>
-                    <div class="color-square" style="background: #D3CFCC;"></div>
-                    <div class="color-square" style="background: #0000A0;"></div>
+                    <a href="" class="color-square" style="background: #000;"></a>
+                    <a href="" class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></a>
+                    <a href="" class="color-square" style="background: #D3CFCC;"></a>
+                    <a href="" class="color-square" style="background: #0000A0;"></a>
                   </div>
                   <a href="" class="products-buy-button">
                     <img src="./assets/icons/common/add-to-shopping-list-icon.svg" alt="Dodaj" width="26" height="26">
@@ -155,9 +155,9 @@
                 </div>
                 <div class="swiper_products_block_box__bottom">
                   <div class="color-squares">
-                    <div class="color-square" style="background: #000;"></div>
-                    <div class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></div>
-                    <div class="color-square" style="background: #D3CFCC;"></div>
+                    <a href="" class="color-square" style="background: #000;"></a>
+                    <a href="" class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></a>
+                    <a href="" class="color-square" style="background: #D3CFCC;"></a>
                   </div>
                   <a href="" class="products-buy-button">
                     <img src="./assets/icons/common/add-to-shopping-list-icon.svg" alt="Dodaj" width="26" height="26">
@@ -191,10 +191,10 @@
                 </div>
                 <div class="swiper_products_block_box__bottom">
                   <div class="color-squares">
-                    <div class="color-square" style="background: #000;"></div>
-                    <div class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></div>
-                    <div class="color-square" style="background: #D3CFCC;"></div>
-                    <div class="color-square" style="background: #0000A0;"></div>
+                    <a href="" class="color-square" style="background: #000;"></a>
+                    <a href="" class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></a>
+                    <a href="" class="color-square" style="background: #D3CFCC;"></a>
+                    <a href="" class="color-square" style="background: #0000A0;"></a>
                   </div>
                   <a href="" class="products-buy-button">
                     <img src="./assets/icons/common/add-to-shopping-list-icon.svg" alt="Dodaj" width="26" height="26">
@@ -260,9 +260,9 @@
                 </div>
                 <div class="swiper_products_block_box__bottom">
                   <div class="color-squares">
-                    <div class="color-square" style="background: #000;"></div>
-                    <div class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></div>
-                    <div class="color-square" style="background: #D3CFCC;"></div>
+                    <a href="" class="color-square" style="background: #000;"></a>
+                    <a href="" class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></a>
+                    <a href="" class="color-square" style="background: #D3CFCC;"></a>
                   </div>
                   <a href="" class="products-buy-button">
                     <img src="./assets/icons/common/add-to-shopping-list-icon.svg" alt="Dodaj" width="26" height="26">
@@ -338,9 +338,9 @@
                 </div>
                 <div class="swiper_products_block_box__bottom">
                   <div class="color-squares">
-                    <div class="color-square" style="background: #000;"></div>
-                    <div class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></div>
-                    <div class="color-square" style="background: #D3CFCC;"></div>
+                    <a href="" class="color-square" style="background: #000;"></a>
+                    <a href="" class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></a>
+                    <a href="" class="color-square" style="background: #D3CFCC;"></a>
                   </div>
                   <a href="" class="products-buy-button">
                     <img src="./assets/icons/common/add-to-shopping-list-icon.svg" alt="Dodaj" width="26" height="26">
@@ -374,10 +374,10 @@
                 </div>
                 <div class="swiper_products_block_box__bottom">
                   <div class="color-squares">
-                    <div class="color-square" style="background: #000;"></div>
-                    <div class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></div>
-                    <div class="color-square" style="background: #D3CFCC;"></div>
-                    <div class="color-square" style="background: #0000A0;"></div>
+                    <a href="" class="color-square" style="background: #000;"></a>
+                    <a href="" class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></a>
+                    <a href="" class="color-square" style="background: #D3CFCC;"></a>
+                    <a href="" class="color-square" style="background: #0000A0;"></a>
                   </div>
                   <a href="" class="products-buy-button">
                     <img src="./assets/icons/common/add-to-shopping-list-icon.svg" alt="Dodaj" width="26" height="26">
@@ -443,9 +443,9 @@
                 </div>
                 <div class="swiper_products_block_box__bottom">
                   <div class="color-squares">
-                    <div class="color-square" style="background: #000;"></div>
-                    <div class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></div>
-                    <div class="color-square" style="background: #D3CFCC;"></div>
+                    <a href="" class="color-square" style="background: #000;"></a>
+                    <a href="" class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></a>
+                    <a href="" class="color-square" style="background: #D3CFCC;"></a>
                   </div>
                   <a href="" class="products-buy-button">
                     <img src="./assets/icons/common/add-to-shopping-list-icon.svg" alt="Dodaj" width="26" height="26">
@@ -489,10 +489,10 @@
                 </div>
                 <div class="swiper_products_block_box__bottom">
                   <div class="color-squares">
-                    <div class="color-square" style="background: #000;"></div>
-                    <div class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></div>
-                    <div class="color-square" style="background: #D3CFCC;"></div>
-                    <div class="color-square" style="background: #0000A0;"></div>
+                    <a href="" class="color-square" style="background: #000;"></a>
+                    <a href="" class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></a>
+                    <a href="" class="color-square" style="background: #D3CFCC;"></a>
+                    <a href="" class="color-square" style="background: #0000A0;"></a>
                   </div>
                   <a href="" class="products-buy-button">
                     <img src="./assets/icons/common/add-to-shopping-list-icon.svg" alt="Dodaj" width="26" height="26">
@@ -558,9 +558,9 @@
                 </div>
                 <div class="swiper_products_block_box__bottom">
                   <div class="color-squares">
-                    <div class="color-square" style="background: #000;"></div>
-                    <div class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></div>
-                    <div class="color-square" style="background: #D3CFCC;"></div>
+                    <a href="" class="color-square" style="background: #000;"></a>
+                    <a href="" class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></a>
+                    <a href="" class="color-square" style="background: #D3CFCC;"></a>
                   </div>
                   <a href="" class="products-buy-button">
                     <img src="./assets/icons/common/add-to-shopping-list-icon.svg" alt="Dodaj" width="26" height="26">
@@ -594,10 +594,10 @@
                 </div>
                 <div class="swiper_products_block_box__bottom">
                   <div class="color-squares">
-                    <div class="color-square" style="background: #000;"></div>
-                    <div class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></div>
-                    <div class="color-square" style="background: #D3CFCC;"></div>
-                    <div class="color-square" style="background: #0000A0;"></div>
+                    <a href="" class="color-square" style="background: #000;"></a>
+                    <a href="" class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></a>
+                    <a href="" class="color-square" style="background: #D3CFCC;"></a>
+                    <a href="" class="color-square" style="background: #0000A0;"></a>
                   </div>
                   <a href="" class="products-buy-button">
                     <img src="./assets/icons/common/add-to-shopping-list-icon.svg" alt="Dodaj" width="26" height="26">
@@ -663,9 +663,9 @@
                 </div>
                 <div class="swiper_products_block_box__bottom">
                   <div class="color-squares">
-                    <div class="color-square" style="background: #000;"></div>
-                    <div class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></div>
-                    <div class="color-square" style="background: #D3CFCC;"></div>
+                    <a href="" class="color-square" style="background: #000;"></a>
+                    <a href="" class="color-square" style="background: #ffffff; border: 1px solid #D3CFCC;"></a>
+                    <a href="" class="color-square" style="background: #D3CFCC;"></a>
                   </div>
                   <a href="" class="products-buy-button">
                     <img src="./assets/icons/common/add-to-shopping-list-icon.svg" alt="Dodaj" width="26" height="26">
