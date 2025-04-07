@@ -1,4 +1,4 @@
-<section id="main-page-categories">
+<div id="main-page-categories">
     <div class="main-page-categories container">
         <a href="" class="main-page-categories__slot">
             <img class="category-img" src="./assets/icons/common/categories/umbrella.svg" alt="ikonka" width="50" height="50">
@@ -49,4 +49,4 @@
         <h2>Polecamy</h2>
         <small>Quisque sollicitudin congue ornare. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer efficitur tempor tincidunt. Nulla at convallis tellus. Nunc felis ligula, consectetur.</small>
     </div>
-</section>
+</div>

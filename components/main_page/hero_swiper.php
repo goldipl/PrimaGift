@@ -1,4 +1,4 @@
-<section id="swiper" class="container main-page-swiper">
+<div id="swiper" class="container main-page-swiper">
   <!-- Slider main container -->
   <div class="swiper desktop">
     <!-- Additional required wrapper -->
@@ -62,4 +62,4 @@
   <!-- If we need navigation buttons -->
   <div class="swiper-button-prev"></div>
   <div class="swiper-button-next"></div>
-</section>
+</div>
