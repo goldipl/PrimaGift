@@ -205,6 +205,10 @@
       display: none;
     }
   }
+  .products-swiper-button-next,
+  .products-swiper-button-prev {
+    top: 40%;
+  }
   .swiper-slide {
     img {
       width: 100%;
