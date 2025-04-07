@@ -14,13 +14,20 @@
 
 .swiper_products_block_box {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   box-shadow: 0px 0px 25.8px 0px #0000000d;
   border-right: 0;
   background-color: $white;
-  height: 555px;
+  height: 367px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   &:hover {
     transform: translateY(-5px);
+    .products-buy-button {
+      display: flex;
+    }
   }
   .product-label-box {
     position: absolute;
@@ -54,7 +61,7 @@
       display: flex;
       height: 200px;
       width: 200px;
-      margin: 61px auto 48px;
+      margin: 8px auto;
       img {
         height: 200px;
         width: 100%;
@@ -68,24 +75,22 @@
       -webkit-box-orient: vertical;
       overflow: hidden;
       text-align: center;
-      height: 62px;
+      height: 38px;
       width: 100%;
-      margin: 0 auto 16px;
+      margin: 0 0 6px 0;
       h3 {
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 120%;
-        color: $text_color;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 156%;
+        color: $black;
         width: 98%;
         text-align: center;
         margin: 0 auto;
         a {
-          font-size: 24px;
-          font-style: normal;
-          font-weight: 700;
-          line-height: 120%;
-          color: $text_color;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 156%;
+          color: $black;
           width: 98%;
           text-align: center;
           margin: 0 auto;
@@ -99,7 +104,7 @@
       -webkit-box-orient: vertical;
       overflow: hidden;
       text-align: center;
-      height: 20px;
+      height: 38px;
       width: 100%;
       margin: 0 0 31px 0;
       p {
@@ -111,48 +116,55 @@
         margin: 0 auto;
       }
     }
-  }
-  &__bottom {
-    width: 100%;
-    .catalog-price {
+    .catalog-price,
+    .your-price {
       p {
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 160%;
-        margin: 19px 0 3px 0;
-        color: $text_color;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 156%;
+        color: $black;
+        margin: 0;
         span {
-          font-size: 20px;
+          font-size: 18px;
         }
       }
     }
-    .your-price {
-      p {
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 160%;
-        color: $text_color;
-        margin: 0 0 29px 0;
-        span {
-          font-size: 24px;
-          color: $main_color;
-        }
+  }
+  &__bottom {
+    position: relative;
+    width: 100%;
+    .color-squares {
+      position: relative;
+      left: 20px;
+      bottom: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 8px;
+      margin-right: 80px;
+      max-width: 100%;
+      .color-square {
+        width: 12px;
+        height: 12px;
+        min-width: 12px;
+        min-height: 12px;
+        border: 1px solid $grey20;
       }
     }
     .products-buy-button {
-      display: flex;
-      justify-content: space-between;
+      display: none;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      justify-content: center;
       align-items: center;
-      padding: 13px 26px;
-      height: 45px;
-      width: calc(100% - 84px);
-      border: 1px solid $border_grey;
-      border-radius: 50px;
-      margin: 0 42px;
-      margin-bottom: 32px;
+      padding: 9px 22px;
+      width: 70px;
+      height: 43px;
       text-decoration: none;
+      background-color: $black;
       &:hover {
         border: 1px solid $main_color;
         background-color: $main_color;
@@ -163,17 +175,10 @@
           filter: invert(1) brightness(2);
         }
       }
-      span {
-        color: $text_color;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 25.6px;
-        letter-spacing: 0%;
-      }
       img {
-        width: 18px;
-        height: 18px;
-        min-width: 18px;
+        width: 26px;
+        height: 26px;
+        min-width: 26px;
       }
     }
     .promo-price {
@@ -183,7 +188,6 @@
         font-weight: 700;
         line-height: 160%;
         color: $text_color;
-        margin: 0 0 29px 0;
         span {
           font-size: 24px;
           color: $promo_price;
@@ -215,14 +219,12 @@
           line-height: 140%;
         }
       }
-    }
-    &__bottom {
       .catalog-price {
         p {
           font-size: 15px;
           line-height: 140%;
           span {
-            font-size: 19px;
+            font-size: 15px;
           }
         }
       }
@@ -233,7 +235,7 @@
           line-height: 140%;
           margin: 0 0 24px 0;
           span {
-            font-size: 21px;
+            font-size: 15px;
           }
         }
       }
@@ -276,14 +278,12 @@
           line-height: 140%;
         }
       }
-    }
-    &__bottom {
       .catalog-price {
         p {
           font-size: 14px;
           line-height: 140%;
           span {
-            font-size: 18px;
+            font-size: 14px;
           }
         }
       }
@@ -294,7 +294,7 @@
           line-height: 140%;
           margin: 0 0 24px 0;
           span {
-            font-size: 20px;
+            font-size: 14px;
           }
         }
       }
