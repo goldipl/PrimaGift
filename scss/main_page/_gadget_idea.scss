@@ -1,0 +1,96 @@
+#gadget-idea {
+  background-color: $light_grey;
+  padding-bottom: 169px;
+  padding-top: 24px;
+  @media (max-width: 991px) {
+    padding-top: 0;
+    padding-bottom: 24px;
+  }
+  .gadget-idea {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 991px) {
+      flex-direction: column;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      top: 150px;
+      left: -50vw;
+      width: 200vw;
+      height: 100%;
+      background-color: $light_grey;
+      z-index: -1;
+    }
+    &__image {
+      width: 100%;
+      max-width: 905px;
+      margin-right: 120px;
+      img {
+        width: 906px;
+        height: auto;
+      }
+      @media (max-width: 1500px) {
+        margin-right: 40px;
+        img {
+          width: 100%;
+          min-width: 500px;
+        }
+      }
+      @media (max-width: 991px) {
+        margin-right: 0;
+        margin-bottom: 40px;
+        img {
+          width: 100%;
+          min-width: 0;
+        }
+      }
+    }
+    &__text {
+      h3 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 103%;
+        color: $black;
+        margin: 0 0 24px 0;
+        @media (max-width: 991px) {
+          font-size: 22px;
+        }
+      }
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 156%;
+        letter-spacing: 0%;
+        color: $black;
+        margin: 0 0 24px 0;
+        strong {
+          font-weight: 700;
+        }
+      }
+      &--btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 214px;
+        height: 42px;
+        background-color: $main_color;
+        border: 1px solid $main_color;
+        color: $white;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 103%;
+        text-align: center;
+        margin-top: 40px;
+        text-decoration: none;
+        &:hover {
+          background-color: $white;
+          color: $main_color;
+        }
+      }
+    }
+  }
+}
