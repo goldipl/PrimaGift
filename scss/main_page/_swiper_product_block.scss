@@ -12,7 +12,8 @@
   }
 }
 
-.swiper_products_block_box {
+.swiper_products_block_box,
+.category-filters-main__slot {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -202,7 +203,8 @@
 }
 
 @media (max-width: 1380px) {
-  .swiper_products_block_box {
+  .swiper_products_block_box,
+  .category-filters-main__slot {
     &__top {
       .products-code {
         margin: 0 0 24px 0;
@@ -236,7 +238,8 @@
 }
 
 @media (max-width: 991px) {
-  .swiper_products_block_box {
+  .swiper_products_block_box,
+  .category-filters-main__slot {
     border: 0;
     .product-label-box {
       top: 12px;

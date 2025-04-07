@@ -34,9 +34,7 @@
         </script>
     </head>
     <body>
-        <header> 
-            <?php include "./components/common/nav.php"; ?> 
-        </header>
+        <header> <?php include "./components/common/nav.php"; ?> </header>
         <main id="main-wrapper">
             <div class="breadcrumbs container">
                 <ul>
@@ -53,30 +51,15 @@
             </div>
             <div class="category-wrapper">
                 <div class="container">
-                    <aside class="category-wrapper__left">
-                        <?php include "./components/category/category_menu.php"; ?> 
-                        <?php include "./components/category/category_left_filters.php"; ?> 
-                    </aside>
-                    <div class="category-wrapper__right">
-                        <div class="container category-title">
-                            <h1>Artykuły biurowe</h1>
-                        </div>
-                        <?php include "./components/category/category_top_filters.php"; ?> 
-                        <div class="container category-seo-text">
-                        <p>
-                            W naszej ofercie nie mogło zabraknąć ciekawych propozycji  przeznaczonych dla dzieci. Gadżety reklamowe to świetne narzędzie do  nawiązywania relacji z dzieckiem oraz ich rodzicami. Tego typu akcesoria  przydadzą się nie tylko w kampaniach związanych z branżą dziecięcą. Gadżety reklamowe dla dzieci są także świetnym uzupełnieniem swoich akcji promocyjnych kierowanych na grupę docelową, która posiada dzieci.
-                            Gadżety reklamowe dla dzieci z możliwością umieszczenia loga, nadruku  to także dobra propozycja dla przedszkoli, żłobków, klubów malucha,  szkół. 
-                        </p>
-                        </div>
-                        <?php include "./components/category/category_filters_main.php"; ?> 
-                        <?php include "./components/common/pagination.php"; ?>
-                    </div>
+                    <div class="container category-title">
+                        <h1>Artykuły biurowe</h1>
+                    </div> <?php include "./components/category/category_top_filters.php"; ?> <div class="container category-seo-text">
+                        <p> W naszej ofercie nie mogło zabraknąć ciekawych propozycji przeznaczonych dla dzieci. Gadżety reklamowe to świetne narzędzie do nawiązywania relacji z dzieckiem oraz ich rodzicami. Tego typu akcesoria przydadzą się nie tylko w kampaniach związanych z branżą dziecięcą. Gadżety reklamowe dla dzieci są także świetnym uzupełnieniem swoich akcji promocyjnych kierowanych na grupę docelową, która posiada dzieci. Gadżety reklamowe dla dzieci z możliwością umieszczenia loga, nadruku to także dobra propozycja dla przedszkoli, żłobków, klubów malucha, szkół.  </p>
+                    </div> <?php include "./components/category/category_filters_main.php"; ?> <?php include "./components/common/pagination.php"; ?>
                 </div>
-            </div> 
+            </div>
         </main>
-        <footer> 
-            <?php include "./components/common/footer.php"; ?> 
-        </footer>
+        <footer> <?php include "./components/common/footer.php"; ?> </footer>
         <script src="./js/jquery.min.js"></script>
         <script src="./js/popper.min.js"></script>
         <script src="./js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
