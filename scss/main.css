@@ -2539,6 +2539,265 @@ label.add-files:focus, label.add-files:hover {
   color: #ed6a8a;
 }
 
+#company-info {
+  background-color: #ffffff;
+}
+#company-info .company-info {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1100px) {
+  #company-info .company-info {
+    flex-direction: column;
+  }
+}
+#company-info .company-info__text {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  min-width: 640px;
+  margin-left: 120px;
+}
+@media (max-width: 1100px) {
+  #company-info .company-info__text {
+    margin-left: 0;
+    width: 100%;
+    padding: 48px 0;
+    min-width: unset;
+  }
+}
+#company-info .company-info__text h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 103%;
+  color: #000000;
+  margin: 0 0 24px 0;
+  max-width: 480px;
+}
+@media (max-width: 991px) {
+  #company-info .company-info__text h3 {
+    font-size: 22px;
+  }
+}
+#company-info .company-info__text p {
+  max-width: 480px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 156%;
+  letter-spacing: 0%;
+  color: #000000;
+  margin: 0 0 24px 0;
+}
+#company-info .company-info__text p strong {
+  font-weight: 700;
+}
+#company-info .company-info__text--btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 214px;
+  height: 42px;
+  background-color: #ed6a8a;
+  border: 1px solid #ed6a8a;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 103%;
+  text-align: center;
+  margin-top: 40px;
+  text-decoration: none;
+}
+#company-info .company-info__text--btn:hover {
+  background-color: #ffffff;
+  color: #ed6a8a;
+}
+@media (max-width: 991px) {
+  #company-info .company-info__text--btn {
+    margin-top: 16px;
+  }
+}
+#company-info .company-info__image {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 905px;
+  margin-left: 120px;
+}
+@media (max-width: 1621px) {
+  #company-info .company-info__image {
+    margin-left: 0;
+  }
+}
+#company-info .company-info__image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 150%;
+  height: 100%;
+  background-color: #e7e4df;
+  z-index: 0;
+}
+@media (max-width: 1100px) {
+  #company-info .company-info__image::after {
+    left: -100%;
+    width: 300%;
+  }
+}
+#company-info .company-info__image .company-info__image--img {
+  width: 906px;
+  height: 593px;
+  z-index: 1;
+}
+@media (max-width: 1621px) {
+  #company-info .company-info__image .company-info__image--img {
+    width: 40vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (max-width: 1100px) {
+  #company-info .company-info__image .company-info__image--img {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  #company-info .company-info__image {
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+  #company-info .company-info__image .company-info__image--img {
+    width: 100%;
+    min-width: 0;
+  }
+}
+#company-info .company-info__image .company-info__image--link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 25.8px 0px rgba(0, 0, 0, 0.0509803922);
+  width: 471px;
+  height: 145px;
+  text-decoration: none;
+}
+#company-info .company-info__image .company-info__image--link.how-to-buy {
+  top: 123px;
+  left: -212px;
+  border-left: 3px solid #ffffff;
+}
+#company-info .company-info__image .company-info__image--link.how-to-buy:hover {
+  border-left: 3px solid #ed6a8a;
+}
+@media (max-width: 1621px) {
+  #company-info .company-info__image .company-info__image--link.how-to-buy {
+    left: -120px;
+  }
+}
+@media (max-width: 1100px) {
+  #company-info .company-info__image .company-info__image--link.how-to-buy {
+    left: 140px;
+  }
+}
+@media (max-width: 760px) {
+  #company-info .company-info__image .company-info__image--link.how-to-buy {
+    left: 40px;
+    width: 84%;
+    padding: 8px;
+  }
+  #company-info .company-info__image .company-info__image--link.how-to-buy .link-img-box__image {
+    margin: 0 16px;
+  }
+  #company-info .company-info__image .company-info__image--link.how-to-buy .link-img-box__image--img {
+    height: 40px;
+    width: auto;
+  }
+  #company-info .company-info__image .company-info__image--link.how-to-buy .link-img-box__text p {
+    font-size: 12px;
+  }
+}
+#company-info .company-info__image .company-info__image--link.branding-techniques {
+  top: 283px;
+  left: -212px;
+  border-left: 3px solid #ed6a8a;
+}
+#company-info .company-info__image .company-info__image--link.branding-techniques:hover {
+  border-left: 3px solid #000000;
+}
+@media (max-width: 1621px) {
+  #company-info .company-info__image .company-info__image--link.branding-techniques {
+    left: -120px;
+  }
+}
+@media (max-width: 1100px) {
+  #company-info .company-info__image .company-info__image--link.branding-techniques {
+    left: 140px;
+  }
+}
+@media (max-width: 760px) {
+  #company-info .company-info__image .company-info__image--link.branding-techniques {
+    left: 40px;
+    width: 84%;
+    padding: 8px;
+  }
+  #company-info .company-info__image .company-info__image--link.branding-techniques .link-img-box__image {
+    margin: 0 16px;
+  }
+  #company-info .company-info__image .company-info__image--link.branding-techniques .link-img-box__image--img {
+    height: 40px;
+    width: auto;
+  }
+  #company-info .company-info__image .company-info__image--link.branding-techniques .link-img-box__text p {
+    font-size: 12px;
+  }
+}
+#company-info .company-info__image .company-info__image--link .link-img-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+}
+#company-info .company-info__image .company-info__image--link .link-img-box__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 45px;
+}
+#company-info .company-info__image .company-info__image--link .link-img-box__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+}
+#company-info .company-info__image .company-info__image--link .link-img-box__text h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 156%;
+  color: #000000;
+  margin: 0 0 9px 0;
+  text-align: left;
+}
+#company-info .company-info__image .company-info__image--link .link-img-box__text p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 156%;
+  letter-spacing: 0%;
+  color: #696868;
+  text-align: left;
+  margin: 0;
+}
+
 .product_card_gallery_info {
   display: flex;
   flex-direction: row;
