@@ -1340,8 +1340,8 @@ label.add-files:focus, label.add-files:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   border: 1px solid #eeeeee;
   background-color: #ffffff;
   margin-right: 13px;
@@ -1349,25 +1349,13 @@ label.add-files:focus, label.add-files:hover {
   box-sizing: border-box;
   text-decoration: none;
 }
-@media (max-width: 991px) {
-  .pagination_container .element {
-    width: 34px;
-    height: 34px;
-  }
-}
 .pagination_container .element p {
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 400;
   line-height: normal;
   color: #374957;
   text-decoration: none;
   margin: 0;
-}
-.pagination_container .element.prev {
-  border-radius: 10px 0 0 10px;
-}
-.pagination_container .element.prev img {
-  transform: rotate(180deg);
 }
 .pagination_container .element.active, .pagination_container .element:hover {
   background-color: #ed6a8a;
@@ -1379,12 +1367,9 @@ label.add-files:focus, label.add-files:hover {
 .pagination_container .element.active img, .pagination_container .element:hover img {
   filter: invert(1) brightness(2);
 }
-.pagination_container .element.next {
-  border-radius: 0 10px 10px 0;
-}
 .pagination_container .element.last img {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
 }
 .pagination_container .element.last img:hover {
   border: 1px solid #ed6a8a;

@@ -1,7 +1,7 @@
 <div class="pagination containter d-flex justify-content-center align-items-center">
     <div class="pagination_container">
         <a href="#" class="element prev">
-            <img src="./assets/icons/pagination/pagination_right.svg" alt="prev" width="12" height="12">
+            <img src="./assets/icons/common/pagination/pagination-left.svg" alt="prev" width="12" height="12">
         </a>
         <a href="#" class="element active">
             <p>1</p>
@@ -22,7 +22,7 @@
             <p>26</p>
         </a>
         <a href="#" class="element next">
-            <img src="./assets/icons/pagination/pagination_right.svg" alt="next" width="12" height="12">
+            <img src="./assets/icons/common/pagination/pagination-right.svg" alt="next" width="12" height="12">
         </a>
     </div>
 </div>
