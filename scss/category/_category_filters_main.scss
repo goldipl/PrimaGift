@@ -1,3 +1,25 @@
+#main-wrapper:has(.category-wrapper) {
+  background-color: $light_grey;
+  #our_brands {
+    position: relative;
+    background-color: $white;
+    .section-title {
+      z-index: 1;
+    }
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 300%;
+      height: 100%;
+      background-color: $white;
+      z-index: 0;
+    }
+  }
+}
+
 .category-filters-main {
   display: flex;
   flex-wrap: wrap;

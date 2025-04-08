@@ -4710,6 +4710,28 @@ label.add-files:focus, label.add-files:hover {
     border-bottom: 0;
   }
 }
+#main-wrapper:has(.category-wrapper) {
+  background-color: #f4f4f4;
+}
+#main-wrapper:has(.category-wrapper) #our_brands {
+  position: relative;
+  background-color: #ffffff;
+}
+#main-wrapper:has(.category-wrapper) #our_brands .section-title {
+  z-index: 1;
+}
+#main-wrapper:has(.category-wrapper) #our_brands::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 300%;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 0;
+}
+
 .category-filters-main {
   display: flex;
   flex-wrap: wrap;
