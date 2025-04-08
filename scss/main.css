@@ -2386,7 +2386,7 @@ label.add-files:focus, label.add-files:hover {
 }
 .our_brands_swiper .brands-swiper-button-prev,
 .our_brands_swiper .brands-swiper-button-next {
-  top: -8px;
+  top: 30px;
 }
 @media (max-width: 760px) {
   .our_brands_swiper .brands-swiper-button-prev,
