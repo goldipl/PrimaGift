@@ -36,6 +36,10 @@
 .our_brands_swiper {
   overflow: hidden;
   margin-bottom: 0;
+  .swiper-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
   .brands-swiper-button-prev,
   .brands-swiper-button-next {
     top: 30px;
