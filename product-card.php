@@ -20,7 +20,7 @@
             <div class="breadcrumbs container">
                 <ul>
                     <li class="breadcrumb-item">
-                        <a href="./index.php">Home</a>
+                        <a href="./index.php">Strona główna</a>
                     </li>
                     <li class="breadcrumb-item">
                         <a href="#">Długopisy i artykuły piśmienne</a>
