@@ -18,17 +18,17 @@
                     "@type": "ListItem",
                     "position": 1,
                     "name": "Strona główna",
-                    "item": "https://www.PRIMA GIFT.pl/index.php"
+                    "item": "https://www.PRIMAGIFT.pl/index.php"
                 }, {
                     "@type": "ListItem",
                     "position": 2,
                     "name": "Oferta",
-                    "item": "https://www.PRIMA GIFT.pl/oferta"
+                    "item": "https://www.PRIMAGIFT.pl/oferta"
                 }, {
                     "@type": "ListItem",
                     "position": 3,
                     "name": "Artykuły biurowe",
-                    "item": "https://www.PRIMA GIFT.pl/oferta/artykuly-biurowe"
+                    "item": "https://www.PRIMAGIFT.pl/oferta/artykuly-biurowe"
                 }]
             }
         </script>
