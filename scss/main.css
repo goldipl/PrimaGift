@@ -1027,11 +1027,11 @@ footer .footer-container__bottom .contip img {
 .breadcrumbs ul li.breadcrumb-item::after {
   position: absolute;
   margin-right: 10px;
-  top: 8px;
-  left: -24px;
+  top: 6px;
+  left: -26px;
   background-size: contain;
-  width: 8px;
-  height: 8px;
+  width: 13px;
+  height: 13px;
   content: "";
   background-image: url("./../assets/icons/common/breadcrumbs/breadcrumb_icon.svg");
   display: inline-block;
@@ -1040,10 +1040,10 @@ footer .footer-container__bottom .contip img {
 }
 .breadcrumbs ul li.breadcrumb-item a,
 .breadcrumbs ul li.breadcrumb-item p {
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 13px;
   line-height: 160%;
-  color: #374957;
+  color: #000000;
   text-decoration: none;
   margin: 0;
 }
@@ -1053,11 +1053,11 @@ footer .footer-container__bottom .contip img {
 }
 .breadcrumbs ul li.breadcrumb-item span {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 160%;
   text-decoration: none;
   margin: 0;
-  color: #1d1d1b;
+  color: #696868;
 }
 
 @media (max-width: 1260px) {
@@ -1087,10 +1087,10 @@ footer .footer-container__bottom .contip img {
   }
   .breadcrumbs ul li.breadcrumb-item::after {
     margin-right: 8px;
-    top: 10px;
+    top: 9px;
     left: -12px;
-    width: 8px;
-    height: 8px;
+    width: 9px;
+    height: 9px;
   }
   .breadcrumbs ul li.breadcrumb-item:first-of-type {
     margin-left: -12px;
@@ -4786,6 +4786,9 @@ label.add-files:focus, label.add-files:hover {
     line-height: 140%;
   }
 }
+.container.category-title {
+  padding: 0;
+}
 .container.category-title h1 {
   font-family: "Roboto", serif;
   font-weight: 600;
@@ -4793,6 +4796,9 @@ label.add-files:focus, label.add-files:hover {
   line-height: 42.49px;
   text-transform: uppercase;
   color: #374957;
+}
+.container.category-seo-text {
+  padding: 0;
 }
 .container.category-seo-text p {
   font-family: "Roboto", serif;

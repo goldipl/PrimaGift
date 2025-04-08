@@ -22,11 +22,11 @@
       &::after {
         position: absolute;
         margin-right: 10px;
-        top: 8px;
-        left: -24px;
+        top: 6px;
+        left: -26px;
         background-size: contain;
-        width: 8px;
-        height: 8px;
+        width: 13px;
+        height: 13px;
         content: "";
         background-image: url("./../assets/icons/common/breadcrumbs/breadcrumb_icon.svg");
         display: inline-block;
@@ -35,10 +35,10 @@
       }
       a,
       p {
-        font-weight: 400;
-        font-size: 14px;
+        font-weight: 500;
+        font-size: 13px;
         line-height: 160%;
-        color: $text_color;
+        color: $black;
         text-decoration: none;
         margin: 0;
         &:hover {
@@ -47,11 +47,11 @@
       }
       span {
         font-weight: 400;
-        font-size: 14px;
+        font-size: 13px;
         line-height: 160%;
         text-decoration: none;
         margin: 0;
-        color: $black2;
+        color: $grey18;
       }
     }
   }
@@ -84,10 +84,10 @@
         margin-right: 16px;
         &::after {
           margin-right: 8px;
-          top: 10px;
+          top: 9px;
           left: -12px;
-          width: 8px;
-          height: 8px;
+          width: 9px;
+          height: 9px;
         }
         &:first-of-type {
           margin-left: -12px;
