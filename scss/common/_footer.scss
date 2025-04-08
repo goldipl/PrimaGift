@@ -168,6 +168,9 @@ footer {
               line-height: 156%;
               color: $black;
               text-decoration: none;
+              @media (max-width: 991px) {
+                font-size: 11px;
+              }
               &:hover {
                 color: $main_color;
               }
@@ -177,6 +180,12 @@ footer {
                 min-width: 19px;
                 width: 19px;
                 height: 19px;
+                @media (max-width: 991px) {
+                  margin: 0 10px 0 0;
+                  min-width: 16px;
+                  width: 16px;
+                  height: 16px;
+                }
               }
             }
           }
