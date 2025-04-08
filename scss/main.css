@@ -2038,7 +2038,7 @@ label.add-files:focus, label.add-files:hover {
 }
 @media (max-width: 760px) {
   .main-page-categories__slot {
-    width: 30%;
+    width: 32%;
   }
   .main-page-categories__slot .category-img {
     height: 36px;
