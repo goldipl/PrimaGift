@@ -2999,6 +2999,9 @@ label.add-files:focus, label.add-files:hover {
   #our-strengths .our-strengths .strengths-blocks__slot:nth-of-type(5) .strengths-blocks__slot__icon--lines {
     left: 130px;
   }
+  #our-strengths .our-strengths .strengths-blocks__slot:nth-of-type(3) .strengths-blocks__slot__icon--lines, #our-strengths .our-strengths .strengths-blocks__slot:nth-of-type(5) .strengths-blocks__slot__icon--lines {
+    z-index: -1;
+  }
   #our-strengths .our-strengths .strengths-blocks__slot__icon {
     margin: 0 0 8px 0;
   }

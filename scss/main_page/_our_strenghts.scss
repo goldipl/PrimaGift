@@ -99,6 +99,10 @@
           &:nth-of-type(5) .strengths-blocks__slot__icon--lines {
             left: 130px;
           }
+          &:nth-of-type(3) .strengths-blocks__slot__icon--lines,
+          &:nth-of-type(5) .strengths-blocks__slot__icon--lines {
+            z-index: -1;
+          }
           &__icon {
             margin: 0 0 8px 0;
             &--img {
