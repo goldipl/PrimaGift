@@ -46,6 +46,10 @@
           filter: invert(1) brightness(2);
         }
       }
+      &.prev,
+      &.next {
+        border: 0;
+      }
       &.last {
         img {
           width: 30px;

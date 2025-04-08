@@ -1367,6 +1367,9 @@ label.add-files:focus, label.add-files:hover {
 .pagination_container .element.active img, .pagination_container .element:hover img {
   filter: invert(1) brightness(2);
 }
+.pagination_container .element.prev, .pagination_container .element.next {
+  border: 0;
+}
 .pagination_container .element.last img {
   width: 30px;
   height: 30px;
