@@ -1,6 +1,22 @@
 #our_brands {
-  .mp-titles {
-    padding-top: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 67px 0 170px 0;
+  @media (max-width: 760px) {
+    padding: 67px 0 80px 0;
+  }
+  .section-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 67px 0;
+    h2,
+    small {
+      text-align: center;
+    }
   }
   .swiper-slide {
     a {
@@ -19,9 +35,20 @@
 
 .our_brands_swiper {
   overflow: hidden;
-  margin-bottom: 70px;
+  margin-bottom: 0;
+  .brands-swiper-button-prev,
+  .brands-swiper-button-next {
+    top: -8px;
+    @media (max-width: 760px) {
+      top: -40px;
+    }
+  }
   .swiper-slide {
     position: relative;
+    margin-top: 40px;
+    img {
+      padding: 0 !important;
+    }
     .article_swiper_box__text {
       background-color: $blog_grey_opacity;
       &--date,

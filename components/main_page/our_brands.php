@@ -1,7 +1,7 @@
 <section id="our_brands">
     <div class="container section-title">
-        <h2>Tytuł</h2>
-        <small>Opis</small>
+        <h2>Zaufali nam</h2>
+        <small>I ty dołącz do grona naszych zadowolonych klientów!</small>
     </div>
     <div class="container position-relative">
         <div class="our_brands_swiper">
