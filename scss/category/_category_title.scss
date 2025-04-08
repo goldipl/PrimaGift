@@ -1,5 +1,6 @@
 .container {
   &.category-title {
+    padding: 0;
     h1 {
       font-family: "Roboto", serif;
       font-weight: 600;
@@ -10,6 +11,7 @@
     }
   }
   &.category-seo-text {
+    padding: 0;
     p {
       font-family: "Roboto", serif;
       font-weight: 500;
