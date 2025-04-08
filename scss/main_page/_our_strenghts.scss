@@ -1,0 +1,119 @@
+#our-strengths {
+  background-color: $light_grey;
+  padding: 67px 0 131px 0;
+  @media (max-width: 760px) {
+    padding: 50px 0 80px 0;
+  }
+  .our-strengths {
+    position: relative;
+    h2 {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 103%;
+      text-align: center;
+      color: $black;
+      margin: 0 0 90px 0;
+      @media (max-width: 760px) {
+        font-size: 22px;
+        margin: 0 0 60px 0;
+      }
+    }
+    &__white-shape {
+      position: absolute;
+      top: 220px;
+      left: 0;
+      z-index: 1;
+    }
+    .strengths-blocks {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 36px;
+      z-index: 2;
+      &__slot {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 219px;
+        height: 235px;
+        background-color: $white;
+        box-shadow: 0px 0px 25.8px 0px #0000000d;
+        padding: 22px;
+        &:nth-of-type(1) .strengths-blocks__slot__icon--lines {
+          z-index: -1;
+        }
+        &:nth-of-type(2) .strengths-blocks__slot__icon--lines {
+          z-index: -1;
+          top: -10px;
+          left: 138px;
+        }
+        &:nth-of-type(3) .strengths-blocks__slot__icon--lines {
+          z-index: 2;
+          bottom: -18px;
+          left: 138px;
+        }
+        &:nth-of-type(5) .strengths-blocks__slot__icon--lines {
+          z-index: 2;
+          top: 12px;
+          left: 180px;
+        }
+        &__icon {
+          margin: 0 0 16px 0;
+          &--img {
+            object-fit: contain;
+            width: 60px;
+            height: auto;
+          }
+          &--lines {
+            position: absolute;
+            bottom: -30px;
+            left: 21px;
+            display: block;
+            z-index: 2;
+          }
+        }
+        &__text {
+          span {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 156%;
+            text-align: left;
+            color: $black;
+          }
+        }
+      }
+      @media (max-width: 1200px) {
+        flex-wrap: wrap;
+      }
+      @media (max-width: 760px) {
+        flex-wrap: wrap;
+        &__slot {
+          width: 40%;
+          height: auto;
+          padding: 16px;
+          min-height: 196px;
+          &:nth-of-type(5) .strengths-blocks__slot__icon--lines {
+            left: 130px;
+          }
+          &__icon {
+            margin: 0 0 8px 0;
+            &--img {
+              height: 40px;
+              width: auto;
+            }
+          }
+          &__text {
+            span {
+              font-size: 12px;
+              line-height: 1.1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
