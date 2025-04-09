@@ -4779,6 +4779,7 @@ label.add-files:focus, label.add-files:hover {
   color: #000000;
   margin: 0 12px 0 0;
   white-space: pre;
+  cursor: default;
 }
 .category-top-filters-bottom .bottom-filters-left .active-filters {
   display: flex;
