@@ -71,6 +71,9 @@ nav {
           border-bottom: 4px solid $main_color;
           color: $black;
           font-weight: 600;
+          @media (max-width: 991px) {
+            border-bottom: 4px solid $transparent;
+          }
         }
       }
     }
@@ -543,7 +546,7 @@ nav {
     .navbar-bottom {
       align-items: flex-start !important;
       .main-nav-item {
-        width: 100%;
+        width: calc(100% - 32px);
         .dropdown-toggle,
         > a {
           font-size: 16px;

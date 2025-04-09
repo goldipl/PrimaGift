@@ -154,6 +154,11 @@ nav .navbar-bottom .nav-item .nav-link:hover {
   color: #000000;
   font-weight: 600;
 }
+@media (max-width: 991px) {
+  nav .navbar-bottom .nav-item .nav-link:hover {
+    border-bottom: 4px solid rgba(255, 255, 255, 0);
+  }
+}
 nav .navbar-bottom .dropdown-menu .dropdown-row {
   display: flex;
   flex-direction: row;
@@ -615,7 +620,7 @@ nav .navbar-bottom .main-nav-item > a.show::after {
     align-items: flex-start !important;
   }
   nav .navbar-bottom .main-nav-item {
-    width: 100%;
+    width: calc(100% - 32px);
   }
   nav .navbar-bottom .main-nav-item .dropdown-toggle,
   nav .navbar-bottom .main-nav-item > a {
