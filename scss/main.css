@@ -1341,7 +1341,14 @@ label.add-files:focus, label.add-files:hover {
   justify-content: center;
 }
 .pagination_container .dots {
-  margin: 24px 13px 0 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eeeeee;
+  background-color: #ffffff;
+  margin-right: 6px;
 }
 .pagination_container .element {
   display: flex;
@@ -1351,7 +1358,7 @@ label.add-files:focus, label.add-files:hover {
   height: 30px;
   border: 1px solid #eeeeee;
   background-color: #ffffff;
-  margin-right: 13px;
+  margin-right: 6px;
   cursor: pointer;
   box-sizing: border-box;
   text-decoration: none;
@@ -1370,9 +1377,6 @@ label.add-files:focus, label.add-files:hover {
 }
 .pagination_container .element.active p, .pagination_container .element:hover p {
   color: #ffffff;
-}
-.pagination_container .element.active img, .pagination_container .element:hover img {
-  filter: invert(1) brightness(2);
 }
 .pagination_container .element.prev, .pagination_container .element.next {
   border: 0;
@@ -4651,20 +4655,138 @@ label.add-files:focus, label.add-files:hover {
 }
 .category-top-filters {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   cursor: pointer;
   background-color: #f4f4f4;
   width: 100%;
-  height: 65px;
-  margin-bottom: 16px;
+  height: auto;
+  margin-bottom: 32px;
+  margin-top: 64px;
+}
+.category-top-filters-upper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 51px;
+  padding-bottom: 21px;
+  border-bottom: 2px solid #ed6a8a;
+}
+.category-top-filters-upper input,
+.category-top-filters-upper select {
+  width: 100% !important;
+}
+.category-top-filters-upper h2 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+.category-top-filters-upper .set-filters {
+  all: unset;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ed6a8a;
+  border: 1px solid #ed6a8a;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 103%;
+  text-align: center;
+  width: 149px;
+  height: 30px;
+}
+.category-top-filters-upper .set-filters:hover {
+  background-color: #ffffff;
+  color: #ed6a8a;
+}
+.category-top-filters-upper #sort-by-price-to,
+.category-top-filters-upper #sort-by-price-from {
+  width: 73px;
+  max-width: 73px;
+}
+.category-top-filters-upper #sort-by-name,
+.category-top-filters-upper #sort-by-color {
+  min-width: 200px;
+}
+.category-top-filters-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 21px;
+  width: 100%;
+  height: 30px;
+}
+.category-top-filters-bottom .pagination {
+  margin: 58px 0 0 16px;
+}
+.category-top-filters-bottom .pagination .prev,
+.category-top-filters-bottom .pagination .next {
+  background-color: inherit;
+}
+.category-top-filters-bottom .bottom-filters-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.category-top-filters-bottom .bottom-filters-left .active-filters-text {
+  display: inline-flex;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 213%;
+  color: #000000;
+  margin: 0 12px 0 0;
+}
+.category-top-filters-bottom .bottom-filters-left .active-filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.category-top-filters-bottom .bottom-filters-left .active-filters__slot {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 7px;
+}
+.category-top-filters-bottom .bottom-filters-left .active-filters__slot:hover span {
+  color: #000000;
+}
+.category-top-filters-bottom .bottom-filters-left .active-filters__slot:hover img {
+  filter: invert(1) brightness(0);
+}
+.category-top-filters-bottom .bottom-filters-left .active-filters__slot img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  min-width: 7px;
+}
+.category-top-filters-bottom .bottom-filters-left .active-filters__slot span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  margin: 0;
+  color: #696868;
+}
+.category-top-filters-bottom .bottom-filters-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 .category-top-filters__slot {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0 20px;
+  padding: 0;
   height: 65px;
 }
 .category-top-filters__slot:last-of-type {
@@ -4672,20 +4794,22 @@ label.add-files:focus, label.add-files:hover {
 }
 .category-top-filters__slot label {
   font-family: "Roboto", serif;
-  font-size: 14px;
+  font-size: 13px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   line-height: normal;
-  color: #8a8a8a;
+  color: #000000;
+  white-space: pre;
 }
-.category-top-filters__slot select {
+.category-top-filters__slot select,
+.category-top-filters__slot input {
   font-family: "Roboto", serif;
-  font-size: 14px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  color: #333333;
-  height: 45px;
+  color: #696868;
+  height: 30px;
   margin: 0 8px 0 8px;
   background-color: #ffffff;
   padding-left: 15px;
@@ -4693,6 +4817,25 @@ label.add-files:focus, label.add-files:hover {
   border: 0;
   width: unset;
   padding: 0 32px 0 16px;
+  width: 200px;
+}
+.category-top-filters__slot select::-moz-placeholder, .category-top-filters__slot input::-moz-placeholder {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #696868;
+}
+.category-top-filters__slot select::placeholder,
+.category-top-filters__slot input::placeholder {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #696868;
+}
+.category-top-filters__slot input {
+  width: 73px;
 }
 
 @media (max-width: 991px) {
@@ -4748,6 +4891,7 @@ label.add-files:focus, label.add-files:hover {
 .category-filters-main__slot {
   flex: 0 0 calc((100% - 36px) / 4);
   height: 367px;
+  box-shadow: 0px 3.51px 16.42px 0px rgba(0, 0, 0, 0.1490196078);
 }
 
 .category-top-pagination {

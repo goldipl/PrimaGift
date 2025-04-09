@@ -1,38 +1,159 @@
 .category-top-filters {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   cursor: pointer;
   background-color: $light_grey;
   width: 100%;
-  height: 65px;
-  margin-bottom: 16px;
+  height: auto;
+  margin-bottom: 32px;
+  margin-top: 64px;
+  &-upper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 51px;
+    padding-bottom: 21px;
+    border-bottom: 2px solid $main_color;
+    input,
+    select {
+      width: 100% !important;
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 24px;
+      margin-bottom: 0;
+    }
+    .set-filters {
+      all: unset;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $main_color;
+      border: 1px solid $main_color;
+      color: $white;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 103%;
+      text-align: center;
+      width: 149px;
+      height: 30px;
+      &:hover {
+        background-color: $white;
+        color: $main_color;
+      }
+    }
+    #sort-by-price-to,
+    #sort-by-price-from {
+      width: 73px;
+      max-width: 73px;
+    }
+    #sort-by-name,
+    #sort-by-color {
+      min-width: 200px;
+    }
+  }
+  &-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 21px;
+    width: 100%;
+    height: 30px;
+    .pagination {
+      margin: 58px 0 0 16px;
+      .prev,
+      .next {
+        background-color: inherit;
+      }
+    }
+    .bottom-filters-left {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      .active-filters-text {
+        display: inline-flex;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 213%;
+        color: $black;
+        margin: 0 12px 0 0;
+      }
+      .active-filters {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+        &__slot {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 7px;
+          &:hover {
+            span {
+              color: $black;
+            }
+            img {
+              filter: invert(1) brightness(0);
+            }
+          }
+          img {
+            object-fit: contain;
+            min-width: 7px;
+          }
+          span {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1;
+            margin: 0;
+            color: $grey18;
+          }
+        }
+      }
+    }
+    .bottom-filters-right {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  }
   &__slot {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0 20px;
+    padding: 0;
     height: 65px;
     &:last-of-type {
       padding-right: 0;
     }
     label {
       font-family: "Roboto", serif;
-      font-size: 14px;
+      font-size: 13px;
       font-style: normal;
-      font-weight: 400;
+      font-weight: 700;
       line-height: normal;
-      color: $grey5;
+      color: $black;
+      white-space: pre;
     }
-    select {
+    select,
+    input {
       font-family: "Roboto", serif;
-      font-size: 14px;
+      font-size: 13px;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
-      color: $grey_main;
-      height: 45px;
+      color: $grey18;
+      height: 30px;
       margin: 0 8px 0 8px;
       background-color: $white;
       padding-left: 15px;
@@ -40,6 +161,17 @@
       border: 0;
       width: unset;
       padding: 0 32px 0 16px;
+      width: 200px;
+      &::placeholder {
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: $grey18;
+      }
+    }
+    input {
+      width: 73px;
     }
   }
 }
