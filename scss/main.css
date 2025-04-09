@@ -1081,7 +1081,7 @@ footer .footer-container__bottom .contip img {
 }
 @media (max-width: 991px) {
   .breadcrumbs {
-    margin-top: 6px;
+    margin-top: 0;
     padding-top: 0;
     margin-bottom: 8px;
   }
@@ -4676,6 +4676,12 @@ label.add-files:focus, label.add-files:hover {
   padding-bottom: 21px;
   border-bottom: 2px solid #ed6a8a;
 }
+@media (max-width: 1200px) {
+  .category-top-filters-upper {
+    height: auto;
+    flex-wrap: wrap;
+  }
+}
 .category-top-filters-upper input,
 .category-top-filters-upper select {
   width: 100% !important;
@@ -4684,6 +4690,7 @@ label.add-files:focus, label.add-files:hover {
   font-weight: 700;
   font-size: 24px;
   margin-bottom: 0;
+  margin-right: 12px;
 }
 .category-top-filters-upper .set-filters {
   all: unset;
@@ -4714,6 +4721,12 @@ label.add-files:focus, label.add-files:hover {
 .category-top-filters-upper #sort-by-color {
   min-width: 200px;
 }
+@media (max-width: 1200px) {
+  .category-top-filters-upper #sort-by-name,
+  .category-top-filters-upper #sort-by-color {
+    min-width: none;
+  }
+}
 .category-top-filters-bottom {
   display: flex;
   flex-direction: row;
@@ -4723,12 +4736,33 @@ label.add-files:focus, label.add-files:hover {
   width: 100%;
   height: 30px;
 }
+@media (max-width: 1200px) {
+  .category-top-filters-bottom {
+    height: 40px;
+  }
+}
+@media (max-width: 991px) {
+  .category-top-filters-bottom {
+    flex-wrap: wrap;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
 .category-top-filters-bottom .pagination {
   margin: 58px 0 0 16px;
 }
 .category-top-filters-bottom .pagination .prev,
 .category-top-filters-bottom .pagination .next {
   background-color: inherit;
+}
+@media (max-width: 991px) {
+  .category-top-filters-bottom .pagination {
+    margin: 16px 0 0 0;
+    justify-content: flex-start !important;
+    padding: 0;
+  }
 }
 .category-top-filters-bottom .bottom-filters-left {
   display: flex;
@@ -4781,6 +4815,11 @@ label.add-files:focus, label.add-files:hover {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+}
+@media (max-width: 991px) {
+  .category-top-filters-bottom .bottom-filters-right {
+    flex-direction: column;
+  }
 }
 .category-top-filters__slot {
   display: flex;

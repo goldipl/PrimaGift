@@ -19,6 +19,10 @@
     height: 51px;
     padding-bottom: 21px;
     border-bottom: 2px solid $main_color;
+    @media (max-width: 1200px) {
+      height: auto;
+      flex-wrap: wrap;
+    }
     input,
     select {
       width: 100% !important;
@@ -27,6 +31,7 @@
       font-weight: 700;
       font-size: 24px;
       margin-bottom: 0;
+      margin-right: 12px;
     }
     .set-filters {
       all: unset;
@@ -56,6 +61,9 @@
     #sort-by-name,
     #sort-by-color {
       min-width: 200px;
+      @media (max-width: 1200px) {
+        min-width: none;
+      }
     }
   }
   &-bottom {
@@ -66,11 +74,26 @@
     margin-top: 21px;
     width: 100%;
     height: 30px;
+    @media (max-width: 1200px) {
+      height: 40px;
+    }
+    @media (max-width: 991px) {
+      flex-wrap: wrap;
+      height: auto;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
     .pagination {
       margin: 58px 0 0 16px;
       .prev,
       .next {
         background-color: inherit;
+      }
+      @media (max-width: 991px) {
+        margin: 16px 0 0 0;
+        justify-content: flex-start !important;
+        padding: 0;
       }
     }
     .bottom-filters-left {
@@ -125,6 +148,9 @@
       flex-direction: row;
       justify-content: flex-start;
       align-items: center;
+      @media (max-width: 991px) {
+        flex-direction: column;
+      }
     }
   }
   &__slot {
