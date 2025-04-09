@@ -1,4 +1,4 @@
-<div class="pagination containter d-flex justify-content-center align-items-center">
+<div class="pagination containter d-flex justify-content-end align-items-center">
     <div class="pagination_container">
         <a href="#" class="element prev">
             <img src="./assets/icons/common/pagination/pagination-left.svg" alt="prev" width="12" height="12">
