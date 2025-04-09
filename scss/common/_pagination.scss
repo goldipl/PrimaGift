@@ -13,7 +13,14 @@
     align-items: center;
     justify-content: center;
     .dots {
-      margin: 24px 13px 0 0;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border: 1px solid $light_grey2;
+      background-color: $white;
+      margin-right: 6px;
     }
     .element {
       display: flex;
@@ -23,7 +30,7 @@
       height: 30px;
       border: 1px solid $light_grey2;
       background-color: $white;
-      margin-right: 13px;
+      margin-right: 6px;
       cursor: pointer;
       box-sizing: border-box;
       text-decoration: none;
@@ -41,9 +48,6 @@
         border-color: $main_color;
         p {
           color: $white;
-        }
-        img {
-          filter: invert(1) brightness(2);
         }
       }
       &.prev,
