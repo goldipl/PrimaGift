@@ -4777,9 +4777,11 @@ label.add-files:focus, label.add-files:hover {
   line-height: 213%;
   color: #000000;
   margin: 0 12px 0 0;
+  white-space: pre;
 }
 .category-top-filters-bottom .bottom-filters-left .active-filters {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;

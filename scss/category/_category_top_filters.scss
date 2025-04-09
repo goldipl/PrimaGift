@@ -108,9 +108,11 @@
         line-height: 213%;
         color: $black;
         margin: 0 12px 0 0;
+        white-space: pre;
       }
       .active-filters {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
