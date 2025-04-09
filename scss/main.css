@@ -147,6 +147,12 @@ nav .navbar-bottom .nav-item .nav-link {
   font-size: 12px;
   line-height: 103%;
   color: #000000;
+  border-bottom: 4px solid rgba(255, 255, 255, 0);
+}
+nav .navbar-bottom .nav-item .nav-link:hover {
+  border-bottom: 4px solid #ed6a8a;
+  color: #000000;
+  font-weight: 600;
 }
 nav .navbar-bottom .dropdown-menu .dropdown-row {
   display: flex;
@@ -267,9 +273,6 @@ nav .nav-top-links-btns .nav-top-links .nav-top-link {
   text-align: center;
   color: #000000;
   text-decoration: none;
-}
-nav .nav-top-links-btns .nav-top-links .nav-top-link:hover {
-  color: #ed6a8a;
 }
 nav .nav-top-links-btns .nav-top-btns {
   display: flex;

@@ -66,6 +66,12 @@ nav {
         font-size: 12px;
         line-height: 103%;
         color: $black;
+        border-bottom: 4px solid $transparent;
+        &:hover {
+          border-bottom: 4px solid $main_color;
+          color: $black;
+          font-weight: 600;
+        }
       }
     }
     .dropdown-menu {
@@ -179,9 +185,6 @@ nav {
         text-align: center;
         color: $black;
         text-decoration: none;
-        &:hover {
-          color: $main_color;
-        }
       }
     }
     .nav-top-btns {
