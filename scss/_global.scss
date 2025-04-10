@@ -12,16 +12,12 @@ body {
   accent-color: $main_color;
   #main-wrapper {
     position: relative;
-    // &.opened-menu::after {
-    //   position: absolute;
-    //   content: "";
-    //   top: 0;
-    //   left: calc((100vw - 1576px) / 2 * -1);
-    //   background-color: $open_menu_background;
-    //   width: 200vw;
-    //   height: 100vh;
-    //   z-index: 9;
-    // }
+  }
+}
+
+#main-wrapper {
+  .container {
+    max-width: 1354px;
   }
 }
 
