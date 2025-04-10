@@ -1,3 +1,7 @@
+#main-wrapper:has(.products_card_gallery_open) {
+  background-color: $light_grey;
+}
+
 .products_card_gallery_open {
   display: flex;
   flex-direction: row;
