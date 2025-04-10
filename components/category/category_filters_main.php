@@ -52,6 +52,12 @@
         <img src="./assets/icons/common/add-to-shopping-list-icon.svg" alt="Dodaj" width="26" height="26">
       </a>
     </div>
+    <!-- Product label -->
+    <div class="product-label-box">
+      <div class="product-label" style="background-color: #ED6A8A;">
+        <p>Bestseller</p>
+      </div>
+    </div>
   </div>
   <div class="category-filters-main__slot">
     <div class="category-filters-main__slot__top">
@@ -105,6 +111,12 @@
       <a href="" class="products-buy-button">
         <img src="./assets/icons/common/add-to-shopping-list-icon.svg" alt="Dodaj" width="26" height="26">
       </a>
+    </div>
+    <!-- Product label -->
+    <div class="product-label-box">
+      <div class="product-label" style="background-color: #ED6A8A;">
+        <p>Bestseller</p>
+      </div>
     </div>
   </div>
   <div class="category-filters-main__slot">
