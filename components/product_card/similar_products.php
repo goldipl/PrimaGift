@@ -1,5 +1,5 @@
 <section id="our_products_swiper" class="container position-relative similar-products-swiper">
-  <h2>Podobne produkty</h2>
+  <h2 class="d-flex justify-content-center">Inni oglądali również...</h2>
   <div class="similar_products_swiper">
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">

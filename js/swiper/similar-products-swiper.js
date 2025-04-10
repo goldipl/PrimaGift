@@ -5,7 +5,7 @@ const similar_products_swiper = new Swiper('.similar_products_swiper', {
   loop: true,
   slidesPerView: 5,
   slidesPerGroup: 1,
-  spaceBetween: 0,
+  spaceBetween: 32,
 
   // Navigation arrows
   navigation: {

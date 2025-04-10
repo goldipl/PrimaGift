@@ -35,6 +35,7 @@
             <?php include "./components/product_card/product_card_gallery_open.php"; ?> 
             <?php include "./components/product_card/product_card_tabs.php"; ?> 
             <?php include "./components/product_card/similar_products.php"; ?> 
+            <?php include "./components/main_page/our_brands.php"; ?>
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
@@ -44,8 +45,9 @@
         <script src="./js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="./js/bootbox.min.js"></script>
         <script src="./js/select2.min.js"></script>
-        <script src="./js/script.js"></script>
         <script src="./js/swiper/swiper-bundle.js"></script>
+        <script src="./js/swiper/swiper.js"></script>
+        <script src="./js/script.js"></script>
         <script src="./js/swiper/similar-products-swiper.js"></script>
         <script src="./js/products_page/products_gallery.js"></script>
     </body>
