@@ -71,21 +71,6 @@
         }
       }
     }
-    @media (max-width: 991px) {
-      .product-label-box {
-        top: 12px;
-        left: 12px;
-        .product-label {
-          width: auto;
-          height: 20px;
-          padding: 0 6px;
-          p {
-            font-size: 12px;
-            line-height: 20px;
-          }
-        }
-      }
-    }
     .favourite-heart {
       position: absolute;
       display: block;
