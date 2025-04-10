@@ -1,9 +1,15 @@
 #main-wrapper:has(.products_card_gallery_open) {
   background-color: $light_grey;
+  .breadcrumbs {
+    padding-top: 16px;
+  }
   #our_products_swiper {
     margin-bottom: 0;
     padding-bottom: 80px;
     border-bottom: 1px solid #cdcdcd;
+    @media (max-width: 760px) {
+      padding-bottom: 48px;
+    }
     &::before {
       content: "";
       display: block;
@@ -22,6 +28,10 @@
       padding-top: 70px;
       z-index: 2;
       color: $black;
+      @media (max-width: 760px) {
+        padding-top: 32px;
+        margin-bottom: 16px;
+      }
     }
     .swiper-slide {
       box-shadow: 0px 0px 25.8px 0px #0000000d;
@@ -30,6 +40,9 @@
   #our_brands {
     background-color: $white;
     margin-top: 90px;
+    @media (max-width: 760px) {
+      margin-top: 48px;
+    }
   }
 }
 
@@ -37,6 +50,9 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 88px;
+  @media (max-width: 760px) {
+    margin-bottom: 48px;
+  }
   &--details {
     max-width: 720px;
     .product-categories {
@@ -46,11 +62,12 @@
       width: 100%;
       border-bottom: 1px solid $grey18;
       margin-bottom: 24px;
+      margin-top: 24px;
       span {
         display: inline-flex;
         font-weight: 400;
         font-size: 13px;
-        line-height: 213%;
+        line-height: 130%;
         margin: 0;
         color: $grey18;
         strong {
@@ -58,7 +75,7 @@
           margin-right: 4px;
           font-weight: 700;
           font-size: 13px;
-          line-height: 213%;
+          line-height: 130%;
           color: $black;
         }
       }
@@ -99,12 +116,18 @@
       }
       &--description {
         margin: 0 0 32px 0;
+        @media (max-width: 760px) {
+          margin: 0 0 24px 0;
+        }
         p {
           font-weight: 400;
           font-size: 14px;
           line-height: 156%;
           color: $black;
           margin: 0 0 12px 0;
+          @media (max-width: 760px) {
+            font-size: 13px;
+          }
         }
       }
     }
@@ -213,6 +236,10 @@
           border: 0;
           outline: 0;
           padding: 0 4px 0 14px;
+          @media (max-width: 760px) {
+            font-size: 15px;
+            line-height: 130%;
+          }
         }
       }
       .add-to-shopping-list {
@@ -256,19 +283,18 @@
   .products_card_gallery_open {
     &--gallery {
       .gallery-container {
-        margin-right: 10px;
+        margin-right: 24px;
       }
     }
   }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1120px) {
   .products_card_gallery_open {
     flex-direction: column;
-    margin-left: 0;
     &--gallery {
       .gallery-container {
-        margin: 0;
+        margin-left: 0;
       }
     }
   }
