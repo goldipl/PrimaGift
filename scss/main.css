@@ -279,6 +279,9 @@ nav .nav-top-links-btns .nav-top-links .nav-top-link {
   color: #000000;
   text-decoration: none;
 }
+nav .nav-top-links-btns .nav-top-links .nav-top-link:hover {
+  color: #ed6a8a;
+}
 nav .nav-top-links-btns .nav-top-btns {
   display: flex;
   flex-direction: row;

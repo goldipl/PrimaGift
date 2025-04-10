@@ -188,6 +188,9 @@ nav {
         text-align: center;
         color: $black;
         text-decoration: none;
+        &:hover {
+          color: $main_color;
+        }
       }
     }
     .nav-top-btns {
