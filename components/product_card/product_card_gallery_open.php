@@ -5,6 +5,12 @@
                 <div class="gallery-item big" data-index="1">
                     <img src="./assets/img/products_card/smartwatch.jpg">
                 </div>
+                <!-- Product label -->
+                <div class="product-label-box">
+                  <div class="product-label" style="background-color: #ED6A8A;">
+                    <p>Bestseller</p>
+                  </div>
+                </div>
             </div>
             <div class="gallery-container-small">
                 <div class="gallery-item small" data-index="2">
