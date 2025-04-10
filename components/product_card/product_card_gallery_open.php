@@ -66,7 +66,7 @@
                             <path d="M0.5 1H10" stroke="black" stroke-width="2"/>
                         </svg>
                     </button>
-                    <input type="number" name="cart-quantity-input" id="cart-quantity-input">
+                    <input type="number" min="0" name="cart-quantity-input" id="cart-quantity-input">
                     <button class="increase">
                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
                             <path d="M0 6H12" stroke="black" stroke-width="2"/>
