@@ -589,7 +589,7 @@ nav .navbar-bottom .main-nav-item > a.show::after {
   }
   nav .navbar-menu {
     background-color: #ffffff;
-    z-index: 15;
+    z-index: 8;
   }
   nav .navbar-menu #nav-searchbar-desktop {
     display: none;
