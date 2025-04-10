@@ -9,7 +9,6 @@
         <link rel="stylesheet" href="./css/bootstrap.min.css" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/swiper-bundle.css" />
         <link rel="stylesheet" href="./css/select2.min.css" />
-        <link rel="stylesheet" href="./css/magnific-popup.min.css">
         <link rel="stylesheet" href="./scss/main.css">
     </head>
     <body>
@@ -33,7 +32,7 @@
                     </li>
                 </ul>
             </div>
-            <?php include "./components/product_card/product_card_gallery_info.php"; ?> 
+            <?php include "./components/product_card/product_card_gallery_open.php"; ?> 
             <?php include "./components/product_card/product_card_tabs.php"; ?> 
             <?php include "./components/product_card/similar_products.php"; ?> 
         </main>
@@ -48,35 +47,6 @@
         <script src="./js/script.js"></script>
         <script src="./js/swiper/swiper-bundle.js"></script>
         <script src="./js/swiper/similar-products-swiper.js"></script>
-        <script src="./js/products_card_gallery/products_card_gallery.js"></script>
-        <script src="./js/jquery.magnific-popup.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                 $(".product-download").click(function(e){
-                    e.preventDefault(); 
-
-                    var imageUrl = $(this).closest(".swiper-slide").find("img").attr("src");
-
-                    var downloadLink = document.createElement("a");
-                    downloadLink.href = imageUrl;
-                    downloadLink.download = "product_image.jpg";
-                    downloadLink.style.display = "none";
-                    document.body.appendChild(downloadLink);
-                    downloadLink.click();
-                    document.body.removeChild(downloadLink);
-                });
-                
-                $('.zoom-image').magnificPopup({
-                    type: 'image',
-                    gallery: {
-                        enabled: true
-                    },
-                });
-
-                $('.zoom-icon').on('click', function() {
-                    $(this).closest('.swiper-slide').find('.zoom-image').magnificPopup('open');
-                });
-            });
-        </script>
+        <script src="./js/products_page/products_gallery.js"></script>
     </body>
 </html>
