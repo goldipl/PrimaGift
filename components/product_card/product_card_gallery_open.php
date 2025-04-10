@@ -3,33 +3,27 @@
         <div class="gallery-container">
             <div class="gallery-container-big">
                 <div class="gallery-item big" data-index="1">
-                    <img src="./assets/img/products_card/Klip-do-dokumentow-V2794-08-2.jpg">
+                    <img src="./assets/img/products_card/smartwatch.jpg">
                 </div>
             </div>
             <div class="gallery-container-small">
                 <div class="gallery-item small" data-index="2">
-                    <img src="./assets/img/products_card/Klip-do-dokumentow-V2794-08-2.jpg">
+                    <img src="./assets/img/products_card/smartwatch.jpg">
                 </div>
                 <div class="gallery-item small" data-index="3">
-                    <img src="./assets/img/products_card/Klip-do-dokumentow-V2794-08-2.jpg">
+                    <img src="./assets/img/products_card/smartwatch2.jpg">
                 </div>
                 <div class="gallery-item small" data-index="4">
-                    <img src="./assets/img/products_card/Klip-do-dokumentow-V2794-08-2.jpg">
+                    <img src="./assets/img/products_card/smartwatch3.jpg">
                 </div>
                 <div class="gallery-item small" data-index="5">
-                    <img src="./assets/img/products_card/Klip-do-dokumentow-V2794-08-2.jpg">
+                    <img src="./assets/img/products_card/smartwatch4.jpg">
                 </div>
                 <div class="gallery-item small" data-index="6">
-                    <img src="./assets/img/products_card/Klip-do-dokumentow-V2794-08-2.jpg">
+                    <img src="./assets/img/products_card/smartwatch5.jpg">
                 </div>
                 <div class="gallery-item small" data-index="7">
-                    <img src="./assets/img/products_card/Klip-do-dokumentow-V2794-08-2.jpg">
-                </div>
-                <div class="gallery-item small" data-index="8">
-                    <img src="./assets/img/products_card/Klip-do-dokumentow-V2794-08-2.jpg">
-                </div>
-                <div class="gallery-item small" data-index="9">
-                    <img src="./assets/img/products_card/Klip-do-dokumentow-V2794-08-2.jpg">
+                    <img src="./assets/img/products_card/smartwatch6.jpg">
                 </div>
             </div>
         </div>
