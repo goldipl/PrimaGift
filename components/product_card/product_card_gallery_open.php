@@ -54,9 +54,9 @@
             <div class="colors-container">
                 <strong class="colors-text">Wybierz kolor:</strong>
                 <div class="colors-options">
-                    <div class="color-square active" style="background: black;"></div>
-                    <div class="color-square" style="background: blue;"></div>
-                    <div class="color-square" style="background: green;"></div>
+                    <a href="" class="color-square active" style="background: black;"></a>
+                    <a href="" class="color-square" style="background: blue;"></a>
+                    <a href="" class="color-square" style="background: green;"></a>
                 </div>
             </div>
             <div class="quantity-cart-box">
