@@ -143,19 +143,6 @@
             width: 100%;
             height: 215px;
           }
-          .color-btn {
-            width: 239px;
-            height: 50px;
-            border-radius: 50px;
-            margin-top: 8px;
-            &:hover {
-              img {
-                content: unset;
-                filter: invert(36%) sepia(65%) saturate(5003%)
-                  hue-rotate(339deg) brightness(73%) contrast(130%);
-              }
-            }
-          }
         }
       }
     }

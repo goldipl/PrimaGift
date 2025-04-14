@@ -4563,16 +4563,6 @@ label.add-files:focus, label.add-files:hover {
   width: 100%;
   height: 215px;
 }
-.contact-container .contact-wrapper_col .send-form-right .color-btn {
-  width: 239px;
-  height: 50px;
-  border-radius: 50px;
-  margin-top: 8px;
-}
-.contact-container .contact-wrapper_col .send-form-right .color-btn:hover img {
-  content: unset;
-  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
-}
 .contact-container .contact-map {
   margin-bottom: 64px;
 }
