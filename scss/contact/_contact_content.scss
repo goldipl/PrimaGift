@@ -34,23 +34,101 @@
         max-width: 500px;
       }
       .contact-grey-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 16px;
+        padding-bottom: 90px;
+        margin-bottom: 32px;
+        border-bottom: 1px solid $main_color;
         .grey-left-col {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          padding-left: 22px;
+          border-left: 3px solid $main_color;
+          height: 126px;
+          gap: 16px;
+          .location-address {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 16px;
+            height: 66px;
+            .address-col {
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-start;
+              font-size: 14px;
+              line-height: 156%;
+            }
+          }
+          .hours {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 16px;
+            font-size: 14px;
+            line-height: 156%;
+          }
         }
         .grey-right-col {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          gap: 16px;
+          height: 126px;
+          .gtm-phone {
+            height: 66px;
+          }
+          .gtm-phone,
+          .gtm-mail {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 16px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 156%;
+            color: $black;
+            margin-left: 60px;
+            &:hover {
+              color: $main_color;
+            }
+          }
         }
       }
       .contact-map {
         h2 {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 103%;
+          color: $black;
+          margin: 0 0 40px 0;
           img {
+            display: inline-flex;
             height: 80px;
             width: auto;
+            margin: 0 16px 0 0;
           }
         }
         iframe {
           width: 100%;
+          height: 355px;
         }
       }
       .send-form {
+        position: relative;
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -58,6 +136,47 @@
         padding: 116px 90px;
         margin-top: -76px;
         margin-left: 39px;
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 300%;
+          height: 100%;
+          background-color: $white;
+          z-index: 0;
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          top: 40px;
+          left: -36px;
+          width: 66px;
+          height: 50px;
+          background: url("./../assets/icons/common/pink-lines.svg");
+          background-repeat: no-repeat;
+          background-size: contain;
+          z-index: 2;
+        }
+        h2 {
+          position: relative;
+          z-index: 1;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 103%;
+          color: $black;
+          margin: 0 0 18px 0;
+        }
+        h3 {
+          position: relative;
+          z-index: 1;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 156%;
+          color: $grey18;
+          margin: 0 0 48px 0;
+          max-width: 500px;
+        }
         input {
           width: 100%;
         }
@@ -67,6 +186,81 @@
         textarea {
           width: 100%;
           height: 194px;
+        }
+        .checkbox-button-box {
+          position: relative;
+          z-index: 1;
+          &::after {
+            content: "";
+            position: absolute;
+            top: 156px;
+            left: 400px;
+            width: 66px;
+            height: 50px;
+            background: url("./../assets/icons/common/pink-lines.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            z-index: 2;
+          }
+        }
+      }
+    }
+    @media (max-width: 991px) {
+      flex-direction: column;
+      &__col {
+        width: 100%;
+        h1 {
+          margin: 16px 0;
+          font-size: 20px;
+        }
+        h3 {
+          font-size: 13px;
+          margin: 0 0 24px 0;
+        }
+        .contact-grey-box {
+          flex-direction: column;
+          align-items: flex-start;
+          padding-bottom: 32px;
+          .grey-left-col {
+            height: auto;
+            a,
+            span,
+            strong {
+              font-size: 12px;
+            }
+          }
+          .grey-right-col {
+            height: auto;
+            border-left: 3px solid $main_color;
+            .gtm-phone,
+            .gtm-mail {
+              margin-left: 0;
+              padding-left: 22px;
+              font-size: 12px;
+              height: 40px;
+            }
+          }
+        }
+        .contact-map {
+          h2 {
+            font-size: 18px;
+            margin: 0 0 16px 0;
+            img {
+              height: 50px;
+            }
+          }
+        }
+        .send-form {
+          margin-top: 0;
+          margin-left: 16px;
+          padding: 40px 24px;
+          &::before {
+            display: none;
+          }
+          &::after {
+            left: -52px;
+            z-index: 0;
+          }
         }
       }
     }
