@@ -350,22 +350,7 @@ nav .navbar-bottom .nav-link.dropdown-toggle {
   position: relative;
 }
 nav .navbar-bottom .nav-link.dropdown-toggle::after {
-  border: 0;
-  position: absolute;
-  content: "";
-  top: 22px;
-  right: -14px;
-  display: block;
-  background: url("./../assets/icons/common/header/menu-arrow-down.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 14px;
-  height: 14px;
-}
-@media (max-width: 991px) {
-  nav .navbar-bottom .nav-link.dropdown-toggle::after {
-    top: 13px;
-  }
+  display: none;
 }
 nav .navbar-bottom .nav-link.dropdown-toggle.show {
   color: #ed6a8a;
@@ -1125,27 +1110,17 @@ footer .footer-container__bottom .contip img {
   border: 1px solid #ed6a8a;
   background-color: #ed6a8a;
   color: #ffffff;
-  width: -moz-max-content;
-  width: max-content;
-  height: 54px;
-  padding: 15px 20px;
+  width: 214px;
+  height: 42px;
   text-decoration: none;
-  border-radius: 10px;
-}
-.color-btn.left-btn img {
-  transform: rotate(180deg);
-  margin-left: 0;
-  margin-right: 10px;
-}
-.color-btn img {
-  margin-left: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 103%;
+  text-align: center;
 }
 .color-btn:hover {
   background-color: #ffffff;
   color: #ed6a8a;
-}
-.color-btn:hover img {
-  filter: invert(36%) sepia(65%) saturate(5003%) hue-rotate(339deg) brightness(73%) contrast(130%);
 }
 
 .white-btn {
@@ -5658,4 +5633,138 @@ label.add-files:focus, label.add-files:hover {
   .img-text-boxes-btn {
     margin-top: 16px;
   }
+}
+
+#main-wrapper:has(.wrapper-404) {
+  background-color: #f4f4f4;
+}
+#main-wrapper:has(.wrapper-404) .similar-products-swiper {
+  padding-bottom: 80px;
+  border-bottom: 1px solid #c0c5c8;
+  margin-bottom: 80px;
+}
+#main-wrapper:has(.wrapper-404) .similar-products-swiper h2 {
+  border-bottom: 0;
+}
+#main-wrapper:has(.wrapper-404) #our_brands {
+  background-color: #ffffff;
+  margin-top: 90px;
+}
+@media (max-width: 760px) {
+  #main-wrapper:has(.wrapper-404) #our_brands {
+    margin-top: 48px;
+  }
+}
+
+.wrapper-404 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+@media (max-width: 1200px) {
+  .wrapper-404 {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+}
+.wrapper-404__img {
+  position: relative;
+  background-color: #ffafb8;
+  height: 491px;
+  margin-top: 120px;
+}
+.wrapper-404__img::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 200%;
+  height: 100%;
+  background-color: #ffafb8;
+  z-index: 0;
+}
+@media (max-width: 760px) {
+  .wrapper-404__img {
+    height: 380px;
+    margin-top: 0;
+  }
+}
+.wrapper-404__img img {
+  position: relative;
+  top: -110px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+@media (max-width: 760px) {
+  .wrapper-404__img img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    width: 100%;
+  }
+}
+.wrapper-404__text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #ffffff;
+  height: 491px;
+  margin-top: 120px;
+  padding-left: 43px;
+  z-index: 1;
+}
+@media (max-width: 1200px) {
+  .wrapper-404__text {
+    margin-top: 0;
+  }
+}
+@media (max-width: 760px) {
+  .wrapper-404__text {
+    height: 320px;
+    padding: 0 24px;
+  }
+}
+.wrapper-404__text::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -100%;
+  width: 200%;
+  height: 100%;
+  background-color: #ffffff;
+  z-index: 0;
+}
+@media (max-width: 1200px) {
+  .wrapper-404__text::before {
+    right: 0;
+    left: -100%;
+    width: 300%;
+  }
+}
+.wrapper-404__text h2 {
+  position: relative;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 103%;
+  color: #000000;
+  margin: 0 0 24px 0;
+  z-index: 2;
+}
+.wrapper-404__text span {
+  position: relative;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 156%;
+  color: #696868;
+  margin: 0 0 24px 0;
+  z-index: 2;
+}
+.wrapper-404__text .color-btn {
+  position: relative;
+  z-index: 2;
 }/*# sourceMappingURL=main.css.map */

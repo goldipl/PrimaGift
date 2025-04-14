@@ -1,0 +1,117 @@
+#main-wrapper:has(.wrapper-404) {
+  background-color: $light_grey;
+  .similar-products-swiper {
+    padding-bottom: 80px;
+    border-bottom: 1px solid $grey3;
+    margin-bottom: 80px;
+    h2 {
+      border-bottom: 0;
+    }
+  }
+  #our_brands {
+    background-color: $white;
+    margin-top: 90px;
+    @media (max-width: 760px) {
+      margin-top: 48px;
+    }
+  }
+}
+
+.wrapper-404 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+  @media (max-width: 1200px) {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  &__img {
+    position: relative;
+    background-color: $main_color_light;
+    height: 491px;
+    margin-top: 120px;
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: -50%;
+      width: 200%;
+      height: 100%;
+      background-color: $main_color_light;
+      z-index: 0;
+    }
+    @media (max-width: 760px) {
+      height: 380px;
+      margin-top: 0;
+    }
+    img {
+      position: relative;
+      top: -110px;
+      object-fit: contain;
+      @media (max-width: 760px) {
+        object-fit: contain;
+        width: 100%;
+      }
+    }
+  }
+  &__text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: $white;
+    height: 491px;
+    margin-top: 120px;
+    padding-left: 43px;
+    z-index: 1;
+    @media (max-width: 1200px) {
+      margin-top: 0;
+    }
+    @media (max-width: 760px) {
+      height: 320px;
+      padding: 0 24px;
+    }
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      right: -100%;
+      width: 200%;
+      height: 100%;
+      background-color: $white;
+      z-index: 0;
+      @media (max-width: 1200px) {
+        right: 0;
+        left: -100%;
+        width: 300%;
+      }
+    }
+    h2 {
+      position: relative;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 103%;
+      color: $black;
+      margin: 0 0 24px 0;
+      z-index: 2;
+    }
+    span {
+      position: relative;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 156%;
+      color: $grey18;
+      margin: 0 0 24px 0;
+      z-index: 2;
+    }
+    .color-btn {
+      position: relative;
+      z-index: 2;
+    }
+  }
+}
