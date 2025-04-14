@@ -7,6 +7,7 @@
         <title>PRIMA GIFT - Kontakt</title>
         <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="./css/bootstrap.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/swiper-bundle.css" />
         <link rel="stylesheet" href="./css/select2.min.css" />
         <link rel="stylesheet" href="./scss/main.css">
     </head>
@@ -26,6 +27,7 @@
                 </ul>
             </div>
             <?php include "./components/contact/contact_content.php"; ?> 
+            <?php include "./components/main_page/our_brands.php"; ?>
         </main>
         <footer> 
             <?php include "./components/common/footer.php"; ?> 
@@ -35,6 +37,8 @@
         <script src="./js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="./js/bootbox.min.js"></script>
         <script src="./js/select2.min.js"></script>
+        <script src="./js/swiper/swiper-bundle.js"></script>
+        <script src="./js/swiper/swiper.js"></script>
         <script src="./js/script.js"></script>
     </body>
 </html>

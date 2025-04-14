@@ -45,7 +45,7 @@
                             <textarea class="form-textarea" name="msgarea" id="msgarea" placeholder="Tutaj możesz wpisać swoją wiadomość"></textarea>
                         </div>
                         <div class="checkbox-button-box">
-                            <button class="color-btn">Wyślij <img src="./assets/icons/contact/white-arrow.svg" width="21" height="10" alt="strzałka"></button>
+                            <button class="color-btn">wyślij wiadomość</button>
                         </div>
                     </div>
                 </form>
@@ -53,6 +53,6 @@
         </div>
     </div>
     <div class="contact-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5001.475559400973!2d17.144951891009207!3d51.187055776848204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fefede0985a99%3A0xf2527400605598ee!2sBiznes%20Promotion!5e0!3m2!1spl!2spl!4v1740034064745!5m2!1spl!2spl" width="1571" height="339" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2550.5718203483593!2d18.98850507768904!3d50.26258087155702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716ce6d5f36c469%3A0x4baf0944ea7146a2!2sJ%C3%B3zefa%20Pukowca%2015%2C%2040-847%20Katowice!5e0!3m2!1spl!2spl!4v1744647780052!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </div>
