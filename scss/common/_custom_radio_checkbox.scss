@@ -7,11 +7,12 @@
   padding-left: 35px;
   margin-bottom: 12px;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 12px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  color: $grey18;
 }
 
 /* Hide the browser's default radio button */
@@ -29,7 +30,6 @@
   height: 18px;
   width: 18px;
   background-color: $white;
-  border-radius: 50%;
   border: 1px solid $main_color;
 }
 
@@ -85,11 +85,12 @@
   padding-left: 35px;
   margin-bottom: 12px;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 12px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  color: $grey18;
 }
 
 /* Hide the browser's default checkbox */
@@ -106,10 +107,9 @@
   position: absolute;
   top: 4px;
   left: 0;
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
   background-color: #eee;
-  border-radius: 100%;
 }
 
 /* On mouse-over, add a grey background color */
@@ -137,11 +137,11 @@
 /* Style the checkmark/indicator */
 .custom-checkbox-container .custom-checkbox-checkmark:after {
   left: 9px;
-  top: 5px;
-  width: 6px;
-  height: 12px;
+  top: 4px;
+  width: 5px;
+  height: 11px;
   border: solid $main_color;
-  border-width: 0 2px 2px 0;
+  border-width: 0 1px 1px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);

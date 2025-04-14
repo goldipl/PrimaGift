@@ -1426,10 +1426,11 @@ label.add-files:focus, label.add-files:hover {
   padding-left: 35px;
   margin-bottom: 12px;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 12px;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
+  color: #696868;
 }
 
 /* Hide the browser's default radio button */
@@ -1447,7 +1448,6 @@ label.add-files:focus, label.add-files:hover {
   height: 18px;
   width: 18px;
   background-color: #ffffff;
-  border-radius: 50%;
   border: 1px solid #ed6a8a;
 }
 
@@ -1495,10 +1495,11 @@ label.add-files:focus, label.add-files:hover {
   padding-left: 35px;
   margin-bottom: 12px;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 12px;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
+  color: #696868;
 }
 
 /* Hide the browser's default checkbox */
@@ -1515,10 +1516,9 @@ label.add-files:focus, label.add-files:hover {
   position: absolute;
   top: 4px;
   left: 0;
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
   background-color: #eee;
-  border-radius: 100%;
 }
 
 /* On mouse-over, add a grey background color */
@@ -1546,11 +1546,11 @@ label.add-files:focus, label.add-files:hover {
 /* Style the checkmark/indicator */
 .custom-checkbox-container .custom-checkbox-checkmark:after {
   left: 9px;
-  top: 5px;
-  width: 6px;
-  height: 12px;
+  top: 4px;
+  width: 5px;
+  height: 11px;
   border: solid #ed6a8a;
-  border-width: 0 2px 2px 0;
+  border-width: 0 1px 1px 0;
   transform: rotate(45deg);
 }
 
@@ -4447,6 +4447,21 @@ label.add-files:focus, label.add-files:hover {
   padding: 116px 90px;
   margin-top: -76px;
   margin-left: 39px;
+}
+.contact-container .contact-wrapper__col .send-form h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 103%;
+  color: #000000;
+  margin: 0 0 18px 0;
+}
+.contact-container .contact-wrapper__col .send-form h3 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 156%;
+  color: #696868;
+  margin: 0 0 48px 0;
+  max-width: 500px;
 }
 .contact-container .contact-wrapper__col .send-form input {
   width: 100%;
