@@ -222,6 +222,7 @@
           align-items: flex-start;
           padding-bottom: 32px;
           .grey-left-col {
+            border-left: 2px solid $main_color;
             height: auto;
             a,
             span,
@@ -231,7 +232,7 @@
           }
           .grey-right-col {
             height: auto;
-            border-left: 3px solid $main_color;
+            border-left: 2px solid $main_color;
             .gtm-phone,
             .gtm-mail {
               margin-left: 0;

@@ -4623,6 +4623,7 @@ label.add-files:focus, label.add-files:hover {
     padding-bottom: 32px;
   }
   .contact-container .contact-wrapper__col .contact-grey-box .grey-left-col {
+    border-left: 2px solid #ed6a8a;
     height: auto;
   }
   .contact-container .contact-wrapper__col .contact-grey-box .grey-left-col a,
@@ -4632,7 +4633,7 @@ label.add-files:focus, label.add-files:hover {
   }
   .contact-container .contact-wrapper__col .contact-grey-box .grey-right-col {
     height: auto;
-    border-left: 3px solid #ed6a8a;
+    border-left: 2px solid #ed6a8a;
   }
   .contact-container .contact-wrapper__col .contact-grey-box .grey-right-col .gtm-phone,
   .contact-container .contact-wrapper__col .contact-grey-box .grey-right-col .gtm-mail {
