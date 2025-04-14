@@ -258,6 +258,9 @@ nav {
     }
     .nav-link.dropdown-toggle {
       position: relative;
+      &::after {
+        display: none;
+      }
     }
     .nav-link.dropdown-toggle.show {
       color: $main_color;
