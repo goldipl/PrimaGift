@@ -48,3 +48,6 @@ This work is licensed under a Creative Commons Non-Commercial (CC BY-NC) License
 ![screenshot](./screenshots/primagift03.jpg)
 ![screenshot](./screenshots/primagift04.jpg)
 ![screenshot](./screenshots/primagift05.jpg)
+![screenshot](./screenshots/primagift06.jpg)
+![screenshot](./screenshots/primagift07.jpg)
+![screenshot](./screenshots/primagift08.jpg)
