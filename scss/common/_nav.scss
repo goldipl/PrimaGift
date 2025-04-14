@@ -258,22 +258,6 @@ nav {
     }
     .nav-link.dropdown-toggle {
       position: relative;
-      &::after {
-        border: 0;
-        position: absolute;
-        content: "";
-        top: 22px;
-        right: -14px;
-        display: block;
-        background: url("./../assets/icons/common/header/menu-arrow-down.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 14px;
-        height: 14px;
-        @media (max-width: 991px) {
-          top: 13px;
-        }
-      }
     }
     .nav-link.dropdown-toggle.show {
       color: $main_color;
