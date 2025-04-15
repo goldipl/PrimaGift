@@ -2517,6 +2517,7 @@ label.add-files:focus, label.add-files:hover {
 .nav-tabs .nav-item .nav-link {
   border: 0;
   padding: 0 32px;
+  background-color: rgba(255, 255, 255, 0);
 }
 @media (max-width: 768px) {
   .nav-tabs .nav-item .nav-link {
@@ -2530,7 +2531,7 @@ label.add-files:focus, label.add-files:hover {
   text-align: center;
   color: #696868;
   text-decoration: underline;
-  text-decoration-color: #ffffff;
+  text-decoration-color: rgba(255, 255, 255, 0);
   text-underline-offset: 8px;
   text-decoration-thickness: 4px;
 }

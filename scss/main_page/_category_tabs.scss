@@ -6,6 +6,7 @@
     .nav-link {
       border: 0;
       padding: 0 32px;
+      background-color: $transparent;
       @media (max-width: 768px) {
         padding: 0 16px;
       }
@@ -17,7 +18,7 @@
           text-align: center;
           color: $grey18;
           text-decoration: underline;
-          text-decoration-color: $white;
+          text-decoration-color: $transparent;
           text-underline-offset: 8px;
           text-decoration-thickness: 4px;
           @media (max-width: 768px) {
