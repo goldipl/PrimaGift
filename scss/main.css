@@ -276,24 +276,52 @@ nav .nav-top-links-btns .nav-top-links {
   padding-right: 32px;
 }
 nav .nav-top-links-btns .nav-top-links .nav-top-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 400;
   font-size: 13px;
   line-height: 103%;
   text-align: center;
   color: #000000;
   text-decoration: none;
+  border-bottom: 4px solid rgba(255, 255, 255, 0);
+  height: 107px;
 }
 nav .nav-top-links-btns .nav-top-links .nav-top-link:hover {
-  color: #ed6a8a;
+  border-bottom: 4px solid #ed6a8a;
+  color: #000000;
+  font-weight: 600;
+}
+@media (max-width: 991px) {
+  nav .nav-top-links-btns .nav-top-links .nav-top-link:hover {
+    border-bottom: 4px solid rgba(255, 255, 255, 0);
+  }
 }
 nav .nav-top-links-btns .nav-top-btns {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  border-left: 1px solid #000000;
   padding-left: 32px;
   gap: 32px;
+}
+nav .nav-top-links-btns .nav-top-btns::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 58px;
+  background-color: #000000;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (max-width: 991px) {
+  nav .nav-top-links-btns .nav-top-btns::before {
+    display: none;
+  }
 }
 nav .nav-top-links-btns .nav-top-btns .nav-top-btn {
   display: flex;
@@ -302,13 +330,28 @@ nav .nav-top-links-btns .nav-top-btns .nav-top-btn {
   align-items: center;
   text-decoration: none;
   gap: 8px;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 4px solid rgba(255, 255, 255, 0);
+  height: 107px;
 }
-nav .nav-top-links-btns .nav-top-btns .nav-top-btn:hover .btn-icon {
-  filter: invert(68%) sepia(30%) saturate(6546%) hue-rotate(307deg) brightness(100%) contrast(87%);
+@media (max-width: 991px) {
+  nav .nav-top-links-btns .nav-top-btns .nav-top-btn {
+    height: 50px;
+  }
 }
-nav .nav-top-links-btns .nav-top-btns .nav-top-btn:hover .btn-label,
-nav .nav-top-links-btns .nav-top-btns .nav-top-btn:hover .btn-quantity {
-  color: #ed6a8a !important;
+nav .nav-top-links-btns .nav-top-btns .nav-top-btn:hover {
+  border-bottom: 4px solid #ed6a8a;
+  color: #000000;
+  font-weight: 600;
+}
+@media (max-width: 991px) {
+  nav .nav-top-links-btns .nav-top-btns .nav-top-btn:hover {
+    border-bottom: 4px solid rgba(255, 255, 255, 0);
+  }
+}
+nav .nav-top-links-btns .nav-top-btns .nav-top-btn:hover .btn-label {
+  font-weight: 700;
 }
 nav .nav-top-links-btns .nav-top-btns .nav-top-btn .btn-img-box {
   display: flex;
