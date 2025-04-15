@@ -1,0 +1,78 @@
+.check-how-to-buy {
+  position: relative;
+  margin-bottom: 117px;
+  padding-top: 40px;
+  @media (max-width: 991px) {
+    margin-bottom: 0px;
+    margin-top: -64px;
+  }
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 185px;
+    left: -50vw;
+    width: 200vw;
+    height: 170px;
+    background-color: $main_color;
+    z-index: 0;
+  }
+  &-box {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    background-color: $white;
+    padding: 56px 0;
+    z-index: 1;
+    @media (max-width: 991px) {
+      flex-direction: column;
+      gap: 24px;
+      padding: 24px 0;
+    }
+    &__img {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      img {
+        object-fit: contain;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    &__text {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      @media (max-width: 991px) {
+        padding: 16px;
+      }
+      h3 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 103%;
+        margin: 0 0 22px 0;
+        color: $black;
+        @media (max-width: 991px) {
+          font-size: 19px;
+        }
+      }
+      span {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 156%;
+        color: $grey18;
+        margin: 0 0 16px 0;
+        @media (max-width: 991px) {
+          font-size: 13px;
+        }
+      }
+      .color-btn {
+        margin-top: 0;
+      }
+    }
+  }
+}

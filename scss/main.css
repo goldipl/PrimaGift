@@ -5531,4 +5531,202 @@ label.add-files:focus, label.add-files:hover {
 .wrapper-404__text .color-btn {
   position: relative;
   z-index: 2;
+}
+
+#main-wrapper:has(.branding-techniques) {
+  background-color: #f4f4f4;
+}
+#main-wrapper:has(.branding-techniques) #our_brands {
+  background-color: #ffffff;
+  margin-top: 90px;
+}
+@media (max-width: 760px) {
+  #main-wrapper:has(.branding-techniques) #our_brands {
+    margin-top: 48px;
+  }
+}
+
+.branding-techniques {
+  background-color: #f4f4f4;
+}
+.branding-techniques h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 103%;
+  text-align: center;
+  color: #000000;
+  padding: 64px 0 80px 0;
+}
+@media (max-width: 991px) {
+  .branding-techniques h1 {
+    font-size: 20px;
+    padding: 18px 0 24px 0;
+  }
+}
+.branding-techniques-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.branding-techniques-box-slot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 44px;
+  margin-bottom: 44px;
+  border-bottom: 1px solid #dadada;
+  height: 100%;
+}
+.branding-techniques-box-slot:nth-of-type(even) .branding-techniques-box-slot__img {
+  order: 2;
+}
+.branding-techniques-box-slot:nth-of-type(even) .branding-techniques-box-slot__text {
+  order: 1;
+}
+.branding-techniques-box-slot:last-of-type {
+  border: none;
+}
+@media (max-width: 991px) {
+  .branding-techniques-box-slot {
+    flex-direction: column;
+  }
+}
+.branding-techniques-box-slot__img {
+  display: flex;
+}
+.branding-techniques-box-slot__img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+@media (max-width: 991px) {
+  .branding-techniques-box-slot__img {
+    width: 100%;
+  }
+  .branding-techniques-box-slot__img img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+.branding-techniques-box-slot__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 120px;
+  background-color: #ffffff;
+  height: 324px;
+}
+@media (max-width: 991px) {
+  .branding-techniques-box-slot__text {
+    padding: 40px 16px;
+    height: auto;
+  }
+}
+.branding-techniques-box-slot__text h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 103%;
+  text-align: left;
+  color: #000000;
+  margin: 0 0 21px 0;
+}
+.branding-techniques-box-slot__text p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 156%;
+  color: #696868;
+  margin: 0 0 12px 0;
+}
+
+.check-how-to-buy {
+  position: relative;
+  margin-bottom: 117px;
+  padding-top: 40px;
+}
+@media (max-width: 991px) {
+  .check-how-to-buy {
+    margin-bottom: 0px;
+    margin-top: -64px;
+  }
+}
+.check-how-to-buy::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 185px;
+  left: -50vw;
+  width: 200vw;
+  height: 170px;
+  background-color: #ed6a8a;
+  z-index: 0;
+}
+.check-how-to-buy-box {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  background-color: #ffffff;
+  padding: 56px 0;
+  z-index: 1;
+}
+@media (max-width: 991px) {
+  .check-how-to-buy-box {
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 0;
+  }
+}
+.check-how-to-buy-box__img {
+  position: relative;
+  z-index: 2;
+  display: flex;
+}
+.check-how-to-buy-box__img img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}
+.check-how-to-buy-box__text {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 991px) {
+  .check-how-to-buy-box__text {
+    padding: 16px;
+  }
+}
+.check-how-to-buy-box__text h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 103%;
+  margin: 0 0 22px 0;
+  color: #000000;
+}
+@media (max-width: 991px) {
+  .check-how-to-buy-box__text h3 {
+    font-size: 19px;
+  }
+}
+.check-how-to-buy-box__text span {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 156%;
+  color: #696868;
+  margin: 0 0 16px 0;
+}
+@media (max-width: 991px) {
+  .check-how-to-buy-box__text span {
+    font-size: 13px;
+  }
+}
+.check-how-to-buy-box__text .color-btn {
+  margin-top: 0;
 }/*# sourceMappingURL=main.css.map */
