@@ -24,6 +24,9 @@
   background-color: $white;
   height: 367px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  @media (max-width: 991px) {
+    height: 408px;
+  }
   &:hover {
     transform: translateY(-5px);
     .products-buy-button {

@@ -2162,6 +2162,12 @@ label.add-files:focus, label.add-files:hover {
   height: 367px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+@media (max-width: 991px) {
+  .swiper_products_block_box,
+  .category-filters-main__slot {
+    height: 408px;
+  }
+}
 .swiper_products_block_box:hover,
 .category-filters-main__slot:hover {
   transform: translateY(-5px);
@@ -4989,6 +4995,7 @@ label.add-files:focus, label.add-files:hover {
 }
 @media (max-width: 860px) {
   .category-filters-main__slot {
+    height: 408px;
     flex: 0 0 calc((100% - 12px) / 2);
   }
 }
