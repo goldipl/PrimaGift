@@ -27,13 +27,11 @@
             </div>
           </div>
           <div class="footer-contact-box__right">
-            <div class="footer-contact-slot">
-              <img src="./assets/icons/common/footer/cellphone.svg" alt="telefon" width="19" height="27">
-              <a class="gtm-phone" href="tel:+48728087910">+48 728 087 910</a>
+            <div class="footer-contact-slot">  
+              <a class="gtm-phone" href="tel:+48728087910"><img src="./assets/icons/common/footer/cellphone.svg" alt="telefon" width="19" height="27">+48 728 087 910</a>
             </div>
-            <div class="footer-contact-slot">
-              <img src="./assets/icons/common/footer/email.svg" alt="e-mail" width="25" height="20">
-              <a class="gtm-mail" href="mailto:biuro@primagift.pl">biuro@primagift.pl</a>
+            <div class="footer-contact-slot">  
+              <a class="gtm-mail" href="mailto:biuro@primagift.pl"><img src="./assets/icons/common/footer/email.svg" alt="e-mail" width="25" height="20">biuro@primagift.pl</a>
             </div>
           </div>
         </div>
