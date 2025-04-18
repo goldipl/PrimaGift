@@ -884,7 +884,7 @@ footer .footer-container__top .footer-left-bottom .footer-socials-box {
 }
 footer .footer-container__top .footer-left-bottom .footer-socials-box a {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 156%;
   color: #000000;
   text-decoration: none;
@@ -901,8 +901,8 @@ footer .footer-container__top .footer-left-bottom .footer-socials-box a img {
   display: inline-flex;
   margin: 0 16px 0 0;
   min-width: 19px;
-  width: 19px;
-  height: 19px;
+  width: 24px;
+  height: 24px;
 }
 @media (max-width: 991px) {
   footer .footer-container__top .footer-left-bottom .footer-socials-box a img {
