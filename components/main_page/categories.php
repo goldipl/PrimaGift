@@ -41,8 +41,8 @@
             <span class="category-label">Antystresy</span>
         </a>
         <a href="" class="main-page-categories__slot">
-            <img class="category-img" src="./assets/icons/common/categories/new.svg" alt="ikonka" width="50" height="50">
-            <span class="category-label">Nowości</span>
+            <img class="category-img" src="./assets/icons/common/categories/clothes.svg" alt="ikonka" width="50" height="50">
+            <span class="category-label">Odzież</span>
         </a>
     </div>
     <div class="container section-title">
