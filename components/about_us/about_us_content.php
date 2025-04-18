@@ -36,10 +36,10 @@
             </div>
             <div class="small-txt-img-box">
                 <div class="small-txt-img-box__img">
-                    <img src="./assets/icons/about_us/boxes.svg" alt="setki zadowolonych klientów" width="70" height="70" />
+                    <img src="./assets/icons/about_us/boxes.svg" alt="szeroka gama oferowanych produktów" width="70" height="70" />
                 </div>
                 <div class="small-txt-img-box__text">
-                    <span>setki zadowolonych klientów</span>
+                    <span>szeroka gama oferowanych produktów</span>
                 </div>
             </div>
             <div class="small-txt-img-box">
