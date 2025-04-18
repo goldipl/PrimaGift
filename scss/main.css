@@ -2165,7 +2165,7 @@ label.add-files:focus, label.add-files:hover {
 @media (max-width: 991px) {
   .swiper_products_block_box,
   .category-filters-main__slot {
-    height: 408px;
+    height: 420px;
   }
 }
 .swiper_products_block_box:hover,
@@ -4995,7 +4995,7 @@ label.add-files:focus, label.add-files:hover {
 }
 @media (max-width: 860px) {
   .category-filters-main__slot {
-    height: 408px;
+    height: 420px;
     flex: 0 0 calc((100% - 12px) / 2);
   }
 }
