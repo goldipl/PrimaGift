@@ -4,11 +4,11 @@
         <div class="strengths-blocks">
             <div class="strengths-blocks__slot">
                 <div class="strengths-blocks__slot__icon">
-                    <img src="./assets/icons/sections/free-delivery-from-1500.svg" alt="darmowa dostawa od 1500 zł" width="60" height="60" class="strengths-blocks__slot__icon--img"/>
+                    <img src="./assets/icons/sections/free-delivery-from.svg" alt="darmowa dostawa od 2000 zł" width="60" height="60" class="strengths-blocks__slot__icon--img"/>
                     <img src="./assets/icons/common/pink-lines.svg" alt="różowe linie" width="66" height="50" class="strengths-blocks__slot__icon--lines"/>
                 </div>
                 <div class="strengths-blocks__slot__text">
-                    <span>darmowa dostawa od 1500 zł</span>
+                    <span>darmowa dostawa od 2000 zł</span>
                 </div>
             </div>
             <div class="strengths-blocks__slot">
