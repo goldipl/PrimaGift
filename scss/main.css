@@ -820,6 +820,9 @@ footer .footer-container__top .footer-left-bottom .footer-contact-box__left .foo
   flex-direction: row;
   align-items: center;
 }
+footer .footer-container__top .footer-left-bottom .footer-contact-box__left .footer-contact-slot:first-of-type, footer .footer-container__top .footer-left-bottom .footer-contact-box__right .footer-contact-slot:first-of-type {
+  min-height: 65px;
+}
 footer .footer-container__top .footer-left-bottom .footer-contact-box__left .footer-contact-slot img, footer .footer-container__top .footer-left-bottom .footer-contact-box__right .footer-contact-slot img {
   display: inline-flex;
   width: auto;

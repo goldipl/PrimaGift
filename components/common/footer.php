@@ -17,8 +17,9 @@
             <div class="footer-contact-slot">
               <img src="./assets/icons/common/footer/location.svg" alt="adres" width="20" height="25">
               <div class="footer-address">
-                <span>ul. Józefa Pukowca 15,</span>
-                <span>40-847 Katowice</span>
+                <span>Prima Gift</span>
+                <span>ul. Zagórska 26/4</span>
+                <span>42-500 Będzin</span>
               </div>
             </div>
             <div class="footer-contact-slot">

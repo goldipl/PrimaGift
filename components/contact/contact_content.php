@@ -9,8 +9,8 @@
             <img src="./assets/icons/contact/pink-location.svg" width="22" height="22" alt="adres">
             <div class="address-col">
               <strong>Prima Gift</strong>
-              <span>ul. Józefa Pukowca 15,</span>
-              <span>40-847 Katowice</span>
+              <strong>ul. Zagórska 26/4</strong>
+              <strong>42-500 Będzin</strong>
             </div>
           </div>
           <div class="hours">
@@ -29,7 +29,7 @@
         <h2>
           <img src="./assets/img/contact/location.jpg" width="80" height="80" alt="mapa" />Tutaj nas znajdziesz!
         </h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2550.5718203483593!2d18.98850507768904!3d50.26258087155702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716ce6d5f36c469%3A0x4baf0944ea7146a2!2sJ%C3%B3zefa%20Pukowca%2015%2C%2040-847%20Katowice!5e0!3m2!1spl!2spl!4v1744647780052!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2547.789643823852!2d19.13568797769079!3d50.31451757156642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716dbca4bd26e7b%3A0xaa43fdc47f6ff716!2sPrima%20Gift%20-%20Gad%C5%BCety%20Reklamowe!5e0!3m2!1spl!2spl!4v1744973511243!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
     <div class="contact-wrapper__col">
