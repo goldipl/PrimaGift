@@ -2262,6 +2262,12 @@ label.add-files:focus, label.add-files:hover {
   margin: 4px 0 0 0;
   color: #696868;
 }
+@media (max-width: 991px) {
+  .swiper_products_block_box__top .products-code,
+  .category-filters-main__slot__top .products-code {
+    margin: 4px 0;
+  }
+}
 .swiper_products_block_box__top .catalog-price p,
 .swiper_products_block_box__top .your-price p,
 .category-filters-main__slot__top .catalog-price p,
