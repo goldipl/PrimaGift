@@ -42,6 +42,9 @@
                       <a href="#">Termofor LIDO</a>
                     </h3>
                   </div>
+                  <div class="products-code">
+                    <span>SKU: MO1203-40</span>
+                  </div>
                   <div class="catalog-price">
                     <p class="text-center">
                       <span>29,50 zł netto</span>
@@ -77,6 +80,9 @@
                     <h3 class="text-center">
                       <a href="#">Butelka termiczna TILLI 500 ml</a>
                     </h3>
+                  </div>
+                  <div class="products-code">
+                    <span>SKU: MO1203-40</span>
                   </div>
                   <div class="catalog-price">
                     <p class="text-center">
@@ -115,6 +121,9 @@
                       <a href="#">Dzbanek szklany BOLLITO 1100 ml</a>
                     </h3>
                   </div>
+                  <div class="products-code">
+                    <span>SKU: MO1203-40</span>
+                  </div>
                   <div class="catalog-price">
                     <p class="text-center">
                       <span>49,90 zł netto</span>
@@ -146,6 +155,9 @@
                     <h3 class="text-center">
                       <a href="#">Bambusowy power bank 8000 mAh, ładowarka słoneczna</a>
                     </h3>
+                  </div>
+                  <div class="products-code">
+                    <span>SKU: MO1203-40</span>
                   </div>
                   <div class="catalog-price">
                     <p class="text-center">
@@ -183,6 +195,9 @@
                       <a href="#">Butelka termiczna TILLI 500 ml</a>
                     </h3>
                   </div>
+                  <div class="products-code">
+                    <span>SKU: MO1203-40</span>
+                  </div>
                   <div class="catalog-price">
                     <p class="text-center">
                       <span>49,50 zł netto</span>
@@ -220,6 +235,9 @@
                       <a href="#">Dzbanek szklany BOLLITO 1100 ml</a>
                     </h3>
                   </div>
+                  <div class="products-code">
+                    <span>SKU: MO1203-40</span>
+                  </div>
                   <div class="catalog-price">
                     <p class="text-center">
                       <span>49,90 zł netto</span>
@@ -251,6 +269,9 @@
                     <h3 class="text-center">
                       <a href="#">Bambusowy power bank 8000 mAh, ładowarka słoneczna</a>
                     </h3>
+                  </div>
+                  <div class="products-code">
+                    <span>SKU: MO1203-40</span>
                   </div>
                   <div class="catalog-price">
                     <p class="text-center">
@@ -298,6 +319,9 @@
                       <a href="#">Dzbanek szklany BOLLITO 1100 ml</a>
                     </h3>
                   </div>
+                  <div class="products-code">
+                    <span>SKU: MO1203-40</span>
+                  </div>
                   <div class="catalog-price">
                     <p class="text-center">
                       <span>49,90 zł netto</span>
@@ -329,6 +353,9 @@
                     <h3 class="text-center">
                       <a href="#">Bambusowy power bank 8000 mAh, ładowarka słoneczna</a>
                     </h3>
+                  </div>
+                  <div class="products-code">
+                    <span>SKU: MO1203-40</span>
                   </div>
                   <div class="catalog-price">
                     <p class="text-center">
@@ -365,6 +392,9 @@
                     <h3 class="text-center">
                       <a href="#">Butelka termiczna TILLI 500 ml</a>
                     </h3>
+                  </div>
+                  <div class="products-code">
+                    <span>SKU: MO1203-40</span>
                   </div>
                   <div class="catalog-price">
                     <p class="text-center">
@@ -403,6 +433,9 @@
                       <a href="#">Dzbanek szklany BOLLITO 1100 ml</a>
                     </h3>
                   </div>
+                  <div class="products-code">
+                    <span>SKU: MO1203-40</span>
+                  </div>
                   <div class="catalog-price">
                     <p class="text-center">
                       <span>49,90 zł netto</span>
@@ -434,6 +467,9 @@
                     <h3 class="text-center">
                       <a href="#">Bambusowy power bank 8000 mAh, ładowarka słoneczna</a>
                     </h3>
+                  </div>
+                  <div class="products-code">
+                    <span>SKU: MO1203-40</span>
                   </div>
                   <div class="catalog-price">
                     <p class="text-center">
@@ -481,6 +517,9 @@
                       <a href="#">Butelka termiczna TILLI 500 ml</a>
                     </h3>
                   </div>
+                  <div class="products-code">
+                    <span>SKU: MO1203-40</span>
+                  </div>
                   <div class="catalog-price">
                     <p class="text-center">
                       <span>49,50 zł netto</span>
@@ -518,6 +557,9 @@
                       <a href="#">Dzbanek szklany BOLLITO 1100 ml</a>
                     </h3>
                   </div>
+                  <div class="products-code">
+                    <span>SKU: MO1203-40</span>
+                  </div>
                   <div class="catalog-price">
                     <p class="text-center">
                       <span>49,90 zł netto</span>
@@ -549,6 +591,9 @@
                     <h3 class="text-center">
                       <a href="#">Bambusowy power bank 8000 mAh, ładowarka słoneczna</a>
                     </h3>
+                  </div>
+                  <div class="products-code">
+                    <span>SKU: MO1203-40</span>
                   </div>
                   <div class="catalog-price">
                     <p class="text-center">
@@ -586,6 +631,9 @@
                       <a href="#">Butelka termiczna TILLI 500 ml</a>
                     </h3>
                   </div>
+                  <div class="products-code">
+                    <span>SKU: MO1203-40</span>
+                  </div>
                   <div class="catalog-price">
                     <p class="text-center">
                       <span>49,50 zł netto</span>
@@ -623,6 +671,9 @@
                       <a href="#">Dzbanek szklany BOLLITO 1100 ml</a>
                     </h3>
                   </div>
+                  <div class="products-code">
+                    <span>SKU: MO1203-40</span>
+                  </div>
                   <div class="catalog-price">
                     <p class="text-center">
                       <span>49,90 zł netto</span>
@@ -654,6 +705,9 @@
                     <h3 class="text-center">
                       <a href="#">Bambusowy power bank 8000 mAh, ładowarka słoneczna</a>
                     </h3>
+                  </div>
+                  <div class="products-code">
+                    <span>SKU: MO1203-40</span>
                   </div>
                   <div class="catalog-price">
                     <p class="text-center">

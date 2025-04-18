@@ -2232,7 +2232,7 @@ label.add-files:focus, label.add-files:hover {
   font-size: 14px;
   line-height: 156%;
   color: #000000;
-  width: 98%;
+  width: 94%;
   text-align: center;
   margin: 0 auto;
 }
@@ -2254,18 +2254,13 @@ label.add-files:focus, label.add-files:hover {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-align: center;
-  height: 38px;
-  width: 100%;
-  margin: 0 0 31px 0;
-}
-.swiper_products_block_box__top .products-code p,
-.category-filters-main__slot__top .products-code p {
-  font-size: 16px;
-  font-style: normal;
+  height: 16px;
   font-weight: 400;
-  line-height: 130%;
-  color: #4a6375;
-  margin: 0 auto;
+  font-size: 10px;
+  line-height: 156%;
+  text-align: center;
+  margin: 4px 0 0 0;
+  color: #696868;
 }
 .swiper_products_block_box__top .catalog-price p,
 .swiper_products_block_box__top .your-price p,
@@ -2362,15 +2357,6 @@ label.add-files:focus, label.add-files:hover {
 }
 
 @media (max-width: 1380px) {
-  .swiper_products_block_box__top .products-code,
-  .category-filters-main__slot__top .products-code {
-    margin: 0 0 24px 0;
-  }
-  .swiper_products_block_box__top .products-code p,
-  .category-filters-main__slot__top .products-code p {
-    font-size: 15px;
-    line-height: 140%;
-  }
   .swiper_products_block_box__top .catalog-price p,
   .category-filters-main__slot__top .catalog-price p {
     font-size: 15px;
@@ -2403,15 +2389,6 @@ label.add-files:focus, label.add-files:hover {
   .swiper_products_block_box__top .products-image,
   .category-filters-main__slot__top .products-image {
     margin: 40px auto 40px;
-  }
-  .swiper_products_block_box__top .products-code,
-  .category-filters-main__slot__top .products-code {
-    margin: 0 0 24px 0;
-  }
-  .swiper_products_block_box__top .products-code p,
-  .category-filters-main__slot__top .products-code p {
-    font-size: 14px;
-    line-height: 140%;
   }
 }
 #our_brands {
