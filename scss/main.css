@@ -897,6 +897,9 @@ footer .footer-container__top .footer-left-bottom .footer-socials-box a {
 footer .footer-container__top .footer-left-bottom .footer-socials-box a:hover {
   color: #ed6a8a;
 }
+footer .footer-container__top .footer-left-bottom .footer-socials-box a:hover img {
+  filter: invert(40%) sepia(81%) saturate(1252%) hue-rotate(350deg) brightness(99%) contrast(91%);
+}
 footer .footer-container__top .footer-left-bottom .footer-socials-box a img {
   display: inline-flex;
   margin: 0 16px 0 0;

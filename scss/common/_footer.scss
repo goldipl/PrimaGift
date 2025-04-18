@@ -172,6 +172,10 @@ footer {
               }
               &:hover {
                 color: $main_color;
+                img {
+                  filter: invert(40%) sepia(81%) saturate(1252%)
+                    hue-rotate(350deg) brightness(99%) contrast(91%);
+                }
               }
               img {
                 display: inline-flex;
