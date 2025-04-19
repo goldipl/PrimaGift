@@ -584,6 +584,7 @@ nav .navbar-bottom .main-nav-item > a.show::after {
   }
   nav .navbar-top .nav-top-links-btns .nav-top-links .nav-top-link {
     white-space: pre;
+    height: 32px;
   }
   nav .navbar-top .nav-top-links-btns .nav-top-btns {
     border: 0;
