@@ -29,6 +29,11 @@ const our_brands_swiper = new Swiper('.our_brands_swiper', {
   slidesPerView: 5,
   slidesPerGroup: 1,
   spaceBetween: 80,
+  autoplay: true,
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+  },
 
   // Navigation arrows
   navigation: {
