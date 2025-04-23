@@ -4468,10 +4468,10 @@ label.add-files:focus, label.add-files:hover {
   margin: 40px 0 18px 0;
 }
 .contact-container .contact-wrapper__col h3 {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 156%;
-  color: #696868;
+  color: #000000;
   margin: 0 0 48px 0;
   max-width: 500px;
 }
@@ -4612,10 +4612,10 @@ label.add-files:focus, label.add-files:hover {
 .contact-container .contact-wrapper__col .send-form h3 {
   position: relative;
   z-index: 1;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 156%;
-  color: #696868;
+  color: #000000;
   margin: 0 0 48px 0;
   max-width: 500px;
 }
