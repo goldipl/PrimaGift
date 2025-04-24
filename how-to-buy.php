@@ -26,7 +26,7 @@
                     </li>
                 </ul>
             </div>
-            <?php include "./components/how_to_buy/how_to_buy.php"; ?> 
+            <?php include "./components/how_to_buy/how_to_buy_content.php"; ?> 
             <?php include "./components/how_to_buy/check_branding_techniques.php"; ?> 
             <?php include "./components/main_page/our_brands.php"; ?>
         </main>
