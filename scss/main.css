@@ -5633,10 +5633,10 @@ label.add-files:focus, label.add-files:hover {
   margin: 0 0 21px 0;
 }
 .branding-techniques-box-slot__text p {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 156%;
-  color: #696868;
+  color: #000000;
   margin: 0 0 12px 0;
 }
 
@@ -5715,10 +5715,10 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 .check-how-to-buy-box__text span {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 156%;
-  color: #696868;
+  color: #000000;
   margin: 0 0 16px 0;
 }
 @media (max-width: 991px) {
