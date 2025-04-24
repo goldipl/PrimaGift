@@ -5640,18 +5640,18 @@ label.add-files:focus, label.add-files:hover {
   margin: 0 0 12px 0;
 }
 
-.check-how-to-buy {
+.bottom-teaser {
   position: relative;
   margin-bottom: 117px;
   padding-top: 40px;
 }
 @media (max-width: 991px) {
-  .check-how-to-buy {
+  .bottom-teaser {
     margin-bottom: 0px;
     margin-top: -64px;
   }
 }
-.check-how-to-buy::before {
+.bottom-teaser::before {
   content: "";
   display: block;
   position: absolute;
@@ -5662,7 +5662,7 @@ label.add-files:focus, label.add-files:hover {
   background-color: #ed6a8a;
   z-index: 0;
 }
-.check-how-to-buy-box {
+.bottom-teaser-box {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -5674,35 +5674,35 @@ label.add-files:focus, label.add-files:hover {
   z-index: 1;
 }
 @media (max-width: 991px) {
-  .check-how-to-buy-box {
+  .bottom-teaser-box {
     flex-direction: column;
     gap: 24px;
     padding: 24px 0;
   }
 }
-.check-how-to-buy-box__img {
+.bottom-teaser-box__img {
   position: relative;
   z-index: 2;
   display: flex;
 }
-.check-how-to-buy-box__img img {
+.bottom-teaser-box__img img {
   -o-object-fit: contain;
      object-fit: contain;
   max-width: 100%;
   height: auto;
 }
-.check-how-to-buy-box__text {
+.bottom-teaser-box__text {
   position: relative;
   z-index: 2;
   display: flex;
   flex-direction: column;
 }
 @media (max-width: 991px) {
-  .check-how-to-buy-box__text {
+  .bottom-teaser-box__text {
     padding: 16px;
   }
 }
-.check-how-to-buy-box__text h3 {
+.bottom-teaser-box__text h3 {
   font-weight: 700;
   font-size: 24px;
   line-height: 103%;
@@ -5710,11 +5710,11 @@ label.add-files:focus, label.add-files:hover {
   color: #000000;
 }
 @media (max-width: 991px) {
-  .check-how-to-buy-box__text h3 {
+  .bottom-teaser-box__text h3 {
     font-size: 19px;
   }
 }
-.check-how-to-buy-box__text span {
+.bottom-teaser-box__text span {
   font-weight: 400;
   font-size: 14px;
   line-height: 156%;
@@ -5722,11 +5722,11 @@ label.add-files:focus, label.add-files:hover {
   margin: 0 0 16px 0;
 }
 @media (max-width: 991px) {
-  .check-how-to-buy-box__text span {
+  .bottom-teaser-box__text span {
     font-size: 13px;
   }
 }
-.check-how-to-buy-box__text .color-btn {
+.bottom-teaser-box__text .color-btn {
   margin-top: 0;
 }
 
