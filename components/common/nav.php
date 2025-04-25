@@ -40,7 +40,14 @@
       <ul class="navbar-bottom d-flex align-items-center justify-content-start navbar-nav me-auto mb-2 mb-lg-0 w-100">
         <!-- Nav Dropdown Item -->
         <li class="nav-item dropdown main-nav-item">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Elektronika</a>
+          <div class="chevron-link-box">
+            <a class="nav-link" href="#">Elektronika</a>
+            <span class="chevron-down-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+              </svg>
+            </span>
+          </div>
           <ul class="dropdown-menu">
             <!-- 2nd Level Nav Dropdown Item -->
             <div class="dropdown-row">
@@ -105,7 +112,14 @@
         </li>
         <!-- Nav Dropdown Item -->
         <li class="nav-item dropdown main-nav-item">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Jedzenie i picie</a>
+          <div class="chevron-link-box">
+            <a class="nav-link" href="#">Jedzenie i picie</a>
+            <span class="chevron-down-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+              </svg>
+            </span>
+          </div>
           <ul class="dropdown-menu">
             <!-- 2nd Level Nav Dropdown Item -->
             <div class="dropdown-row">
@@ -170,7 +184,14 @@
         </li>
         <!-- Nav Dropdown Item -->
         <li class="nav-item dropdown main-nav-item">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Biuro i praca</a>
+          <div class="chevron-link-box">
+            <a class="nav-link" href="#">Biuro i praca</a>
+            <span class="chevron-down-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+              </svg>
+            </span>
+          </div>
           <ul class="dropdown-menu">
             <!-- 2nd Level Nav Dropdown Item -->
             <div class="dropdown-row">
@@ -235,7 +256,14 @@
         </li>
         <!-- Nav Dropdown Item -->
         <li class="nav-item dropdown main-nav-item">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Do pisania</a>
+          <div class="chevron-link-box">
+            <a class="nav-link" href="#">Do pisania</a>
+            <span class="chevron-down-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+              </svg>
+            </span>
+          </div>
           <ul class="dropdown-menu">
             <!-- 2nd Level Nav Dropdown Item -->
             <div class="dropdown-row">
@@ -300,7 +328,14 @@
         </li>
         <!-- Nav Dropdown Item -->
         <li class="nav-item dropdown main-nav-item">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Sport i wypoczynek</a>
+          <div class="chevron-link-box">
+            <a class="nav-link" href="#">Sport i wypoczynek</a>
+            <span class="chevron-down-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+              </svg>
+            </span>
+          </div>
           <ul class="dropdown-menu">
             <!-- 2nd Level Nav Dropdown Item -->
             <div class="dropdown-row">
@@ -365,7 +400,14 @@
         </li>
         <!-- Nav Dropdown Item -->
         <li class="nav-item dropdown main-nav-item">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Narzędzia i akcesoria samochodowe</a>
+          <div class="chevron-link-box">
+            <a class="nav-link" href="#">Narzędzia i akcesoria samochodowe</a>
+            <span class="chevron-down-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+              </svg>
+            </span>
+          </div>
           <ul class="dropdown-menu">
             <!-- 2nd Level Nav Dropdown Item -->
             <div class="dropdown-row">
@@ -430,7 +472,14 @@
         </li>
         <!-- Nav Dropdown Item -->
         <li class="nav-item dropdown main-nav-item">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Tekstylia i parasole</a>
+          <div class="chevron-link-box">
+            <a class="nav-link" href="#">Tekstylia i parasole</a>
+            <span class="chevron-down-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+              </svg>
+            </span>
+          </div>
           <ul class="dropdown-menu">
             <!-- 2nd Level Nav Dropdown Item -->
             <div class="dropdown-row">
@@ -495,7 +544,14 @@
         </li>
         <!-- Nav Dropdown Item -->
         <li class="nav-item dropdown main-nav-item">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Zdrowie i pielęgnacja</a>
+          <div class="chevron-link-box">
+            <a class="nav-link" href="#">Zdrowie i pielęgnacja</a>
+            <span class="chevron-down-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+              </svg>
+            </span>
+          </div>
           <ul class="dropdown-menu">
             <!-- 2nd Level Nav Dropdown Item -->
             <div class="dropdown-row">
@@ -560,7 +616,14 @@
         </li>
         <!-- Nav Dropdown Item -->
         <li class="nav-item dropdown main-nav-item">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Gadżety tematyczne</a>
+          <div class="chevron-link-box">
+            <a class="nav-link" href="#">Gadżety tematyczne</a>
+            <span class="chevron-down-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+              </svg>
+            </span>
+          </div>
           <ul class="dropdown-menu">
             <!-- 2nd Level Nav Dropdown Item -->
             <div class="dropdown-row">

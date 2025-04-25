@@ -285,11 +285,45 @@ nav {
     position: static;
   }
   .navbar-bottom {
+    .nav-item:hover .dropdown-menu {
+      display: block;
+      position: absolute;
+      display: block;
+      max-width: 100%;
+      width: 100%;
+      left: -9vw;
+      top: 100%;
+      @media (min-width: 992px) {
+        left: 0;
+        max-width: 1324px;
+      }
+      .nav-item {
+        margin: 16px 0;
+        .nav-link {
+          font-weight: 400;
+          padding: 0;
+          color: $grey18;
+          border-bottom: none;
+          &:hover {
+            border-bottom: none;
+            color: $main_color !important;
+          }
+          &.nav-link-title {
+            color: $black;
+            font-weight: 700;
+          }
+        }
+      }
+    }
     .nav-link {
+      position: relative;
       font-weight: 500;
+      padding-bottom: 40px;
+      &:hover {
+        color: $main_color;
+      }
     }
     .nav-link.dropdown-toggle {
-      position: relative;
       &::after {
         display: none;
       }
@@ -375,6 +409,12 @@ nav {
       .main-nav-item {
         position: static;
         height: 72px;
+        .chevron-link-box {
+          height: 72px;
+          .chevron-down-icon {
+            display: none;
+          }
+        }
         .nav-link {
           width: 100%;
           height: 100%;
@@ -383,6 +423,9 @@ nav {
           font-size: 12px;
           line-height: 103%;
           color: $black;
+          &:hover {
+            color: $main_color;
+          }
         }
       }
       .dropdown-menu {
@@ -540,6 +583,7 @@ nav {
         font-weight: 400;
         width: calc(100% - 16px);
         line-height: 1.1;
+        padding-bottom: 6px;
       }
       .dropdown-menu {
         .nav-link {
@@ -568,6 +612,38 @@ nav {
 
     .navbar-bottom {
       align-items: flex-start !important;
+      .nav-item.main-nav-item {
+        width: 100%;
+        &:hover .dropdown-menu {
+          display: none;
+        }
+        .chevron-down-icon.rotate {
+          transition: 0.6s;
+          transform: rotate(180deg);
+        }
+        .dropdown-menu.show {
+          position: relative;
+          display: flex;
+          left: -16px;
+          padding: 0 16px 16px 16px;
+          width: calc(100% + 16px);
+          max-width: calc(100% + 16px);
+        }
+        .chevron-link-box {
+          display: flex;
+          flex-direction: row;
+          .nav-link {
+            font-size: 13px !important;
+            font-weight: 400;
+            width: calc(100% - 50px);
+            line-height: 1.1;
+            padding-bottom: 6px;
+          }
+          .chevron-down-icon {
+            padding: 4px 8px;
+          }
+        }
+      }
       .main-nav-item {
         width: calc(100% - 32px);
         .dropdown-toggle,
