@@ -26,12 +26,30 @@ document.addEventListener('click', toggleMainWrapperClass);
 
 // Mobile menu
 $(document).ready(function () {
-  $('.chevron-down-icon').on('click', function (e) {
+  function handleMenuToggle() {
+    if ($(window).width() <= 991) {
+      // Enable mobile menu interaction
+      $('.chevron-down-icon').off('click').on('click', function (e) {
+        var $chevron = $(this);
+        var $dropdownMenu = $chevron.closest('.nav-item').find('.dropdown-menu').first();
 
-    var $chevron = $(this);
-    var $dropdownMenu = $chevron.closest('.nav-item').find('.dropdown-menu').first();
+        $chevron.toggleClass('rotate');
+        $dropdownMenu.toggleClass('show');
+      });
+    } else {
+      // Cleanup for wider screens
+      $('.dropdown-menu').removeClass('show');
+      $('.chevron-down-icon').removeClass('rotate');
+      $('.chevron-down-icon').off('click');
+    }
+  }
 
-    $chevron.toggleClass('rotate');
-    $dropdownMenu.toggleClass('show');
+  // Run on load
+  handleMenuToggle();
+
+  // Run on window resize
+  $(window).on('resize', function () {
+    handleMenuToggle();
   });
 });
+

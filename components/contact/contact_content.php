@@ -19,8 +19,8 @@
           </div>
         </div>
         <div class="grey-right-col">
-          <a class="gtm-phone" href="tel:+48 032 750 86 56">
-            <img src="./assets/icons/contact/pink-cellphone.svg" width="22" height="22" alt="telefon">+48 032 750 86 56 </a>
+          <a class="gtm-phone" href="tel:+48 728 087 910">
+            <img src="./assets/icons/contact/pink-cellphone.svg" width="22" height="22" alt="telefon">+48 728 087 910 </a>
           <a class="gtm-mail" href="tmailto:biuro@primagift.pl">
             <img src="./assets/icons/contact/pink-letter.svg" width="22" height="22" alt="e-mail">biuro@primagift.pl </a>
         </div>

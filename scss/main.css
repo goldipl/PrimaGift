@@ -6138,6 +6138,14 @@ label.add-files:focus, label.add-files:hover {
   line-height: 156%;
   color: #000000;
 }
+.tree-listing-slot-content-text a {
+  font-weight: 600;
+  color: #000000;
+  text-decoration: none;
+}
+.tree-listing-slot-content-text a:hover {
+  color: #ed6a8a;
+}
 @media (max-width: 700px) {
   .tree-listing-slot {
     display: flex;
