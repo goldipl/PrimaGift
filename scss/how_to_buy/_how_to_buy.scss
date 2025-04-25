@@ -131,9 +131,16 @@
       justify-content: flex-start;
       align-items: center;
       gap: 33px;
+      @media (max-width: 991px) {
+        gap: 22px;
+      }
       &-icon {
         img {
           object-fit: contain;
+          @media (max-width: 991px) {
+            width: 56px;
+            height: auto;
+          }
         }
       }
       &-text {
@@ -150,6 +157,7 @@
           font-size: 14px;
           line-height: 156%;
           color: $black;
+          margin: 0 0 4px 0;
         }
         a {
           font-weight: 600;

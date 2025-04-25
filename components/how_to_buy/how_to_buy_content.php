@@ -36,7 +36,8 @@
           </div>
           <div class="tree-listing-slot-content-text">
             <h2>Skontaktuj się z nami</h2>
-            <p>Skorzystaj z przycisku „zapytaj o produkt”, wyślij do nas zapytanie na adres <a class="gtm-mail" href="mailto:biuro@primagift.pl">biuro@primagift.pl</a> lub zadzwoń pod numer <a class="gtm-phone" href="tel:+48728087910">+48 728 087 910</a>. Do każdego zamówienia podchodzimy indywidualnie. Chętnie odpowiemy na wszystkie Twoje pytania i pomożemy w realizacji.</p>
+            <p>Skorzystaj z przycisku „zapytaj o produkt”, wyślij do nas zapytanie na adres <a class="gtm-mail" href="mailto:biuro@primagift.pl">biuro@primagift.pl</a> lub zadzwoń pod numer <a class="gtm-phone" href="tel:+48728087910">+48 728 087 910</a>. Do każdego zamówienia podchodzimy indywidualnie.</p>
+            <p>Chętnie odpowiemy na wszystkie Twoje pytania i pomożemy w realizacji.</p>
           </div>
         </div>
       </div>
