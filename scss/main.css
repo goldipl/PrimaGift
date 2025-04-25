@@ -6317,7 +6317,7 @@ label.add-files:focus, label.add-files:hover {
   height: 35px;
   box-sizing: border-box;
   background-color: #f4f4f4;
-  padding: 0 0 0 12px;
+  padding: 0 12px;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -6359,7 +6359,7 @@ label.add-files:focus, label.add-files:hover {
   height: 35px;
   box-sizing: border-box;
   background-color: #f4f4f4;
-  padding: 0 0 0 12px;
+  padding: 0 12px;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -6541,7 +6541,7 @@ label.add-files:focus, label.add-files:hover {
     white-space: pre;
   }
   .shopping-cart .cart-table_box .cart-products-table tbody tr td input {
-    padding: 0 0 0 12px;
+    padding: 0 12px;
     font-size: 12px;
     line-height: 140%;
   }
@@ -6563,7 +6563,7 @@ label.add-files:focus, label.add-files:hover {
     padding: 0 0 16px 0;
   }
   .shopping-cart .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--input input {
-    padding: 0 0 0 12px;
+    padding: 0 12px;
     font-size: 14px;
     line-height: 140%;
   }
