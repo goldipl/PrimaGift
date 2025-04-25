@@ -7,7 +7,7 @@
         </div>
         <div class="company-info__image">
             <img src="./assets/img/main_page/sections/mockup.png" alt="Prima Gift Produkty" width="906" height="593" class="company-info__image--img">
-            <a href="" class="company-info__image--link how-to-buy">
+            <a href="" class="company-info__image--link how-buy">
                 <div class="link-img-box">
                     <div class="link-img-box__image">
                         <img src="./assets/icons/sections/how-to-buy.svg" alt="Prima Gift Produkty" width="55" height="62" class="link-img-box__image--img">

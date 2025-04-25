@@ -2801,38 +2801,38 @@ label.add-files:focus, label.add-files:hover {
   height: 145px;
   text-decoration: none;
 }
-#company-info .company-info__image .company-info__image--link.how-to-buy {
+#company-info .company-info__image .company-info__image--link.how-buy {
   top: 123px;
   left: -212px;
   border-left: 3px solid #ffffff;
 }
-#company-info .company-info__image .company-info__image--link.how-to-buy:hover {
+#company-info .company-info__image .company-info__image--link.how-buy:hover {
   border-left: 3px solid #ed6a8a;
 }
 @media (max-width: 1621px) {
-  #company-info .company-info__image .company-info__image--link.how-to-buy {
+  #company-info .company-info__image .company-info__image--link.how-buy {
     left: -120px;
   }
 }
 @media (max-width: 1100px) {
-  #company-info .company-info__image .company-info__image--link.how-to-buy {
+  #company-info .company-info__image .company-info__image--link.how-buy {
     left: 140px;
   }
 }
 @media (max-width: 760px) {
-  #company-info .company-info__image .company-info__image--link.how-to-buy {
+  #company-info .company-info__image .company-info__image--link.how-buy {
     left: 40px;
     width: 84%;
     padding: 8px;
   }
-  #company-info .company-info__image .company-info__image--link.how-to-buy .link-img-box__image {
+  #company-info .company-info__image .company-info__image--link.how-buy .link-img-box__image {
     margin: 0 16px;
   }
-  #company-info .company-info__image .company-info__image--link.how-to-buy .link-img-box__image--img {
+  #company-info .company-info__image .company-info__image--link.how-buy .link-img-box__image--img {
     height: 40px;
     width: auto;
   }
-  #company-info .company-info__image .company-info__image--link.how-to-buy .link-img-box__text p {
+  #company-info .company-info__image .company-info__image--link.how-buy .link-img-box__text p {
     font-size: 12px;
   }
 }
