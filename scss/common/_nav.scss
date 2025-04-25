@@ -526,6 +526,9 @@ nav {
     height: auto;
     padding-bottom: 0 !important;
     padding-top: 4px !important;
+    #navbarSupportedContent {
+      width: 100%;
+    }
     .navbar-top {
       padding: 0;
       .nav-top-links-btns {
@@ -624,10 +627,10 @@ nav {
         .dropdown-menu.show {
           position: relative;
           display: flex;
-          left: -16px;
-          padding: 0 16px 16px 16px;
-          width: calc(100% + 16px);
-          max-width: calc(100% + 16px);
+          left: 0;
+          padding: 0;
+          width: 100%;
+          max-width: 100%;
         }
         .chevron-link-box {
           display: flex;
@@ -635,7 +638,7 @@ nav {
           .nav-link {
             font-size: 13px !important;
             font-weight: 400;
-            width: calc(100% - 50px);
+            width: calc(100% - 32px);
             line-height: 1.1;
             padding-bottom: 6px;
           }
