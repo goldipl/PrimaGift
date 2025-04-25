@@ -5996,6 +5996,11 @@ label.add-files:focus, label.add-files:hover {
   padding-bottom: 127px;
   background-color: #f4f4f4;
 }
+@media (max-width: 760px) {
+  .how-to-buy {
+    padding-bottom: 64px;
+  }
+}
 .how-to-buy h1 {
   font-weight: 700;
   font-size: 24px;

@@ -12,6 +12,9 @@
 .how-to-buy {
   padding-bottom: 127px;
   background-color: $light_grey;
+  @media (max-width: 760px) {
+    padding-bottom: 64px;
+  }
   h1 {
     font-weight: 700;
     font-size: 24px;
