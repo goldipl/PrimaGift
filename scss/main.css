@@ -6247,6 +6247,7 @@ label.add-files:focus, label.add-files:hover {
   width: auto;
   text-align: center;
   padding: 12px;
+  font-size: 14px;
 }
 .shopping-cart .cart-table_box .cart-products-table tbody tr td {
   border-collapse: collapse;
@@ -6256,6 +6257,7 @@ label.add-files:focus, label.add-files:hover {
   width: auto;
   text-align: center;
   padding: 12px;
+  font-size: 14px;
 }
 .shopping-cart .cart-table_box .cart-products-table tbody tr td .delete-icon img:hover {
   filter: invert(27%) sepia(98%) saturate(7392%) hue-rotate(359deg) brightness(101%) contrast(107%);
@@ -6267,13 +6269,13 @@ label.add-files:focus, label.add-files:hover {
   margin-bottom: 16px;
 }
 .shopping-cart .cart-table_box .cart-products-table tbody tr td .table-product-box__top p {
-  font-size: 16px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
   text-transform: uppercase;
   text-align: left;
-  color: #374957;
+  color: #000000;
   margin: 0;
 }
 .shopping-cart .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom {
@@ -6308,7 +6310,7 @@ label.add-files:focus, label.add-files:hover {
   white-space: pre;
 }
 .shopping-cart .cart-table_box .cart-products-table tbody tr td .table-product-box__bottom--right p span {
-  color: #374957;
+  color: #000000;
 }
 .shopping-cart .cart-table_box .cart-products-table tbody tr td input {
   all: unset;
@@ -6321,7 +6323,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 1.2;
-  color: #374957;
+  color: #000000;
   text-align: left;
   margin: 0;
 }
@@ -6337,17 +6339,18 @@ label.add-files:focus, label.add-files:hover {
   flex-direction: row;
   align-items: center;
   background-color: #ffffff;
-  width: 572px;
+  width: -moz-max-content;
+  width: max-content;
   height: 74px;
   padding: 0 27px;
   box-sizing: border-box;
 }
 .shopping-cart .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--text p {
-  font-size: 16px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
-  color: #374957;
+  color: #000000;
   margin: 0 16px 0 0;
   white-space: pre;
 }
@@ -6362,7 +6365,7 @@ label.add-files:focus, label.add-files:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 177.023%;
-  color: #374957;
+  color: #000000;
   text-align: left;
   margin: 0 24px 0 0;
 }
@@ -6372,10 +6375,9 @@ label.add-files:focus, label.add-files:hover {
   background-color: #ffffff;
   border: 1px solid #ed6a8a;
   color: #ed6a8a;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 103%;
   margin: 0;
   padding: 6px 20px;
   width: auto;
@@ -6394,18 +6396,20 @@ label.add-files:focus, label.add-files:hover {
 }
 .shopping-cart .cart-table_box .add-product-box button.add-product {
   all: unset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   box-sizing: border-box;
   background-color: #ffffff;
   border: 1px solid #ed6a8a;
   color: #ed6a8a;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 103%;
   margin: 0;
   padding: 6px 20px;
-  width: auto;
-  height: 35px;
+  width: 214px;
+  height: 42px;
   cursor: pointer;
 }
 .shopping-cart .cart-table_box .add-product-box button.add-product:hover {
@@ -6420,7 +6424,16 @@ label.add-files:focus, label.add-files:hover {
   width: 20%;
   height: -moz-max-content;
   height: max-content;
+}
+.shopping-cart .summary-box-wrapper {
   background-color: #ffffff;
+  width: 100%;
+}
+.shopping-cart .summary-box__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 .shopping-cart .summary-box__title {
   display: flex;
@@ -6433,13 +6446,12 @@ label.add-files:focus, label.add-files:hover {
   padding: 16px 24px;
 }
 .shopping-cart .summary-box__title p {
-  font-size: 18px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
-  text-transform: uppercase;
   margin: 0;
-  color: #374957;
+  color: #000000;
   text-align: center;
 }
 .shopping-cart .summary-box__netto {
@@ -6448,16 +6460,16 @@ label.add-files:focus, label.add-files:hover {
   padding: 26px 8px;
 }
 .shopping-cart .summary-box__netto .netto-value {
-  font-size: 30px;
+  font-size: 24px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 177.023%;
   margin: 0;
   color: #ed6a8a;
   text-align: center;
 }
 .shopping-cart .summary-box__netto .netto-text {
-  font-size: 14px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
@@ -6472,14 +6484,14 @@ label.add-files:focus, label.add-files:hover {
 .shopping-cart .summary-box__brutto .brutto-value {
   font-size: 24px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 177.023%;
   margin: 0;
-  color: #374957;
+  color: #000000;
   text-align: center;
 }
 .shopping-cart .summary-box__brutto .brutto-text {
-  font-size: 14px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
@@ -6548,10 +6560,6 @@ label.add-files:focus, label.add-files:hover {
   .shopping-cart .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--text {
     padding: 8px 0;
   }
-  .shopping-cart .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--text p {
-    font-size: 14px;
-    line-height: 140%;
-  }
   .shopping-cart .cart-table_box .bottom-cart-box-with-btn .bottom-cart-box--input {
     padding: 0 0 16px 0;
   }
@@ -6573,17 +6581,23 @@ label.add-files:focus, label.add-files:hover {
     right: 0;
   }
   .shopping-cart .cart-table_box .add-product-box {
-    margin: 0;
+    margin: 0 auto;
   }
   .shopping-cart .cart-table_box .add-product-box button.add-product {
-    position: absolute;
-    bottom: 76px;
-    left: 0;
+    position: relative;
+    margin-top: 16px;
   }
   .shopping-cart .summary-box {
     width: 100%;
     margin: 16px 0 120px 0;
   }
+}
+@media (max-width: 1260px) and (max-width: 760px) {
+  .shopping-cart .summary-box {
+    margin: 16px 0 24px 0;
+  }
+}
+@media (max-width: 1260px) {
   .shopping-cart .summary-box__title {
     height: 40px;
   }

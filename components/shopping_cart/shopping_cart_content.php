@@ -108,16 +108,21 @@
         </div>
       </div>
       <aside class="summary-box">
-        <div class="summary-box__title">
-          <p>Wartość produktów</p>
+        <div class="summary-box-wrapper">
+          <div class="summary-box__title">
+            <p>Wartość produktów</p>
+          </div>
+          <div class="summary-box__netto">
+            <p class="netto-value">17,88 PLN</p>
+            <p class="netto-text">Suma netto</p>
+          </div>
+          <div class="summary-box__brutto">
+            <p class="brutto-value">21,99 PLN</p>
+            <p class="brutto-text">Suma brutto</p>
+          </div>
         </div>
-        <div class="summary-box__netto">
-          <p class="netto-value">17,88 PLN</p>
-          <p class="netto-text">Suma netto</p>
-        </div>
-        <div class="summary-box__brutto">
-          <p class="brutto-value">21,99 PLN</p>
-          <p class="brutto-text">Suma brutto</p>
+        <div class="summary-box__button">
+          <button class="color-btn">Wyślij zapytanie</button>
         </div>
       </aside>
     </div>

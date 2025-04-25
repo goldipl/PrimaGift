@@ -44,6 +44,7 @@
             width: auto;
             text-align: center;
             padding: 12px;
+            font-size: 14px;
           }
           td {
             border-collapse: collapse;
@@ -53,6 +54,7 @@
             width: auto;
             text-align: center;
             padding: 12px;
+            font-size: 14px;
             .delete-icon {
               img:hover {
                 filter: invert(27%) sepia(98%) saturate(7392%)
@@ -66,13 +68,13 @@
               &__top {
                 margin-bottom: 16px;
                 p {
-                  font-size: 16px;
+                  font-size: 13px;
                   font-style: normal;
                   font-weight: 600;
                   line-height: 120%;
                   text-transform: uppercase;
                   text-align: left;
-                  color: $text_color;
+                  color: $black;
                   margin: 0;
                 }
               }
@@ -104,7 +106,7 @@
                     color: $grey5;
                     white-space: pre;
                     span {
-                      color: $text_color;
+                      color: $black;
                     }
                   }
                 }
@@ -121,7 +123,7 @@
               font-style: normal;
               font-weight: 400;
               line-height: 1.2;
-              color: $text_color;
+              color: $black;
               text-align: left;
               margin: 0;
             }
@@ -140,17 +142,17 @@
         flex-direction: row;
         align-items: center;
         background-color: $white;
-        width: 572px;
+        width: max-content;
         height: 74px;
         padding: 0 27px;
         box-sizing: border-box;
         &--text {
           p {
-            font-size: 16px;
+            font-size: 13px;
             font-style: normal;
             font-weight: 600;
             line-height: 120%;
-            color: $text_color;
+            color: $black;
             margin: 0 16px 0 0;
             white-space: pre;
           }
@@ -167,7 +169,7 @@
             font-style: normal;
             font-weight: 400;
             line-height: 177.023%;
-            color: $text_color;
+            color: $black;
             text-align: left;
             margin: 0 24px 0 0;
           }
@@ -179,10 +181,9 @@
             background-color: $white;
             border: 1px solid $main_color;
             color: $main_color;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 103%;
             margin: 0;
             padding: 6px 20px;
             width: auto;
@@ -205,18 +206,20 @@
       margin: 9px 0 48px 0;
       button.add-product {
         all: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         box-sizing: border-box;
         background-color: $white;
         border: 1px solid $main_color;
         color: $main_color;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 103%;
         margin: 0;
         padding: 6px 20px;
-        width: auto;
-        height: 35px;
+        width: 214px;
+        height: 42px;
         cursor: pointer;
         &:hover {
           background-color: $main_color;
@@ -232,7 +235,16 @@
     justify-content: center;
     width: 20%;
     height: max-content;
-    background-color: $white;
+    &-wrapper {
+      background-color: $white;
+      width: 100%;
+    }
+    &__button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
     &__title {
       display: flex;
       justify-content: center;
@@ -243,13 +255,12 @@
       border-bottom: 1px solid $light_grey;
       padding: 16px 24px;
       p {
-        font-size: 18px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 600;
         line-height: 120%;
-        text-transform: uppercase;
         margin: 0;
-        color: $text_color;
+        color: $black;
         text-align: center;
       }
     }
@@ -258,16 +269,16 @@
       width: 100%;
       padding: 26px 8px;
       .netto-value {
-        font-size: 30px;
+        font-size: 24px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 177.023%;
         margin: 0;
         color: $main_color;
         text-align: center;
       }
       .netto-text {
-        font-size: 14px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 400;
         line-height: 160%;
@@ -282,14 +293,14 @@
       .brutto-value {
         font-size: 24px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 177.023%;
         margin: 0;
-        color: $text_color;
+        color: $black;
         text-align: center;
       }
       .brutto-text {
-        font-size: 14px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 400;
         line-height: 160%;
@@ -368,10 +379,6 @@
           padding-bottom: 24px;
           &--text {
             padding: 8px 0;
-            p {
-              font-size: 14px;
-              line-height: 140%;
-            }
           }
           &--input {
             padding: 0 0 16px 0;
@@ -396,17 +403,19 @@
         }
       }
       .add-product-box {
-        margin: 0;
+        margin: 0 auto;
         button.add-product {
-          position: absolute;
-          bottom: 76px;
-          left: 0;
+          position: relative;
+          margin-top: 16px;
         }
       }
     }
     .summary-box {
       width: 100%;
       margin: 16px 0 120px 0;
+      @media (max-width: 760px) {
+        margin: 16px 0 24px 0;
+      }
       &__title {
         height: 40px;
         p {
