@@ -6212,7 +6212,8 @@ label.add-files:focus, label.add-files:hover {
   }
 }
 
-.shopping-cart h1 {
+.shopping-cart h1,
+.shopping-cart h2 {
   font-weight: 700;
   font-size: 24px;
   line-height: 103%;
@@ -6220,11 +6221,13 @@ label.add-files:focus, label.add-files:hover {
   color: #000000;
   margin: 40px 0 32px 0;
 }
-.shopping-cart h1 span {
+.shopping-cart h1 span,
+.shopping-cart h2 span {
   color: #ed6a8a;
 }
 @media (max-width: 991px) {
-  .shopping-cart h1 {
+  .shopping-cart h1,
+  .shopping-cart h2 {
     font-size: 20px;
     margin: 24px 0 16px 0;
   }
@@ -6500,6 +6503,55 @@ label.add-files:focus, label.add-files:hover {
   margin: 0;
   color: #8a8a8a;
   text-align: center;
+}
+
+#wyslij-zapytanie {
+  background-color: #ffffff;
+  padding: 16px;
+}
+#wyslij-zapytanie h2 {
+  margin-top: 0;
+}
+#wyslij-zapytanie .form-inputs-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 16px;
+}
+@media (max-width: 760px) {
+  #wyslij-zapytanie .form-inputs-row {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+#wyslij-zapytanie .form-inputs-row .input-slot {
+  width: calc(50% - 8px);
+}
+@media (max-width: 760px) {
+  #wyslij-zapytanie .form-inputs-row .input-slot {
+    width: 100%;
+  }
+}
+#wyslij-zapytanie .form-inputs-row .input-slot input {
+  width: 100%;
+}
+#wyslij-zapytanie .input-slot {
+  display: flex;
+  flex-direction: column;
+}
+#wyslij-zapytanie .input-slot textarea {
+  width: 100%;
+  margin: 6px 0 8px 0;
+}
+@media (max-width: 760px) {
+  #wyslij-zapytanie .request-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+#wyslij-zapytanie .request-btn .color-btn {
+  margin-top: 0;
 }
 
 @media (max-width: 1260px) {
