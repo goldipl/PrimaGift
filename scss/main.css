@@ -6269,6 +6269,7 @@ label.add-files:focus, label.add-files:hover {
   width: -moz-max-content;
   width: max-content;
   margin: 0 auto;
+  padding-left: 20px;
 }
 .shopping-cart .cart-table_box .cart-products-table tbody tr td .delete-icon img:hover {
   filter: invert(27%) sepia(98%) saturate(7392%) hue-rotate(359deg) brightness(101%) contrast(107%);
