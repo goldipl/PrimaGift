@@ -6265,6 +6265,11 @@ label.add-files:focus, label.add-files:hover {
   padding: 12px;
   font-size: 14px;
 }
+.shopping-cart .cart-table_box .cart-products-table tbody tr td:has(.custom-checkbox-container) .custom-checkbox-container {
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto;
+}
 .shopping-cart .cart-table_box .cart-products-table tbody tr td .delete-icon img:hover {
   filter: invert(27%) sepia(98%) saturate(7392%) hue-rotate(359deg) brightness(101%) contrast(107%);
 }

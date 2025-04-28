@@ -56,6 +56,12 @@
             text-align: center;
             padding: 12px;
             font-size: 14px;
+            &:has(.custom-checkbox-container) {
+              .custom-checkbox-container {
+                width: max-content;
+                margin: 0 auto;
+              }
+            }
             .delete-icon {
               img:hover {
                 filter: invert(27%) sepia(98%) saturate(7392%)

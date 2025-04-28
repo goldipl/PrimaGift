@@ -10,9 +10,10 @@
                 <th>LP.</th>
                 <th>Produkt</th>
                 <th>Ilość</th>
-                <th>Cena <br>katalogowa </th>
-                <th>Wartość <br>netto </th>
-                <th>Wartość <br>brutto </th>
+                <th>Wycena ze znakowaniem</th>
+                <th>Cena katalogowa</th>
+                <th>Wartość netto</th>
+                <th>Wartość brutto</th>
                 <th>Usuń</th>
               </tr>
               <tr>
@@ -29,11 +30,9 @@
                         <img src="./assets/img/shopping_cart/pen.jpg" alt="img" width="71" height="71">
                       </div>
                       <div class="table-product-box__bottom--right">
-                        <p>Kod: <span>1333903</span>
+                        <p>Kod: <span>MO1203-40</span>
                         </p>
                         <p>Kolor: <span>czarny</span>
-                        </p>
-                        <p>Marka: <span>Basic</span>
                         </p>
                       </div>
                     </div>
@@ -41,6 +40,12 @@
                 </td>
                 <td>
                   <input type="number" min="0" name="product-quantity" id="product-quantity">
+                </td>
+                <td>
+                  <label class="custom-checkbox-container">
+                    <div class="register-checkbox"></div><input type="checkbox" class="custom_input">
+                    <span class="custom-checkbox-checkmark"></span>
+                  </label>
                 </td>
                 <td>1,95 zł</td>
                 <td>1,09 PLN</td>
@@ -65,11 +70,9 @@
                         <img src="./assets/img/shopping_cart/notepad.jpg" alt="img" width="71" height="71">
                       </div>
                       <div class="table-product-box__bottom--right">
-                        <p>Kod: <span>1333903</span>
+                        <p>Kod: <span>MO1203-40</span>
                         </p>
                         <p>Kolor: <span>czarny</span>
-                        </p>
-                        <p>Marka: <span>Basic</span>
                         </p>
                       </div>
                     </div>
@@ -77,6 +80,12 @@
                 </td>
                 <td>
                   <input type="number" min="0" name="product-quantity" id="product-quantity">
+                </td>
+                <td>
+                  <label class="custom-checkbox-container">
+                    <div class="register-checkbox"></div><input type="checkbox" class="custom_input">
+                    <span class="custom-checkbox-checkmark"></span>
+                  </label>
                 </td>
                 <td>120,95 zł</td>
                 <td>120,09 PLN</td>
@@ -101,11 +110,9 @@
                         <img src="./assets/img/products_card/smartwatch.jpg" alt="img" width="71" height="71">
                       </div>
                       <div class="table-product-box__bottom--right">
-                        <p>Kod: <span>1333903</span>
+                        <p>Kod: <span>MO1203-40</span>
                         </p>
                         <p>Kolor: <span>czarny</span>
-                        </p>
-                        <p>Marka: <span>Basic</span>
                         </p>
                       </div>
                     </div>
@@ -113,6 +120,12 @@
                 </td>
                 <td>
                   <input type="number" min="0" name="product-quantity" id="product-quantity">
+                </td>
+                <td>
+                  <label class="custom-checkbox-container">
+                    <div class="register-checkbox"></div><input type="checkbox" class="custom_input">
+                    <span class="custom-checkbox-checkmark"></span>
+                  </label>
                 </td>
                 <td>100,95 zł</td>
                 <td>100,09 PLN</td>
@@ -137,11 +150,9 @@
                         <img src="./assets/img/products_card/smartwatch.jpg" alt="img" width="71" height="71">
                       </div>
                       <div class="table-product-box__bottom--right">
-                        <p>Kod: <span>1333903</span>
+                        <p>Kod: <span>MO1203-40</span>
                         </p>
                         <p>Kolor: <span>czarny</span>
-                        </p>
-                        <p>Marka: <span>Basic</span>
                         </p>
                       </div>
                     </div>
@@ -149,6 +160,12 @@
                 </td>
                 <td>
                   <input type="number" min="0" name="product-quantity" id="product-quantity">
+                </td>
+                <td>
+                  <label class="custom-checkbox-container">
+                    <div class="register-checkbox"></div><input type="checkbox" class="custom_input">
+                    <span class="custom-checkbox-checkmark"></span>
+                  </label>
                 </td>
                 <td>1,95 zł</td>
                 <td>1,09 PLN</td>
