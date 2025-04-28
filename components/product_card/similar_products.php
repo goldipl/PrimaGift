@@ -16,7 +16,7 @@
               </h3>
             </div>
             <div class="products-code">
-              <span>SKU: MO1203-40</span>
+              <span>Kod: MO1203-40</span>
             </div>
             <div class="catalog-price">
               <p class="text-center">
@@ -55,7 +55,7 @@
               </h3>
             </div>
             <div class="products-code">
-              <span>SKU: MO1203-40</span>
+              <span>Kod: MO1203-40</span>
             </div>
             <div class="catalog-price">
               <p class="text-center">
@@ -95,7 +95,7 @@
               </h3>
             </div>
             <div class="products-code">
-              <span>SKU: MO1203-40</span>
+              <span>Kod: MO1203-40</span>
             </div>
             <div class="catalog-price">
               <p class="text-center">
@@ -130,7 +130,7 @@
               </h3>
             </div>
             <div class="products-code">
-              <span>SKU: MO1203-40</span>
+              <span>Kod: MO1203-40</span>
             </div>
             <div class="catalog-price">
               <p class="text-center">
@@ -169,7 +169,7 @@
               </h3>
             </div>
             <div class="products-code">
-              <span>SKU: MO1203-40</span>
+              <span>Kod: MO1203-40</span>
             </div>
             <div class="catalog-price">
               <p class="text-center">
@@ -209,7 +209,7 @@
               </h3>
             </div>
             <div class="products-code">
-              <span>SKU: MO1203-40</span>
+              <span>Kod: MO1203-40</span>
             </div>
             <div class="catalog-price">
               <p class="text-center">
@@ -244,7 +244,7 @@
               </h3>
             </div>
             <div class="products-code">
-              <span>SKU: MO1203-40</span>
+              <span>Kod: MO1203-40</span>
             </div>
             <div class="catalog-price">
               <p class="text-center">
