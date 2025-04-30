@@ -6522,7 +6522,7 @@ label.add-files:focus, label.add-files:hover {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 16px;
+  gap: 0 16px;
 }
 @media (max-width: 760px) {
   #wyslij-zapytanie .form-inputs-row {
