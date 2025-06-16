@@ -298,6 +298,9 @@
               </div>
             </div>
           </div>
+          <div class="d-flex justify-content-end">
+            <a href="" class="color-btn">Zobacz wszystkie</a>
+          </div>
           <!-- If we need navigation buttons -->
           <div class="products-swiper-button-prev"></div>
           <div class="products-swiper-button-next"></div>
@@ -495,6 +498,9 @@
                 </div>
               </div>
             </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <a href="" class="color-btn">Zobacz wszystkie</a>
           </div>
           <!-- If we need navigation buttons -->
           <div class="products-swiper-button-prev"></div>
@@ -733,6 +739,9 @@
                 </div>
               </div>
             </div>
+          </div>
+          <div class="d-flex justify-content-end">
+            <a href="" class="color-btn">Zobacz wszystkie</a>
           </div>
           <!-- If we need navigation buttons -->
           <div class="products-swiper-button-prev"></div>
