@@ -204,7 +204,9 @@
       }
 
       &.open .multiselect-checkboxes {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
         min-width: 160px;
         width: max-content;
       }

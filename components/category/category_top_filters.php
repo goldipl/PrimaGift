@@ -12,19 +12,66 @@
             <div class="multiselect-dropdown" id="sort-by-color-dropdown">
                 <button type="button" class="dropdown-toggle">Wybierz kolory</button>
                 <div class="multiselect-checkboxes">
-                <label class="checkbox-label">
-                    <span>Biały</span>
-                    <input type="checkbox" name="sort-by-color" value="Biały">
-                </label>
-                <label class="checkbox-label">
-                    <span>Czarny</span>
-                    <input type="checkbox" name="sort-by-color" value="Czarny">
-                </label>
-                <label class="checkbox-label">
-                    <span>Zielony</span>
-                    <input type="checkbox" name="sort-by-color" value="Zielony">
-                </label>
-                <!-- Add more options here -->
+                    <label class="checkbox-label">
+                        <span>Biały</span>
+                        <input type="checkbox" name="sort-by-color" value="Biały">
+                    </label>
+                    <label class="checkbox-label">
+                        <span>Czarny</span>
+                        <input type="checkbox" name="sort-by-color" value="Czarny">
+                    </label>
+                    <label class="checkbox-label">
+                        <span>Zielony</span>
+                        <input type="checkbox" name="sort-by-color" value="Zielony">
+                    </label>
+                    <label class="checkbox-label">
+                        <span>Niebieski</span>
+                        <input type="checkbox" name="sort-by-color" value="Niebieski">
+                    </label>
+                    <label class="checkbox-label">
+                        <span>Czerwony</span>
+                        <input type="checkbox" name="sort-by-color" value="Czerwony">
+                    </label>
+                    <label class="checkbox-label">
+                        <span>Żółty</span>
+                        <input type="checkbox" name="sort-by-color" value="Żółty">
+                    </label>
+                    <label class="checkbox-label">
+                        <span>Szary</span>
+                        <input type="checkbox" name="sort-by-color" value="Szary">
+                    </label>
+                    <label class="checkbox-label">
+                        <span>Brązowy</span>
+                        <input type="checkbox" name="sort-by-color" value="Brązowy">
+                    </label>
+                    <label class="checkbox-label">
+                        <span>Pomarańczowy</span>
+                        <input type="checkbox" name="sort-by-color" value="Pomarańczowy">
+                    </label>
+                    <label class="checkbox-label">
+                        <span>Różowy</span>
+                        <input type="checkbox" name="sort-by-color" value="Różowy">
+                    </label>
+                    <label class="checkbox-label">
+                        <span>Fioletowy</span>
+                        <input type="checkbox" name="sort-by-color" value="Fioletowy">
+                    </label>
+                    <label class="checkbox-label">
+                        <span>Beżowy</span>
+                        <input type="checkbox" name="sort-by-color" value="Beżowy">
+                    </label>
+                    <label class="checkbox-label">
+                        <span>Złoty</span>
+                        <input type="checkbox" name="sort-by-color" value="Złoty">
+                    </label>
+                    <label class="checkbox-label">
+                        <span>Srebrny</span>
+                        <input type="checkbox" name="sort-by-color" value="Srebrny">
+                    </label>
+                    <label class="checkbox-label">
+                        <span>Turkusowy</span>
+                        <input type="checkbox" name="sort-by-color" value="Turkusowy">
+                    </label>
                 </div>
             </div>
         </div>
