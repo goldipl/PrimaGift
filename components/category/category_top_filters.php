@@ -13,62 +13,77 @@
                 <button type="button" class="dropdown-toggle">Wybierz kolory</button>
                 <div class="multiselect-checkboxes">
                     <label class="checkbox-label">
+                        <div class="color-square" style="background-color: white;"></div>
                         <span>Biały</span>
                         <input type="checkbox" name="sort-by-color" value="Biały">
                     </label>
                     <label class="checkbox-label">
+                        <div class="color-square" style="background-color: black;"></div>
                         <span>Czarny</span>
                         <input type="checkbox" name="sort-by-color" value="Czarny">
                     </label>
                     <label class="checkbox-label">
+                        <div class="color-square" style="background-color: green;"></div>
                         <span>Zielony</span>
                         <input type="checkbox" name="sort-by-color" value="Zielony">
                     </label>
                     <label class="checkbox-label">
+                        <div class="color-square" style="background-color: blue;"></div>
                         <span>Niebieski</span>
                         <input type="checkbox" name="sort-by-color" value="Niebieski">
                     </label>
                     <label class="checkbox-label">
+                        <div class="color-square" style="background-color: red;"></div>
                         <span>Czerwony</span>
                         <input type="checkbox" name="sort-by-color" value="Czerwony">
                     </label>
                     <label class="checkbox-label">
+                        <div class="color-square" style="background-color: yellow;"></div>
                         <span>Żółty</span>
                         <input type="checkbox" name="sort-by-color" value="Żółty">
                     </label>
                     <label class="checkbox-label">
+                        <div class="color-square" style="background-color: gray;"></div>
                         <span>Szary</span>
                         <input type="checkbox" name="sort-by-color" value="Szary">
                     </label>
                     <label class="checkbox-label">
+                        <div class="color-square" style="background-color: brown;"></div>
                         <span>Brązowy</span>
                         <input type="checkbox" name="sort-by-color" value="Brązowy">
                     </label>
                     <label class="checkbox-label">
+                        <div class="color-square" style="background-color: orange;"></div>
                         <span>Pomarańczowy</span>
                         <input type="checkbox" name="sort-by-color" value="Pomarańczowy">
                     </label>
                     <label class="checkbox-label">
+                        <div class="color-square" style="background-color: pink;"></div>
                         <span>Różowy</span>
                         <input type="checkbox" name="sort-by-color" value="Różowy">
                     </label>
                     <label class="checkbox-label">
+                        <div class="color-square" style="background-color: purple;"></div>
                         <span>Fioletowy</span>
                         <input type="checkbox" name="sort-by-color" value="Fioletowy">
                     </label>
                     <label class="checkbox-label">
+                        <div class="color-square" style="background-color: beige;"></div>
                         <span>Beżowy</span>
                         <input type="checkbox" name="sort-by-color" value="Beżowy">
                     </label>
                     <label class="checkbox-label">
+                        <div class="color-square" style="background-color: gold;"></div>
                         <span>Złoty</span>
                         <input type="checkbox" name="sort-by-color" value="Złoty">
                     </label>
                     <label class="checkbox-label">
+                        <div class="color-square" style="background-color: silver;"></div>
                         <span>Srebrny</span>
                         <input type="checkbox" name="sort-by-color" value="Srebrny">
                     </label>
                     <label class="checkbox-label">
+                        <div class="color-square" style="background-color: turquoise;"></div>
                         <span>Turkusowy</span>
                         <input type="checkbox" name="sort-by-color" value="Turkusowy">
                     </label>

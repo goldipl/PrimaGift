@@ -224,6 +224,13 @@
         cursor: pointer;
         margin: 0 8px 0 0;
         padding: 4px 12px;
+        .color-square {
+          width: 16px;
+          height: 16px;
+          display: inline-flex;
+          margin-right: 2px;
+          border: 1px solid $grey;
+        }
         span {
           min-width: 100px;
         }

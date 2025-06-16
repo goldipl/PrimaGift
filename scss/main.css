@@ -5061,6 +5061,13 @@ label.add-files:focus, label.add-files:hover {
   margin: 0 8px 0 0;
   padding: 4px 12px;
 }
+.category-top-filters__slot .multiselect-dropdown .checkbox-label .color-square {
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  margin-right: 2px;
+  border: 1px solid #e6e6e6;
+}
 .category-top-filters__slot .multiselect-dropdown .checkbox-label span {
   min-width: 100px;
 }
