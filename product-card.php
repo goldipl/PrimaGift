@@ -49,6 +49,7 @@
         <script src="./js/swiper/swiper.js"></script>
         <script src="./js/script.js"></script>
         <script src="./js/swiper/similar-products-swiper.js"></script>
-        <script src="./js/products_page/products_gallery.js"></script>
+        <script src="./js/products_page/products-gallery.js"></script>
+        <script src="./js/products_page/gallery-arrows.js"></script>
     </body>
 </html>
