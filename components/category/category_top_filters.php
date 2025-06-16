@@ -8,11 +8,25 @@
             <input name="sort-by-name" id="sort-by-name" class="form-input" placeholder="Wpisz nazwę lub kod produktu"></input>
         </div>
         <div class="category-top-filters__slot">
-            <label for="sort-by-color">Kolor:</label>
-            <select name="sort-by-color" id="sort-by-color" class="form-select">
-                <option value="Biały">Biały</option>
-                <option value="Czarny">Czarny</option>
-            </select>
+            <label for="sort-by-color-dropdown">Kolor:</label>
+            <div class="multiselect-dropdown" id="sort-by-color-dropdown">
+                <button type="button" class="dropdown-toggle">Wybierz kolory</button>
+                <div class="multiselect-checkboxes">
+                <label class="checkbox-label">
+                    <span>Biały</span>
+                    <input type="checkbox" name="sort-by-color" value="Biały">
+                </label>
+                <label class="checkbox-label">
+                    <span>Czarny</span>
+                    <input type="checkbox" name="sort-by-color" value="Czarny">
+                </label>
+                <label class="checkbox-label">
+                    <span>Zielony</span>
+                    <input type="checkbox" name="sort-by-color" value="Zielony">
+                </label>
+                <!-- Add more options here -->
+                </div>
+            </div>
         </div>
         <div class="category-top-filters__slot">
             <label for="sort-by-price-from">Cena od:</label>
@@ -52,3 +66,20 @@
         </div>
     </div>
 </div>
+
+<script>
+    // Simple JS to toggle the dropdown on click
+document.querySelectorAll('.multiselect-dropdown .dropdown-toggle').forEach(btn => {
+  btn.addEventListener('click', function(e) {
+    const parent = this.closest('.multiselect-dropdown');
+    parent.classList.toggle('open');
+    // Optional: close when clicking outside
+    document.addEventListener('click', function closeDropdown(ev) {
+      if (!parent.contains(ev.target)) {
+        parent.classList.remove('open');
+        document.removeEventListener('click', closeDropdown);
+      }
+    });
+  });
+});
+    </script>
