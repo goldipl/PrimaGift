@@ -29,7 +29,7 @@
 
   &__slot {
     flex: 0 0 calc((100% - 3 * 12px) / 4);
-    height: 367px;
+    height: 397px;
     box-shadow: 0px 3.51px 16.42px 0px #00000026;
     @media (max-width: 1160px) {
       flex: 0 0 calc((100% - 2 * 12px) / 3);
@@ -40,6 +40,9 @@
     }
     @media (max-width: 680px) {
       flex: 0 0 100%;
+    }
+    @media (min-width: 1280px) {
+      width: 301.25px;
     }
   }
 }

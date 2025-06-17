@@ -3511,6 +3511,9 @@ label.add-files:focus, label.add-files:hover {
   height: 88px;
   box-sizing: border-box;
 }
+.gallery-container-small .gallery-item.active {
+  border: 1px solid #ed6a8a;
+}
 .gallery-container-small .gallery-item:nth-of-type(6n) {
   margin-right: 0;
 }
@@ -5176,7 +5179,7 @@ label.add-files:focus, label.add-files:hover {
 }
 .category-filters-main__slot {
   flex: 0 0 calc((100% - 36px) / 4);
-  height: 367px;
+  height: 397px;
   box-shadow: 0px 3.51px 16.42px 0px rgba(0, 0, 0, 0.1490196078);
 }
 @media (max-width: 1160px) {
@@ -5193,6 +5196,11 @@ label.add-files:focus, label.add-files:hover {
 @media (max-width: 680px) {
   .category-filters-main__slot {
     flex: 0 0 100%;
+  }
+}
+@media (min-width: 1280px) {
+  .category-filters-main__slot {
+    width: 301.25px;
   }
 }
 

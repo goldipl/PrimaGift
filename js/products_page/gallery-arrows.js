@@ -11,25 +11,47 @@ document.addEventListener('DOMContentLoaded', function () {
 
   let visibleCount = getVisibleCount();
   let startIdx = 0;
+  let activeIdx = 0;
+
+  function setActiveClass(idx) {
+    items.forEach((item, i) => {
+      if (i === idx) {
+        item.classList.add('active');
+      } else {
+        item.classList.remove('active');
+      }
+    });
+  }
 
   function updateGallery() {
     visibleCount = getVisibleCount();
-    // Clamp startIdx so we never show empty slots at the end
-    if (startIdx > items.length - visibleCount) {
-      startIdx = Math.max(0, items.length - visibleCount);
-    }
-    items.forEach((item, idx) => {
-      if (idx >= startIdx && idx < startIdx + visibleCount) {
-        item.style.display = '';
-      } else {
-        item.style.display = 'none';
+
+    if (items.length <= 4) {
+      // Show all, arrows rotate active image
+      items.forEach(item => item.style.display = '');
+      setActiveClass(activeIdx);
+      if (items[activeIdx]) {
+        const imgSrc = items[activeIdx].querySelector('img').getAttribute('src');
+        bigImg.setAttribute('src', imgSrc);
       }
-    });
-    // Update big image to match the first visible small image
-    if (items.length > 0) {
-      const firstVisibleItem = items[startIdx];
-      if (firstVisibleItem) {
-        const imgSrc = firstVisibleItem.querySelector('img').getAttribute('src');
+    } else {
+      // Sliding window mode
+      // Clamp startIdx so we never show empty slots at the end
+      if (startIdx > items.length - visibleCount) {
+        startIdx = Math.max(0, items.length - visibleCount);
+      }
+      items.forEach((item, idx) => {
+        if (idx >= startIdx && idx < startIdx + visibleCount) {
+          item.style.display = '';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+      // Active image is the first visible one by default in window mode
+      activeIdx = startIdx;
+      setActiveClass(activeIdx);
+      if (items[activeIdx]) {
+        const imgSrc = items[activeIdx].querySelector('img').getAttribute('src');
         bigImg.setAttribute('src', imgSrc);
       }
     }
@@ -37,22 +59,34 @@ document.addEventListener('DOMContentLoaded', function () {
 
   leftArrow.addEventListener('click', function () {
     visibleCount = getVisibleCount();
-    // If at the first set, wrap to the last set, else decrement
-    if (startIdx === 0) {
-      startIdx = Math.max(0, items.length - visibleCount);
+    if (items.length <= 4) {
+      // Rotate active index left
+      activeIdx = (activeIdx - 1 + items.length) % items.length;
     } else {
-      startIdx = startIdx - 1;
+      // Sliding window mode
+      if (startIdx === 0) {
+        startIdx = Math.max(0, items.length - visibleCount);
+      } else {
+        startIdx = startIdx - 1;
+      }
+      activeIdx = startIdx;
     }
     updateGallery();
   });
 
   rightArrow.addEventListener('click', function () {
     visibleCount = getVisibleCount();
-    // If at the last set, wrap to the first set, else increment
-    if (startIdx >= items.length - visibleCount) {
-      startIdx = 0;
+    if (items.length <= 4) {
+      // Rotate active index right
+      activeIdx = (activeIdx + 1) % items.length;
     } else {
-      startIdx = startIdx + 1;
+      // Sliding window mode
+      if (startIdx >= items.length - visibleCount) {
+        startIdx = 0;
+      } else {
+        startIdx = startIdx + 1;
+      }
+      activeIdx = startIdx;
     }
     updateGallery();
   });
@@ -61,11 +95,13 @@ document.addEventListener('DOMContentLoaded', function () {
     updateGallery();
   });
 
-  // Optional: clicking a small image selects it in big image
+  // Clicking a small image selects it as active and updates the big image
   items.forEach((item, idx) => {
     item.addEventListener('click', function () {
+      activeIdx = idx;
       const imgSrc = item.querySelector('img').getAttribute('src');
       bigImg.setAttribute('src', imgSrc);
+      setActiveClass(activeIdx);
     });
   });
 
