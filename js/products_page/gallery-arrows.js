@@ -26,7 +26,8 @@ document.addEventListener('DOMContentLoaded', function () {
   function updateGallery() {
     visibleCount = getVisibleCount();
 
-    if (items.length <= 4) {
+    // Rotate mode applies if all images fit in visible area (<= visibleCount)
+    if (items.length <= visibleCount) {
       // Show all, arrows rotate active image
       items.forEach(item => item.style.display = '');
       setActiveClass(activeIdx);
@@ -59,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   leftArrow.addEventListener('click', function () {
     visibleCount = getVisibleCount();
-    if (items.length <= 4) {
+    if (items.length <= visibleCount) {
       // Rotate active index left
       activeIdx = (activeIdx - 1 + items.length) % items.length;
     } else {
@@ -76,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   rightArrow.addEventListener('click', function () {
     visibleCount = getVisibleCount();
-    if (items.length <= 4) {
+    if (items.length <= visibleCount) {
       // Rotate active index right
       activeIdx = (activeIdx + 1) % items.length;
     } else {
