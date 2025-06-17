@@ -5201,6 +5201,7 @@ label.add-files:focus, label.add-files:hover {
 @media (min-width: 1280px) {
   .category-filters-main__slot {
     width: 301.25px;
+    min-width: 301.25px;
   }
 }
 
