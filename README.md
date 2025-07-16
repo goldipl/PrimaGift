@@ -32,7 +32,7 @@ Used technologies:
 
 ## Live link
 
-- http://primagift.tiphost.net/templates/index.php
+- https://primagift.pl/
 
 ## License
 
